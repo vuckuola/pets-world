@@ -6,7 +6,10 @@ import { useMapStore } from "../store/useMapStore";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
 import { audioService } from "./AudioService";
 import { t } from "../lib/i18n";
+import { IUCN_CONFIG } from "../lib/iucn";
 import { useState } from "react";
+
+const STATUS_CODE: Record<string, string> = { 'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU', 'Near Threatened': 'NT', 'Least Concern': 'LC', 'Data Deficient': 'DD' };
 
 const CONTINENT_COLORS: Record<string, string> = {
   "North America": "#f87171",
@@ -106,8 +109,8 @@ export default function MobileDetailPanel() {
             <div
               className="text-[10px] px-2 py-0.5 rounded-full font-medium"
               style={{
-                background: `${color}15`,
-                color,
+                background: `${IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888'}20`,
+                color: IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888',
               }}
             >
               {tr.conservation[selected.conservationStatus as keyof typeof tr.conservation] ?? selected.conservationStatus}

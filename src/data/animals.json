@@ -1,1635 +1,4341 @@
 [
   {
     "id": "id",
-    "country": "Indonesia",
-    "flag": "🇮🇩",
-    "lat": -8.3405,
-    "lng": 115.092,
-    "region": "Asia",
-    "animal": "Komodo Dragon",
+    "slug": "komodo-dragon",
+    "commonName": "Komodo Dragon",
     "scientificName": "Varanus komodoensis",
-    "emoji": "🦎",
-    "classification": "Reptile",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical savanna and monsoon forests on Komodo, Rinca, Flores, and Gili Motang islands",
-    "population": "~3,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Varanidae",
+      "genus": "Varanus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Komodo Dragon (Varanus komodoensis) is a reptile indigenous to Indonesia. It inhabits tropical savanna and monsoon forests on komodo, rinca, flores, and gili motang islands.",
+    "habitat": [
+      "tropical savanna and monsoon forests on komodo",
+      "rinca",
+      "flores",
+      "and gili motang islands"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 25,
+      "max": 70,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": -8.3405,
+        "lng": 115.092,
+        "label": "Indonesia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Can grow up to 3 meters (10 feet) long, making it the world's largest living lizard",
       "They have venomous bites with anticoagulant compounds that prevent blood clotting",
       "Listed as Endangered by IUCN with approximately 3,000 adults remaining in the wild",
       "In Indonesian folklore, Komodo dragons are believed to be the reincarnation of ancient ancestors",
       "They can eat up to 80% of their own body weight in a single meal and then not eat for weeks"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Komodo%20Dragon",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Indonesia",
+    "flag": "🇮🇩",
+    "region": "Asia",
+    "animal": "Komodo Dragon",
+    "emoji": "🦎",
+    "classification": "Reptile",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical savanna and monsoon forests on Komodo, Rinca, Flores, and Gili Motang islands",
+    "population": "~3,000"
   },
   {
     "id": "cn",
-    "country": "China",
-    "flag": "🇨🇳",
-    "lat": 35.8617,
-    "lng": 104.1954,
-    "region": "Asia",
-    "animal": "Giant Panda",
+    "slug": "giant-panda",
+    "commonName": "Giant Panda",
     "scientificName": "Ailuropoda melanoleuca",
-    "emoji": "🐼",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Temperate broadleaf and mixed forests in the mountains of central China",
-    "population": "~1,860",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ailuropoda"
+    },
+    "iucnStatus": "VU",
+    "description": "The Giant Panda (Ailuropoda melanoleuca) is a mammal indigenous to China. It inhabits temperate broadleaf and mixed forests in the mountains of central china.",
+    "habitat": [
+      "temperate broadleaf and mixed forests in the mountains of central china"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 20,
+      "max": 35,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 70,
+      "max": 135,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 35.8617,
+        "lng": 104.1954,
+        "label": "China"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Adults can weigh up to 135 kg (300 lbs) and spend 10–16 hours a day eating bamboo",
       "Despite being classified as bears, pandas have a specialized wrist bone that functions as a pseudo-thumb for gripping bamboo",
       "Downlisted from Endangered to Vulnerable in 2016 thanks to decades of conservation efforts by China",
       "The giant panda has been a symbol of China's wildlife diplomacy since the 1970s, with 'panda diplomacy' gifting programs",
       "Newborn pandas are about 1/900th the size of their mother, weighing only ~100 grams at birth"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Giant%20Panda",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "China",
+    "flag": "🇨🇳",
+    "region": "Asia",
+    "animal": "Giant Panda",
+    "emoji": "🐼",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Temperate broadleaf and mixed forests in the mountains of central China",
+    "population": "~1,860"
   },
   {
     "id": "jp",
-    "country": "Japan",
-    "flag": "🇯🇵",
-    "lat": 36.2048,
-    "lng": 138.2529,
-    "region": "Asia",
-    "animal": "Japanese Macaque",
+    "slug": "japanese-macaque",
+    "commonName": "Japanese Macaque",
     "scientificName": "Macaca fuscata",
-    "emoji": "🐵",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Broadleaf and evergreen forests, from subtropical lowlands to subalpine regions",
-    "population": "~100,000–120,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Macaca"
+    },
+    "iucnStatus": "LC",
+    "description": "The Japanese Macaque (Macaca fuscata) is a mammal indigenous to Japan. It inhabits broadleaf and evergreen forests, from subtropical lowlands to subalpine regions.",
+    "habitat": [
+      "broadleaf and evergreen forests",
+      "from subtropical lowlands to subalpine regions"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 8,
+      "max": 18,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 36.2048,
+        "lng": 138.2529,
+        "label": "Japan"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The northernmost-living non-human primate, found as far north as Shimokita Peninsula at lat 41°N",
       "Famous for bathing in natural hot springs (onsen) during winter, a behavior first observed in 1963 at Jigokudani",
       "They have complex social hierarchies with matrilineal rank inheritance — a mother's status passes to her offspring",
       "In Japanese folklore, they are associated with the Shinto monkey deity Sarutahiko and the 'three wise monkeys'",
       "They wash sweet potatoes in seawater to season them — a culturally transmitted behavior observed on Koshima Island"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Japanese%20Macaque",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "region": "Asia",
+    "animal": "Japanese Macaque",
+    "emoji": "🐵",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Broadleaf and evergreen forests, from subtropical lowlands to subalpine regions",
+    "population": "~100,000–120,000"
   },
   {
     "id": "in",
-    "country": "India",
-    "flag": "🇮🇳",
-    "lat": 20.5937,
-    "lng": 78.9629,
-    "region": "Asia",
-    "animal": "Bengal Tiger",
+    "slug": "bengal-tiger",
+    "commonName": "Bengal Tiger",
     "scientificName": "Panthera tigris tigris",
-    "emoji": "🐯",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical and subtropical moist broadleaf forests, mangroves, and dry grasslands",
-    "population": "~3,000–3,500",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "EN",
+    "description": "The Bengal Tiger (Panthera tigris tigris) is a mammal indigenous to India. It inhabits tropical and subtropical moist broadleaf forests, mangroves, and dry grasslands.",
+    "habitat": [
+      "tropical and subtropical moist broadleaf forests",
+      "mangroves",
+      "and dry grasslands"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 140,
+      "max": 260,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 20.5937,
+        "lng": 78.9629,
+        "label": "India"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Bengal tiger is the most numerous tiger subspecies, making up about half of all wild tigers",
       "Each tiger has a unique stripe pattern — like human fingerprints, no two are alike",
       "India's Project Tiger, launched in 1973, helped increase populations from ~1,400 to over 3,000",
       "The tiger is India's national animal and appears on the Reserve Bank of India's currency notes and emblems",
       "A single tiger's territory can range from 20 to 1,000 km² depending on prey availability"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Bengal%20Tiger",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "India",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "animal": "Bengal Tiger",
+    "emoji": "🐯",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical and subtropical moist broadleaf forests, mangroves, and dry grasslands",
+    "population": "~3,000–3,500"
   },
   {
     "id": "ph",
-    "country": "Philippines",
-    "flag": "🇵🇭",
-    "lat": 12.8797,
-    "lng": 121.774,
-    "region": "Asia",
-    "animal": "Philippine Eagle",
+    "slug": "philippine-eagle",
+    "commonName": "Philippine Eagle",
     "scientificName": "Pithecophaga jefferyi",
-    "emoji": "🦅",
-    "classification": "Bird",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Tropical moist forests on Luzon, Samar, Leyte, and Mindanao islands",
-    "population": "~400–800",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "genus": "Pithecophaga"
+    },
+    "iucnStatus": "CR",
+    "description": "The Philippine Eagle (Pithecophaga jefferyi) is a bird indigenous to Philippines. It inhabits tropical moist forests on luzon, samar, leyte, and mindanao islands.",
+    "habitat": [
+      "tropical moist forests on luzon",
+      "samar",
+      "leyte",
+      "and mindanao islands"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 60,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4.5,
+      "max": 8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 12.8797,
+        "lng": 121.774,
+        "label": "Philippines"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "With a wingspan of up to 2.2 meters (7 feet), it is considered the world's tallest eagle",
       "Known locally as 'haribon' (bird king) or 'monkey-eating eagle' — though monkeys are only a small part of its diet",
       "One of the rarest eagles on Earth, with fewer than 800 individuals estimated in the wild",
       "Declared the national bird of the Philippines in 1995, replacing the maya bird",
       "Mated pairs bond for life and only raise one chick every two years, making population recovery extremely slow"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Philippine%20Eagle",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Philippines",
+    "flag": "🇵🇭",
+    "region": "Asia",
+    "animal": "Philippine Eagle",
+    "emoji": "🦅",
+    "classification": "Bird",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical moist forests on Luzon, Samar, Leyte, and Mindanao islands",
+    "population": "~400–800"
   },
   {
     "id": "lk",
-    "country": "Sri Lanka",
-    "flag": "🇱🇰",
-    "lat": 7.8731,
-    "lng": 80.7718,
-    "region": "Asia",
-    "animal": "Sri Lankan Elephant",
+    "slug": "sri-lankan-elephant",
+    "commonName": "Sri Lankan Elephant",
     "scientificName": "Elephas maximus maximus",
-    "emoji": "🐘",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical forests, grasslands, and scrublands in the lowland dry and wet zones",
-    "population": "~2,500–4,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Proboscidea",
+      "family": "Elephantidae",
+      "genus": "Elephas"
+    },
+    "iucnStatus": "EN",
+    "description": "The Sri Lankan Elephant (Elephas maximus maximus) is a mammal indigenous to Sri Lanka. It inhabits tropical forests, grasslands, and scrublands in the lowland dry and wet zones.",
+    "habitat": [
+      "tropical forests",
+      "grasslands",
+      "and scrublands in the lowland dry and wet zones"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 60,
+      "max": 70,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2000,
+      "max": 5000,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 7.8731,
+        "lng": 80.7718,
+        "label": "Sri Lanka"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Sri Lankan elephant is the largest of the three Asian elephant subspecies",
       "Only about 6% of males develop tusks — the highest tuskless rate among Asian elephants",
       "Listed as Endangered with habitat loss and human-elephant conflict being the primary threats",
       "In Sri Lankan culture, elephants are sacred — the Temple of the Tooth in Kandy features an annual procession (Esala Perahera) with ornately decorated elephants",
       "They play a crucial ecological role as 'ecosystem engineers,' creating clearings in dense forest that benefit other species"
-    ]
-  },
-  {
-    "id": "my",
-    "country": "Malaysia",
-    "flag": "🇲🇾",
-    "lat": 4.2105,
-    "lng": 101.9758,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sri%20Lankan%20Elephant",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Sri Lanka",
+    "flag": "🇱🇰",
     "region": "Asia",
-    "animal": "Malayan Tapir",
-    "scientificName": "Tapirus indicus",
-    "emoji": "🐖",
+    "animal": "Sri Lankan Elephant",
+    "emoji": "🐘",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Tropical lowland and hill forests of Peninsular Malaysia and Sumatra",
-    "population": "~2,500",
+    "habitatOld": "Tropical forests, grasslands, and scrublands in the lowland dry and wet zones",
+    "population": "~2,500–4,000"
+  },
+  {
+    "id": "my",
+    "slug": "malayan-tapir",
+    "commonName": "Malayan Tapir",
+    "scientificName": "Tapirus indicus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Tapiridae",
+      "genus": "Tapirus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Malayan Tapir (Tapirus indicus) is a mammal indigenous to Malaysia. It inhabits tropical lowland and hill forests of peninsular malaysia and sumatra.",
+    "habitat": [
+      "tropical lowland and hill forests of peninsular malaysia and sumatra"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 25,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 250,
+      "max": 320,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.2105,
+        "lng": 101.9758,
+        "label": "Malaysia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Adults have a distinctive black-and-white coloration — the white 'saddle' pattern helps camouflage them as a large rock in moonlit forests",
       "They are the largest of the four tapir species and the only Old World tapir, with adults weighing 250–320 kg",
       "Listed as Endangered due to habitat fragmentation from palm oil plantations and road networks",
       "The Malayan tapir appears on the logo of the Malaysian Nature Society and features in regional folk art",
       "They have a flexible, prehensile snout used like a short trunk to pluck leaves and fruit from branches"
-    ]
-  },
-  {
-    "id": "th",
-    "country": "Thailand",
-    "flag": "🇹🇭",
-    "lat": 15.87,
-    "lng": 100.9925,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Malayan%20Tapir",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Malaysia",
+    "flag": "🇲🇾",
     "region": "Asia",
-    "animal": "Asian Elephant",
-    "scientificName": "Elephas maximus",
-    "emoji": "🐘",
+    "animal": "Malayan Tapir",
+    "emoji": "🐖",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Tropical and subtropical moist and dry forests, grasslands, and scrublands",
-    "population": "~3,000–4,000 (wild)",
+    "habitatOld": "Tropical lowland and hill forests of Peninsular Malaysia and Sumatra",
+    "population": "~2,500"
+  },
+  {
+    "id": "th",
+    "slug": "asian-elephant",
+    "commonName": "Asian Elephant",
+    "scientificName": "Elephas maximus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Proboscidea",
+      "family": "Elephantidae",
+      "genus": "Elephas"
+    },
+    "iucnStatus": "EN",
+    "description": "The Asian Elephant (Elephas maximus) is a mammal indigenous to Thailand. It inhabits tropical and subtropical moist and dry forests, grasslands, and scrublands.",
+    "habitat": [
+      "tropical and subtropical moist and dry forests",
+      "grasslands",
+      "and scrublands"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 60,
+      "max": 70,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2700,
+      "max": 4000,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 15.87,
+        "lng": 100.9925,
+        "label": "Thailand"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Asian elephants have smaller ears and a more rounded body shape compared to their African cousins",
       "Thailand's wild elephant population has declined dramatically from an estimated 300,000 a century ago",
       "The elephant is Thailand's national symbol — 'Chang Thai' appears on historical royal flags and the Thai navy's ensign",
       "They can consume up to 150 kg of vegetation and 200 liters of water per day",
       "In Thai Buddhism, the white elephant (Chang Samkhan) is considered extremely auspicious and historically belonged only to the king"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Asian%20Elephant",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Thailand",
+    "flag": "🇹🇭",
+    "region": "Asia",
+    "animal": "Asian Elephant",
+    "emoji": "🐘",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical and subtropical moist and dry forests, grasslands, and scrublands",
+    "population": "~3,000–4,000 (wild)"
   },
   {
     "id": "vn",
-    "country": "Vietnam",
-    "flag": "🇻🇳",
-    "lat": 14.0583,
-    "lng": 108.2772,
-    "region": "Asia",
-    "animal": "Saola",
+    "slug": "saola",
+    "commonName": "Saola",
     "scientificName": "Pseudoryx nghetinhensis",
-    "emoji": "🐂",
-    "classification": "Mammal",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Evergreen forests with little or no dry season in the Annamite Mountains",
-    "population": "Unknown (possibly <100)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Pseudoryx"
+    },
+    "iucnStatus": "CR",
+    "description": "The Saola (Pseudoryx nghetinhensis) is a mammal indigenous to Vietnam. It inhabits evergreen forests with little or no dry season in the annamite mountains.",
+    "habitat": [
+      "evergreen forests with little or no dry season in the annamite mountains"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 8,
+      "max": 12,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 80,
+      "max": 100,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 14.0583,
+        "lng": 108.2772,
+        "label": "Vietnam"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Dubbed the 'Asian unicorn,' the saola was only discovered by science in 1992 — one of the most recent large mammal discoveries",
       "It is so elusive that it has only been documented in the wild a handful of times by camera traps since its discovery",
       "The saola is not a true antelope or unicorn — it belongs to its own genus and is one of the most evolutionarily distinct mammals",
       "Found only in the Annamite Mountains spanning the Vietnam-Laos border, it is a symbol of the region's extraordinary biodiversity",
       "It is the only large mammal discovered in the last 50+ years, making it one of the greatest zoological finds of the 20th century"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Saola",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Vietnam",
+    "flag": "🇻🇳",
+    "region": "Asia",
+    "animal": "Saola",
+    "emoji": "🐂",
+    "classification": "Mammal",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Evergreen forests with little or no dry season in the Annamite Mountains",
+    "population": "Unknown (possibly <100)"
   },
   {
     "id": "mm",
-    "country": "Myanmar",
-    "flag": "🇲🇲",
-    "lat": 21.9162,
-    "lng": 95.956,
-    "region": "Asia",
-    "animal": "Clouded Leopard",
+    "slug": "clouded-leopard",
+    "commonName": "Clouded Leopard",
     "scientificName": "Neofelis nebulosa",
-    "emoji": "🐆",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Tropical and subtropical moist and dry forests, including mangrove swamps",
-    "population": "~10,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Neofelis"
+    },
+    "iucnStatus": "VU",
+    "description": "The Clouded Leopard (Neofelis nebulosa) is a mammal indigenous to Myanmar. It inhabits tropical and subtropical moist and dry forests, including mangrove swamps.",
+    "habitat": [
+      "tropical and subtropical moist and dry forests",
+      "including mangrove swamps"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 11,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 11,
+      "max": 23,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 21.9162,
+        "lng": 95.956,
+        "label": "Myanmar"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Named for their distinctive cloud-like coat pattern, which provides perfect camouflage in dappled forest light",
       "They have the longest canine teeth relative to body size of any wild cat — even longer than a tiger's proportionally",
       "They are one of the most arboreal of all cats, capable of climbing down trees headfirst like a squirrel",
       "In Myanmar, the clouded leopard inhabits the remote forests of Kachin and Shan states, areas rich in biodiversity",
       "They can open their jaws to an extraordinary 100° — wider than any other cat species"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Clouded%20Leopard",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Myanmar",
+    "flag": "🇲🇲",
+    "region": "Asia",
+    "animal": "Clouded Leopard",
+    "emoji": "🐆",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Tropical and subtropical moist and dry forests, including mangrove swamps",
+    "population": "~10,000"
   },
   {
     "id": "bn",
-    "country": "Brunei",
-    "flag": "🇧🇳",
-    "lat": 4.5353,
-    "lng": 114.7277,
-    "region": "Asia",
-    "animal": "Proboscis Monkey",
+    "slug": "proboscis-monkey",
+    "commonName": "Proboscis Monkey",
     "scientificName": "Nasalis larvatus",
-    "emoji": "🐒",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Coastal mangrove forests, riverine forests, and lowland rainforest near water",
-    "population": "~7,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Nasalis"
+    },
+    "iucnStatus": "EN",
+    "description": "The Proboscis Monkey (Nasalis larvatus) is a mammal indigenous to Brunei. It inhabits coastal mangrove forests, riverine forests, and lowland rainforest near water.",
+    "habitat": [
+      "coastal mangrove forests",
+      "riverine forests",
+      "and lowland rainforest near water"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 7,
+      "max": 22,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.5353,
+        "lng": 114.7277,
+        "label": "Brunei"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Males have large, bulbous noses that can exceed 10 cm in length — the bigger the nose, the more attractive to females",
       "They are the most accomplished swimmers of all primates, with partially webbed feet for leaping into water",
       "Found primarily in Borneo's mangrove forests, Brunei's protected reserves are key to their survival",
       "Known locally as 'bekantan' in Malay, the proboscis monkey is a beloved symbol of Borneo's wildlife",
       "Their complex, multi-chambered stomachs allow them to digest toxic leaves that other animals cannot eat"
-    ]
-  },
-  {
-    "id": "kh",
-    "country": "Cambodia",
-    "flag": "🇰🇭",
-    "lat": 12.5657,
-    "lng": 104.991,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Proboscis%20Monkey",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Brunei",
+    "flag": "🇧🇳",
     "region": "Asia",
-    "animal": "Irrawaddy Dolphin",
-    "scientificName": "Orcaella brevirostris",
-    "emoji": "🐬",
+    "animal": "Proboscis Monkey",
+    "emoji": "🐒",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Freshwater and brackish rivers, estuaries, and coastal areas",
-    "population": "~92 (Mekong population)",
+    "habitatOld": "Coastal mangrove forests, riverine forests, and lowland rainforest near water",
+    "population": "~7,000"
+  },
+  {
+    "id": "kh",
+    "slug": "irrawaddy-dolphin",
+    "commonName": "Irrawaddy Dolphin",
+    "scientificName": "Orcaella brevirostris",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetartiodactyla",
+      "family": "Delphinidae",
+      "genus": "Orcaella"
+    },
+    "iucnStatus": "EN",
+    "description": "The Irrawaddy Dolphin (Orcaella brevirostris) is a mammal indigenous to Cambodia. It inhabits freshwater and brackish rivers, estuaries, and coastal areas.",
+    "habitat": [
+      "freshwater and brackish rivers",
+      "estuaries",
+      "and coastal areas"
+    ],
+    "diet": "Piscivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 90,
+      "max": 200,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 12.5657,
+        "lng": 104.991,
+        "label": "Cambodia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Unlike most dolphins, they lack a pronounced beak and have a rounded forehead — more closely related to killer whales than oceanic dolphins",
       "The Mekong population between Cambodia and Laos is critically isolated with only about 92 individuals remaining",
       "They can spit water to herd fish — a cooperative hunting technique rarely seen in other dolphin species",
       "In Cambodian culture, the Irrawaddy dolphin is considered sacred and believed to bring good fortune to fishermen",
       "They are among the few dolphin species that can survive in freshwater for their entire lives"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Irrawaddy%20Dolphin",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Cambodia",
+    "flag": "🇰🇭",
+    "region": "Asia",
+    "animal": "Irrawaddy Dolphin",
+    "emoji": "🐬",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Freshwater and brackish rivers, estuaries, and coastal areas",
+    "population": "~92 (Mekong population)"
   },
   {
     "id": "kp",
-    "country": "North Korea",
-    "flag": "🇰🇵",
-    "lat": 40.3399,
-    "lng": 127.5101,
-    "region": "Asia",
-    "animal": "Amur Leopard",
+    "slug": "amur-leopard",
+    "commonName": "Amur Leopard",
     "scientificName": "Panthera pardus orientalis",
-    "emoji": "🐆",
-    "classification": "Mammal",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Temperate broadleaf and mixed forests in the Korean Peninsula and Russian Far East",
-    "population": "~100–120",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "CR",
+    "description": "The Amur Leopard (Panthera pardus orientalis) is a mammal indigenous to North Korea. It inhabits temperate broadleaf and mixed forests in the korean peninsula and russian far east.",
+    "habitat": [
+      "temperate broadleaf and mixed forests in the korean peninsula and russian far east"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 25,
+      "max": 48,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 40.3399,
+        "lng": 127.5101,
+        "label": "North Korea"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Amur leopard is the rarest big cat on Earth, with only about 100–120 individuals in the wild",
       "They can run at speeds up to 60 km/h (37 mph) and leap more than 6 meters (19 feet) horizontally",
       "Their beautiful rosette-spotted coat is thicker and longer than other leopard subspecies to withstand freezing temperatures",
       "Historically found across the Korean Peninsula, they now survive primarily in a small region straddling the Russia-China-North Korea border",
       "They can carry prey up to three times their own body weight up into trees"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Amur%20Leopard",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "North Korea",
+    "flag": "🇰🇵",
+    "region": "Asia",
+    "animal": "Amur Leopard",
+    "emoji": "🐆",
+    "classification": "Mammal",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Temperate broadleaf and mixed forests in the Korean Peninsula and Russian Far East",
+    "population": "~100–120"
   },
   {
     "id": "tw",
-    "country": "Taiwan",
-    "flag": "🇹🇼",
-    "lat": 23.6978,
-    "lng": 120.9605,
-    "region": "Asia",
-    "animal": "Formosan Black Bear",
+    "slug": "formosan-black-bear",
+    "commonName": "Formosan Black Bear",
     "scientificName": "Ursus thibetanus formosanus",
-    "emoji": "🐻",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Mountainous forests at elevations of 1,000–3,500 meters in Taiwan's central ranges",
-    "population": "~200–600",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ursus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Formosan Black Bear (Ursus thibetanus formosanus) is a mammal indigenous to Taiwan. It inhabits mountainous forests at elevations of 1,000–3,500 meters in taiwan's central ranges.",
+    "habitat": [
+      "mountainous forests at elevations of 1",
+      "000–3",
+      "500 meters in taiwan's central ranges"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 25,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 50,
+      "max": 120,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 23.6978,
+        "lng": 120.9605,
+        "label": "Taiwan"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Formosan black bear is Taiwan's largest endemic land animal and is considered the island's national animal",
       "They have a distinctive V-shaped white chest mark, leading to their Chinese name 'dog bear' (gǒuxióng)",
       "Population has declined to an estimated 200–600 due to habitat loss and poaching for gall bladders used in traditional medicine",
       "Taiwan's indigenous Tsou and Atayal people consider the bear a sacred animal in their cultural traditions",
       "They are excellent climbers and often build nests in trees for resting and feeding"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Formosan%20Black%20Bear",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Taiwan",
+    "flag": "🇹🇼",
+    "region": "Asia",
+    "animal": "Formosan Black Bear",
+    "emoji": "🐻",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Mountainous forests at elevations of 1,000–3,500 meters in Taiwan's central ranges",
+    "population": "~200–600"
   },
   {
     "id": "pk",
-    "country": "Pakistan",
-    "flag": "🇵🇰",
-    "lat": 30.3753,
-    "lng": 69.3451,
-    "region": "Asia",
-    "animal": "Snow Leopard",
+    "slug": "snow-leopard",
+    "commonName": "Snow Leopard",
     "scientificName": "Panthera uncia",
-    "emoji": "🐆",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Alpine and subalpine zones at 3,000–5,500 meters in the Karakoram, Hindu Kush, and Himalayas",
-    "population": "~200–300 (in Pakistan)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "VU",
+    "description": "The Snow Leopard (Panthera uncia) is a mammal indigenous to Pakistan. It inhabits alpine and subalpine zones at 3,000–5,500 meters in the karakoram, hindu kush, and himalayas.",
+    "habitat": [
+      "alpine and subalpine zones at 3",
+      "000–5",
+      "500 meters in the karakoram",
+      "hindu kush",
+      "and himalayas"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 18,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 22,
+      "max": 55,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 30.3753,
+        "lng": 69.3451,
+        "label": "Pakistan"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Called the 'ghost of the mountains' for their elusive nature — they are almost never seen in the wild",
       "Their 90 cm (3 ft) tail serves as a balancing aid on cliffs and a nose-warmer when sleeping",
       "Snow leopards can leap up to 15 meters (50 feet) in a single bound across mountain crevasses",
       "In Gilgit-Baltistan culture, the snow leopard is both revered and feared, often called 'shan' (ghost)",
       "Pakistan is home to about 200–300 of the estimated 4,000–6,500 snow leopards remaining worldwide"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Snow%20Leopard",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Pakistan",
+    "flag": "🇵🇰",
+    "region": "Asia",
+    "animal": "Snow Leopard",
+    "emoji": "🐆",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Alpine and subalpine zones at 3,000–5,500 meters in the Karakoram, Hindu Kush, and Himalayas",
+    "population": "~200–300 (in Pakistan)"
   },
   {
     "id": "np",
-    "country": "Nepal",
-    "flag": "🇳🇵",
-    "lat": 28.3949,
-    "lng": 84.124,
-    "region": "Asia",
-    "animal": "Red Panda",
+    "slug": "red-panda",
+    "commonName": "Red Panda",
     "scientificName": "Ailurus fulgens",
-    "emoji": "🐾",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Temperate forests with bamboo understory at 2,200–4,800 meters in the eastern Himalayas",
-    "population": "~300–500",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Unknown",
+      "family": "Unknown",
+      "genus": "Ailurus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Red Panda (Ailurus fulgens) is a mammal indigenous to Nepal. It inhabits temperate forests with bamboo understory at 2,200–4,800 meters in the eastern himalayas.",
+    "habitat": [
+      "temperate forests with bamboo understory at 2",
+      "200–4",
+      "800 meters in the eastern himalayas"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 8,
+      "max": 12,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 6.2,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 28.3949,
+        "lng": 84.124,
+        "label": "Nepal"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Red pandas are not closely related to giant pandas — they belong to their own unique family Ailuridae",
       "They have a 'false thumb' (extended wrist bone) used for gripping bamboo, evolved independently from the giant panda's",
       "Nepal's red panda population, found primarily in the eastern hill forests, is declining due to habitat fragmentation",
       "In Nepali folklore, red pandas are believed to be the protectors of the forest and bring good fortune",
       "They spend most of their lives in trees and can descend headfirst thanks to rotating ankle joints"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Red%20Panda",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Nepal",
+    "flag": "🇳🇵",
+    "region": "Asia",
+    "animal": "Red Panda",
+    "emoji": "🐾",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Temperate forests with bamboo understory at 2,200–4,800 meters in the eastern Himalayas",
+    "population": "~300–500"
   },
   {
     "id": "br",
-    "country": "Brazil",
-    "flag": "🇧🇷",
-    "lat": -14.235,
-    "lng": -51.9253,
-    "region": "South America",
-    "animal": "Capybara",
+    "slug": "capybara",
+    "commonName": "Capybara",
     "scientificName": "Hydrochoerus hydrochaeris",
-    "emoji": "🐹",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Dense forests and savannas near bodies of water throughout South America",
-    "population": "Unknown (abundant)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Caviidae",
+      "genus": "Hydrochoerus"
+    },
+    "iucnStatus": "LC",
+    "description": "The Capybara (Hydrochoerus hydrochaeris) is a mammal indigenous to Brazil. It inhabits dense forests and savannas near bodies of water throughout south america.",
+    "habitat": [
+      "dense forests and savannas near bodies of water throughout south america"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 8,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 35,
+      "max": 65,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -14.235,
+        "lng": -51.9253,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The capybara is the world's largest rodent, weighing up to 65 kg (143 lbs) and reaching 1.3 meters in length",
       "They are semi-aquatic and excellent swimmers, able to hold their breath underwater for up to 5 minutes",
       "Their population is stable and abundant — they are the most common large rodent in South America",
       "In Brazil, capybaras have become internet celebrities for their relaxed demeanor and their habit of sitting in urban parks alongside humans",
       "They are social animals that live in groups of 10–20 and are known to be friendly with many other species, often seen with birds on their backs"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Capybara",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Brazil",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "animal": "Capybara",
+    "emoji": "🐹",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Dense forests and savannas near bodies of water throughout South America",
+    "population": "Unknown (abundant)"
   },
   {
     "id": "mx",
-    "country": "Mexico",
-    "flag": "🇲🇽",
-    "lat": 23.6345,
-    "lng": -102.5528,
-    "region": "North America",
-    "animal": "Axolotl",
+    "slug": "axolotl",
+    "commonName": "Axolotl",
     "scientificName": "Ambystoma mexicanum",
-    "emoji": "🦎",
-    "classification": "Amphibian",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Freshwater lakes and canals of the Xochimilco lake system near Mexico City",
-    "population": "~50–1,000 (wild)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Urodela",
+      "family": "Ambystomatidae",
+      "genus": "Ambystoma"
+    },
+    "iucnStatus": "CR",
+    "description": "The Axolotl (Ambystoma mexicanum) is a amphibian indigenous to Mexico. It inhabits freshwater lakes and canals of the xochimilco lake system near mexico city.",
+    "habitat": [
+      "freshwater lakes and canals of the xochimilco lake system near mexico city"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 60,
+      "max": 225,
+      "unit": "g"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 23.6345,
+        "lng": -102.5528,
+        "label": "Mexico"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Axolotls are famous for their remarkable ability to regenerate lost limbs, organs, and even parts of their brain",
       "They exhibit 'neoteny' — they retain their larval features (gills and aquatic lifestyle) throughout their entire lives without metamorphosing",
       "Once common in Lake Xochimilco, they are now Critically Endangered with possibly fewer than 50 remaining in the wild",
       "Named after Xolotl, the Aztec god of fire, lightning, and death — they were considered manifestations of the deity",
       "They are studied worldwide for their regenerative abilities, which could hold keys to medical breakthroughs in human healing"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Axolotl",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "region": "North America",
+    "animal": "Axolotl",
+    "emoji": "🦎",
+    "classification": "Amphibian",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Freshwater lakes and canals of the Xochimilco lake system near Mexico City",
+    "population": "~50–1,000 (wild)"
   },
   {
     "id": "ca",
-    "country": "Canada",
-    "flag": "🇨🇦",
-    "lat": 56.1304,
-    "lng": -106.3468,
-    "region": "North America",
-    "animal": "Beaver",
+    "slug": "beaver",
+    "commonName": "Beaver",
     "scientificName": "Castor canadensis",
-    "emoji": "🦫",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Rivers, streams, lakes, and ponds in forested regions across Canada",
-    "population": "~10–15 million",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Castoridae",
+      "genus": "Castor"
+    },
+    "iucnStatus": "LC",
+    "description": "The Beaver (Castor canadensis) is a mammal indigenous to Canada. It inhabits rivers, streams, lakes, and ponds in forested regions across canada.",
+    "habitat": [
+      "rivers",
+      "streams",
+      "lakes",
+      "and ponds in forested regions across canada"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 11,
+      "max": 32,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 56.1304,
+        "lng": -106.3468,
+        "label": "Canada"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The beaver is the largest rodent in North America and Canada's national animal, appearing on the nickel coin",
       "Their continuously growing incisors are strengthened with iron, giving them an orange color and remarkable strength for felling trees",
       "Beaver dams create wetland ecosystems that support hundreds of species, making them nature's greatest ecosystem engineers",
       "The beaver appeared on Canada's first postage stamp in 1849 and symbolizes the industriousness of the country",
       "A beaver's lodge can be over 3 meters high and 9 meters in diameter, with underwater entrances for safety"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Beaver",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "region": "North America",
+    "animal": "Beaver",
+    "emoji": "🦫",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Rivers, streams, lakes, and ponds in forested regions across Canada",
+    "population": "~10–15 million"
   },
   {
     "id": "us",
-    "country": "United States",
-    "flag": "🇺🇸",
-    "lat": 39.8283,
-    "lng": -98.5795,
-    "region": "North America",
-    "animal": "Bald Eagle",
+    "slug": "bald-eagle",
+    "commonName": "Bald Eagle",
     "scientificName": "Haliaeetus leucocephalus",
-    "emoji": "🦅",
-    "classification": "Bird",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Near large bodies of open water with abundant food sources across North America",
-    "population": "~316,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "genus": "Haliaeetus"
+    },
+    "iucnStatus": "LC",
+    "description": "The Bald Eagle (Haliaeetus leucocephalus) is a bird indigenous to United States. It inhabits near large bodies of open water with abundant food sources across north america.",
+    "habitat": [
+      "near large bodies of open water with abundant food sources across north america"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 6.3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 39.8283,
+        "lng": -98.5795,
+        "label": "United States"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Bald eagles have a wingspan of up to 2.3 meters (7.5 feet) and can dive at speeds exceeding 160 km/h (100 mph)",
       "They were removed from the US Endangered Species List in 2007 after DDT bans allowed their numbers to recover from just 417 nesting pairs in 1963",
       "The bald eagle has been the national emblem of the United States since 1782, appearing on the Great Seal",
       "Despite their name, they are not bald — the name comes from the Old English 'balde' meaning 'white', referring to their white head feathers",
       "They mate for life and return to the same nest year after year, with some nests weighing over 2 tonnes"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Bald%20Eagle",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "animal": "Bald Eagle",
+    "emoji": "🦅",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Near large bodies of open water with abundant food sources across North America",
+    "population": "~316,000"
   },
   {
     "id": "pe",
-    "country": "Peru",
-    "flag": "🇵🇪",
-    "lat": -9.19,
-    "lng": -75.0152,
-    "region": "South America",
-    "animal": "Llama",
+    "slug": "llama",
+    "commonName": "Llama",
     "scientificName": "Lama glama",
-    "emoji": "🦙",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "High-altitude Andean grasslands and plateaus at 2,300–4,000 meters",
-    "population": "~7–8 million (worldwide, mostly domesticated)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Camelidae",
+      "genus": "Lama"
+    },
+    "iucnStatus": "LC",
+    "description": "The Llama (Lama glama) is a mammal indigenous to Peru. It inhabits high-altitude andean grasslands and plateaus at 2,300–4,000 meters.",
+    "habitat": [
+      "high-altitude andean grasslands and plateaus at 2",
+      "300–4",
+      "000 meters"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 100,
+      "max": 200,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -9.19,
+        "lng": -75.0152,
+        "label": "Peru"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Llamas were first domesticated by Andean peoples over 4,000 years ago, making them one of the oldest domesticated animals in the Americas",
       "They are remarkably efficient at carrying loads — a llama can carry 25–30% of its body weight over long distances at high altitude",
       "Wild populations are rare; most llamas are domesticated. Their wild ancestor, the guanaco, still roams the Andes",
       "In Inca civilization, llamas were sacred animals and were sacrificed in important religious ceremonies to honor the gods",
       "Llamas communicate through body language and can spit when annoyed — they are known for their expressive ear movements"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Llama",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Peru",
+    "flag": "🇵🇪",
+    "region": "South America",
+    "animal": "Llama",
+    "emoji": "🦙",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "High-altitude Andean grasslands and plateaus at 2,300–4,000 meters",
+    "population": "~7–8 million (worldwide, mostly domesticated)"
   },
   {
     "id": "co",
-    "country": "Colombia",
-    "flag": "🇨🇴",
-    "lat": 4.5709,
-    "lng": -74.2973,
-    "region": "South America",
-    "animal": "Andean Condor",
+    "slug": "andean-condor",
+    "commonName": "Andean Condor",
     "scientificName": "Vultur gryphus",
-    "emoji": "🦅",
-    "classification": "Bird",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Mountainous regions, open grasslands, and alpine areas of the Andes",
-    "population": "~6,700 (total), ~180 in Colombia",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cathartiformes",
+      "family": "Cathartidae",
+      "genus": "Vultur"
+    },
+    "iucnStatus": "VU",
+    "description": "The Andean Condor (Vultur gryphus) is a bird indigenous to Colombia. It inhabits mountainous regions, open grasslands, and alpine areas of the andes.",
+    "habitat": [
+      "mountainous regions",
+      "open grasslands",
+      "and alpine areas of the andes"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 50,
+      "max": 75,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 11,
+      "max": 15,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.5709,
+        "lng": -74.2973,
+        "label": "Colombia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "With a wingspan of up to 3.3 meters (10.8 feet), the Andean condor is the largest flying bird in the world by wingspan and weight",
       "They can soar on thermal updrafts for hours without flapping a single wing, reaching altitudes of 5,000+ meters",
       "The Andean condor is the national bird of Colombia and appears on the country's coat of arms alongside the condor of the Andes",
       "In Andean mythology, the condor was believed to carry the dead to the afterlife and was a symbol of power and health",
       "They have no syrinx (vocal organ), so they communicate through body language, hissing, and clicking sounds"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Andean%20Condor",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Colombia",
+    "flag": "🇨🇴",
+    "region": "South America",
+    "animal": "Andean Condor",
+    "emoji": "🦅",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Mountainous regions, open grasslands, and alpine areas of the Andes",
+    "population": "~6,700 (total), ~180 in Colombia"
   },
   {
     "id": "ec",
-    "country": "Ecuador",
-    "flag": "🇪🇨",
-    "lat": -1.8312,
-    "lng": -78.1834,
-    "region": "South America",
-    "animal": "Galápagos Tortoise",
+    "slug": "gal-pagos-tortoise",
+    "commonName": "Galápagos Tortoise",
     "scientificName": "Chelonoidis nigra",
-    "emoji": "🐢",
-    "classification": "Reptile",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Tropical and subtropical islands — arid lowlands to humid highlands of the Galápagos",
-    "population": "~20,000–25,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Chelonoidis"
+    },
+    "iucnStatus": "VU",
+    "description": "The Galápagos Tortoise (Chelonoidis nigra) is a reptile indigenous to Ecuador. It inhabits tropical and subtropical islands — arid lowlands to humid highlands of the galápagos.",
+    "habitat": [
+      "tropical and subtropical islands — arid lowlands to humid highlands of the galápagos"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 100,
+      "max": 150,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 150,
+      "max": 417,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -1.8312,
+        "lng": -78.1834,
+        "label": "Ecuador"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Galápagos tortoises are the largest tortoises in the world, weighing up to 417 kg (919 lbs) and living over 100 years",
       "Their shell shape varies by island — 'dome-shaped' shells on islands with plentiful ground vegetation, 'saddleback' shells on arid islands to stretch for higher food",
       "The species inspired Charles Darwin's theory of evolution when he visited the Galápagos in 1835 aboard HMS Beagle",
       "They can survive up to a year without food or water by storing fat reserves and extracting moisture from vegetation",
       "Lonesome George, the last Pinta Island tortoise, died in 2012 at over 100 years old, becoming a global symbol of extinction"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos%20Tortoise",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Ecuador",
+    "flag": "🇪🇨",
+    "region": "South America",
+    "animal": "Galápagos Tortoise",
+    "emoji": "🐢",
+    "classification": "Reptile",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Tropical and subtropical islands — arid lowlands to humid highlands of the Galápagos",
+    "population": "~20,000–25,000"
   },
   {
     "id": "cl",
-    "country": "Chile",
-    "flag": "🇨🇱",
-    "lat": -35.6751,
-    "lng": -71.543,
-    "region": "South America",
-    "animal": "Pudu",
+    "slug": "pudu",
+    "commonName": "Pudu",
     "scientificName": "Pudu puda",
-    "emoji": "🦌",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Temperate rainforests of southern Chile and western Argentina",
-    "population": "~10,000–15,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Pudu"
+    },
+    "iucnStatus": "VU",
+    "description": "The Pudu (Pudu puda) is a mammal indigenous to Chile. It inhabits temperate rainforests of southern chile and western argentina.",
+    "habitat": [
+      "temperate rainforests of southern chile and western argentina"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 6,
+      "max": 13,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -35.6751,
+        "lng": -71.543,
+        "label": "Chile"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The pudu is the world's smallest deer species, standing only 35–45 cm (14–18 inches) tall at the shoulder",
       "When threatened, they run in a zigzag pattern and can climb fallen trees to escape predators",
       "Listed as Vulnerable due to habitat loss from logging and competition with introduced deer species",
       "In Mapuche indigenous culture, the pudu (püdu) is considered a forest spirit and appears in traditional stories",
       "They bark when alarmed — a surprisingly loud sound for such a tiny animal"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Pudu",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Chile",
+    "flag": "🇨🇱",
+    "region": "South America",
+    "animal": "Pudu",
+    "emoji": "🦌",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Temperate rainforests of southern Chile and western Argentina",
+    "population": "~10,000–15,000"
   },
   {
     "id": "ar",
-    "country": "Argentina",
-    "flag": "🇦🇷",
-    "lat": -38.4161,
-    "lng": -63.6167,
-    "region": "South America",
-    "animal": "Maned Wolf",
+    "slug": "maned-wolf",
+    "commonName": "Maned Wolf",
     "scientificName": "Chrysocyon brachyurus",
-    "emoji": "🐺",
-    "classification": "Mammal",
-    "conservationStatus": "Near Threatened",
-    "indigenous": true,
-    "habitat": "Grasslands, shrublands, and wetlands of central South America",
-    "population": "~23,600",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Chrysocyon"
+    },
+    "iucnStatus": "NT",
+    "description": "The Maned Wolf (Chrysocyon brachyurus) is a mammal indigenous to Argentina. It inhabits grasslands, shrublands, and wetlands of central south america.",
+    "habitat": [
+      "grasslands",
+      "shrublands",
+      "and wetlands of central south america"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 20,
+      "max": 30,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -38.4161,
+        "lng": -63.6167,
+        "label": "Argentina"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The maned wolf is the largest canid in South America, standing up to 90 cm (3 ft) at the shoulder, but is neither a wolf nor a fox",
       "It is the only species in its genus Chrysocyon and is more closely related to the bush dog than to true wolves",
       "Over half of their diet consists of a fruit called 'lobeira' (wolf apple), making them important seed dispersers",
       "In Argentine and Brazilian folklore, the maned wolf is associated with legends — its urine smells so strong it inspired tales of forest spirits",
       "Their long, stilt-like legs are adapted for navigating tall grasslands and spotting prey over vegetation"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Maned%20Wolf",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Argentina",
+    "flag": "🇦🇷",
+    "region": "South America",
+    "animal": "Maned Wolf",
+    "emoji": "🐺",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "indigenous": true,
+    "habitatOld": "Grasslands, shrublands, and wetlands of central South America",
+    "population": "~23,600"
   },
   {
     "id": "cr",
-    "country": "Costa Rica",
-    "flag": "🇨🇷",
-    "lat": 9.7489,
-    "lng": -83.7534,
-    "region": "North America",
-    "animal": "Resplendent Quetzal",
+    "slug": "resplendent-quetzal",
+    "commonName": "Resplendent Quetzal",
     "scientificName": "Pharomachrus mocinno",
-    "emoji": "🦜",
-    "classification": "Bird",
-    "conservationStatus": "Near Threatened",
-    "indigenous": true,
-    "habitat": "Montane cloud forests from southern Mexico to Panama",
-    "population": "~20,000–50,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Trogoniformes",
+      "family": "Trogonidae",
+      "genus": "Pharomachrus"
+    },
+    "iucnStatus": "NT",
+    "description": "The Resplendent Quetzal (Pharomachrus mocinno) is a bird indigenous to Costa Rica. It inhabits montane cloud forests from southern mexico to panama.",
+    "habitat": [
+      "montane cloud forests from southern mexico to panama"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.18,
+      "max": 0.22,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 9.7489,
+        "lng": -83.7534,
+        "label": "Costa Rica"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The resplendent quetzal is considered one of the most beautiful birds in the world, with iridescent emerald and crimson plumage",
       "Males grow tail streamers up to 65 cm (25 inches) long — over twice their body length — during breeding season",
       "The quetzal was sacred to the Maya and Aztec civilizations, and its image appears on Guatemala's coat of arms and currency",
       "Their diet is primarily wild avocados, and they play a vital ecological role as dispersers of avocado tree seeds",
       "The resplendent quetzal is a flagship species for Costa Rica's ecotourism and cloud forest conservation efforts"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Resplendent%20Quetzal",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Costa Rica",
+    "flag": "🇨🇷",
+    "region": "North America",
+    "animal": "Resplendent Quetzal",
+    "emoji": "🦜",
+    "classification": "Bird",
+    "conservationStatus": "Near Threatened",
+    "indigenous": true,
+    "habitatOld": "Montane cloud forests from southern Mexico to Panama",
+    "population": "~20,000–50,000"
   },
   {
     "id": "bo",
-    "country": "Bolivia",
-    "flag": "🇧🇴",
-    "lat": -16.2902,
-    "lng": -63.5887,
-    "region": "South America",
-    "animal": "Andean Flamingo",
+    "slug": "andean-flamingo",
+    "commonName": "Andean Flamingo",
     "scientificName": "Phoenicoparrus andinus",
-    "emoji": "🦩",
-    "classification": "Bird",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "High-altitude salt lakes and alkaline wetlands of the Andes at 2,300–4,500 meters",
-    "population": "~38,000–40,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Phoenicopteriformes",
+      "family": "Phoenicopteridae",
+      "genus": "Phoenicoparrus"
+    },
+    "iucnStatus": "VU",
+    "description": "The Andean Flamingo (Phoenicoparrus andinus) is a bird indigenous to Bolivia. It inhabits high-altitude salt lakes and alkaline wetlands of the andes at 2,300–4,500 meters.",
+    "habitat": [
+      "high-altitude salt lakes and alkaline wetlands of the andes at 2",
+      "300–4",
+      "500 meters"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 3.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -16.2902,
+        "lng": -63.5887,
+        "label": "Bolivia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Andean flamingo is the rarest of the six flamingo species and the only one with yellow legs and a deep red-orange body",
       "They filter-feed on algae and diatoms in extreme alkaline lakes where few other species can survive",
       "Bolivia's high-altitude salt flats, particularly Laguna Colorada, host the largest breeding colonies of Andean flamingos",
       "In Andean culture, flamingos are associated with the sun god Inti and their pink color symbolizes the dawn sky",
       "They breed at some of the highest altitudes of any bird species, nesting on mud cones in shallow, mineral-rich lakes"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Andean%20Flamingo",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Bolivia",
+    "flag": "🇧🇴",
+    "region": "South America",
+    "animal": "Andean Flamingo",
+    "emoji": "🦩",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "High-altitude salt lakes and alkaline wetlands of the Andes at 2,300–4,500 meters",
+    "population": "~38,000–40,000"
   },
   {
     "id": "pa",
-    "country": "Panama",
-    "flag": "🇵🇦",
-    "lat": 8.538,
-    "lng": -80.7821,
-    "region": "North America",
-    "animal": "Panamanian Golden Frog",
+    "slug": "panamanian-golden-frog",
+    "commonName": "Panamanian Golden Frog",
     "scientificName": "Atelopus zeteki",
-    "emoji": "🐸",
-    "classification": "Amphibian",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Humid montane forests and streams in central Panama",
-    "population": "Possibly extinct in the wild",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Bufonidae",
+      "genus": "Atelopus"
+    },
+    "iucnStatus": "CR",
+    "description": "The Panamanian Golden Frog (Atelopus zeteki) is a amphibian indigenous to Panama. It inhabits humid montane forests and streams in central panama.",
+    "habitat": [
+      "humid montane forests and streams in central panama"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 5,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 15,
+      "unit": "g"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 8.538,
+        "lng": -80.7821,
+        "label": "Panama"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Panamanian golden frog is a symbol of Panama's national wildlife and appears on lottery tickets and souvenirs",
       "Males wave their forelimbs in a 'semaphore' display to attract females — a rare behavior among frogs that may have evolved near noisy streams",
       "It is believed to be extinct in the wild since 2009 due to the devastating chytrid fungus (Batrachochytrium dendrobatidis)",
       "In Panamanian indigenous Kuna culture, the golden frog (rana dorada) is a symbol of good luck and prosperity",
       "Several zoos and conservation centers maintain captive breeding populations in hopes of future reintroduction"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Panamanian%20Golden%20Frog",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Panama",
+    "flag": "🇵🇦",
+    "region": "North America",
+    "animal": "Panamanian Golden Frog",
+    "emoji": "🐸",
+    "classification": "Amphibian",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Humid montane forests and streams in central Panama",
+    "population": "Possibly extinct in the wild"
   },
   {
     "id": "za",
-    "country": "South Africa",
-    "flag": "🇿🇦",
-    "lat": -30.5595,
-    "lng": 22.9375,
-    "region": "Africa",
-    "animal": "Meerkat",
+    "slug": "meerkat",
+    "commonName": "Meerkat",
     "scientificName": "Suricata suricatta",
-    "emoji": "🐀",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Arid and semi-arid open plains, savannas, and scrublands of southern Africa",
-    "population": "Unknown (abundant)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Herpestidae",
+      "genus": "Suricata"
+    },
+    "iucnStatus": "LC",
+    "description": "The Meerkat (Suricata suricatta) is a mammal indigenous to South Africa. It inhabits arid and semi-arid open plains, savannas, and scrublands of southern africa.",
+    "habitat": [
+      "arid and semi-arid open plains",
+      "savannas",
+      "and scrublands of southern africa"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 14,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.6,
+      "max": 1,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -30.5595,
+        "lng": 22.9375,
+        "label": "South Africa"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Meerkats live in highly organized colonies of up to 50 individuals with designated sentinels who stand watch for predators",
       "They have dark patches around their eyes that reduce sun glare, like built-in sunglasses for spotting aerial predators",
       "Their population is stable and widespread across southern Africa's arid regions",
       "Meerkats have become cultural icons through the TV show 'Meerkat Manor' and are a beloved symbol of the Kalahari Desert",
       "They can dig with remarkable speed, moving their own body weight in sand in just seconds when excavating burrows"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Meerkat",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "South Africa",
+    "flag": "🇿🇦",
+    "region": "Africa",
+    "animal": "Meerkat",
+    "emoji": "🐀",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Arid and semi-arid open plains, savannas, and scrublands of southern Africa",
+    "population": "Unknown (abundant)"
   },
   {
     "id": "ke",
-    "country": "Kenya",
-    "flag": "🇰🇪",
-    "lat": -0.0236,
-    "lng": 37.9062,
-    "region": "Africa",
-    "animal": "Masai Lion",
+    "slug": "masai-lion",
+    "commonName": "Masai Lion",
     "scientificName": "Panthera leo nubica",
-    "emoji": "🦁",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Grasslands, savannas, and open woodlands of East Africa",
-    "population": "~20,000 (East Africa)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "VU",
+    "description": "The Masai Lion (Panthera leo nubica) is a mammal indigenous to Kenya. It inhabits grasslands, savannas, and open woodlands of east africa.",
+    "habitat": [
+      "grasslands",
+      "savannas",
+      "and open woodlands of east africa"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 16,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 120,
+      "max": 250,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -0.0236,
+        "lng": 37.9062,
+        "label": "Kenya"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Masai lions have distinctive, less-developed manes compared to other lion subspecies, adapted to the hot East African climate",
       "Lions are the only truly social cats, living in prides of up to 30 individuals with complex social bonds",
       "African lion populations have declined by approximately 43% over the past two decades, earning them Vulnerable status",
       "The lion is Kenya's most iconic animal and a cornerstone of the country's multi-billion dollar safari tourism industry",
       "A lion's roar can be heard from up to 8 km (5 miles) away, making it the loudest of any big cat"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Masai%20Lion",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Kenya",
+    "flag": "🇰🇪",
+    "region": "Africa",
+    "animal": "Masai Lion",
+    "emoji": "🦁",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Grasslands, savannas, and open woodlands of East Africa",
+    "population": "~20,000 (East Africa)"
   },
   {
     "id": "tz",
-    "country": "Tanzania",
-    "flag": "🇹🇿",
-    "lat": -6.369,
-    "lng": 34.8888,
-    "region": "Africa",
-    "animal": "Chimpanzee",
+    "slug": "chimpanzee",
+    "commonName": "Chimpanzee",
     "scientificName": "Pan troglodytes",
-    "emoji": "🐵",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical moist forests, gallery forests, and woodland-savanna mosaics of western Tanzania",
-    "population": "~1,500–2,500 (in Tanzania)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Pan"
+    },
+    "iucnStatus": "EN",
+    "description": "The Chimpanzee (Pan troglodytes) is a mammal indigenous to Tanzania. It inhabits tropical moist forests, gallery forests, and woodland-savanna mosaics of western tanzania.",
+    "habitat": [
+      "tropical moist forests",
+      "gallery forests",
+      "and woodland-savanna mosaics of western tanzania"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 35,
+      "max": 70,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -6.369,
+        "lng": 34.8888,
+        "label": "Tanzania"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Chimpanzees share approximately 98.7% of their DNA with humans, making them our closest living relatives",
       "They use tools — including using sticks to fish for termites, and leaves as sponges — a behavior first documented by Jane Goodall at Gombe Stream, Tanzania",
       "Chimpanzees are Endangered due to habitat loss, bushmeat hunting, and disease, with populations declining across Africa",
       "Jane Goodall's groundbreaking research at Gombe Stream National Park in Tanzania beginning in 1960 revolutionized our understanding of primate behavior",
       "Chimpanzees have complex social hierarchies, can learn sign language, and have been observed engaging in warfare between groups"
-    ]
-  },
-  {
-    "id": "mg",
-    "country": "Madagascar",
-    "flag": "🇲🇬",
-    "lat": -18.7669,
-    "lng": 46.8691,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Chimpanzee",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Tanzania",
+    "flag": "🇹🇿",
     "region": "Africa",
-    "animal": "Ring-tailed Lemur",
-    "scientificName": "Lemur catta",
-    "emoji": "🐒",
+    "animal": "Chimpanzee",
+    "emoji": "🐵",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Dry deciduous forests and spiny thickets of southern Madagascar",
-    "population": "~2,400",
+    "habitatOld": "Tropical moist forests, gallery forests, and woodland-savanna mosaics of western Tanzania",
+    "population": "~1,500–2,500 (in Tanzania)"
+  },
+  {
+    "id": "mg",
+    "slug": "ring-tailed-lemur",
+    "commonName": "Ring-tailed Lemur",
+    "scientificName": "Lemur catta",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Lemuridae",
+      "genus": "Lemur"
+    },
+    "iucnStatus": "EN",
+    "description": "The Ring-tailed Lemur (Lemur catta) is a mammal indigenous to Madagascar. It inhabits dry deciduous forests and spiny thickets of southern madagascar.",
+    "habitat": [
+      "dry deciduous forests and spiny thickets of southern madagascar"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 16,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 3.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -18.7669,
+        "lng": 46.8691,
+        "label": "Madagascar"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Ring-tailed lemurs have a distinctive black-and-white ringed tail that they hold high like a flag when walking on the ground",
       "They are the most terrestrial of all lemurs, spending up to 40% of their time on the ground",
       "Populations have declined by over 95% due to habitat destruction, making ring-tailed lemurs Endangered",
       "Madagascar is home to over 100 lemur species found nowhere else on Earth — lemurs exist only in Madagascar and the Comoros",
       "They sunbathe in a yoga-like 'Buddha pose' every morning, sitting upright with arms outstretched to warm up in the sun"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ring-tailed%20Lemur",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Madagascar",
+    "flag": "🇲🇬",
+    "region": "Africa",
+    "animal": "Ring-tailed Lemur",
+    "emoji": "🐒",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Dry deciduous forests and spiny thickets of southern Madagascar",
+    "population": "~2,400"
   },
   {
     "id": "eg",
-    "country": "Egypt",
-    "flag": "🇪🇬",
-    "lat": 26.8206,
-    "lng": 30.8025,
-    "region": "Africa",
-    "animal": "Egyptian Cobra",
+    "slug": "egyptian-cobra",
+    "commonName": "Egyptian Cobra",
     "scientificName": "Naja haje",
-    "emoji": "🐍",
-    "classification": "Reptile",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Arid and semi-arid regions, cultivated areas, and rocky hillsides of North and East Africa",
-    "population": "Unknown (common)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Elapidae",
+      "genus": "Naja"
+    },
+    "iucnStatus": "LC",
+    "description": "The Egyptian Cobra (Naja haje) is a reptile indigenous to Egypt. It inhabits arid and semi-arid regions, cultivated areas, and rocky hillsides of north and east africa.",
+    "habitat": [
+      "arid and semi-arid regions",
+      "cultivated areas",
+      "and rocky hillsides of north and east africa"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 26.8206,
+        "lng": 30.8025,
+        "label": "Egypt"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Egyptian cobra can grow up to 2.5 meters (8 feet) long and raise a third of its body off the ground when threatened",
       "Its venom contains neurotoxins that can cause respiratory paralysis and death within hours if untreated",
       "The Egyptian cobra was sacred in ancient Egypt — the uraeus (rearing cobra) was a symbol of divine authority on pharaohs' crowns",
       "It is sometimes called the 'asp' and is believed by some historians to be the snake used by Cleopatra in her legendary death",
       "They are one of the most widespread cobra species in Africa, ranging from Morocco to Somalia"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Egyptian%20Cobra",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Egypt",
+    "flag": "🇪🇬",
+    "region": "Africa",
+    "animal": "Egyptian Cobra",
+    "emoji": "🐍",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Arid and semi-arid regions, cultivated areas, and rocky hillsides of North and East Africa",
+    "population": "Unknown (common)"
   },
   {
     "id": "ug",
-    "country": "Uganda",
-    "flag": "🇺🇬",
-    "lat": 1.3733,
-    "lng": 32.2903,
-    "region": "Africa",
-    "animal": "Mountain Gorilla",
+    "slug": "mountain-gorilla",
+    "commonName": "Mountain Gorilla",
     "scientificName": "Gorilla beringei beringei",
-    "emoji": "🦍",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Afromontane cloud forests of the Virunga Volcanoes and Bwindi Impenetrable Forest",
-    "population": "~1,063",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Gorilla"
+    },
+    "iucnStatus": "EN",
+    "description": "The Mountain Gorilla (Gorilla beringei beringei) is a mammal indigenous to Uganda. It inhabits afromontane cloud forests of the virunga volcanoes and bwindi impenetrable forest.",
+    "habitat": [
+      "afromontane cloud forests of the virunga volcanoes and bwindi impenetrable forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 35,
+      "max": 40,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 120,
+      "max": 220,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 1.3733,
+        "lng": 32.2903,
+        "label": "Uganda"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Mountain gorillas share 98.3% of their DNA with humans and are one of our closest living relatives",
       "Adult silverback males can weigh up to 220 kg (485 lbs) and are the leaders of gorilla family groups",
       "Mountain gorillas are the only great ape population that is increasing — a rare conservation success story",
       "Uganda's Bwindi Impenetrable National Park and Mgahinga Gorilla National Park protect roughly half of all mountain gorillas",
       "Each gorilla has a unique nose print, just as humans have unique fingerprints, used by researchers to identify individuals"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mountain%20Gorilla",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Uganda",
+    "flag": "🇺🇬",
+    "region": "Africa",
+    "animal": "Mountain Gorilla",
+    "emoji": "🦍",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Afromontane cloud forests of the Virunga Volcanoes and Bwindi Impenetrable Forest",
+    "population": "~1,063"
   },
   {
     "id": "na",
-    "country": "Namibia",
-    "flag": "🇳🇦",
-    "lat": -22.9576,
-    "lng": 18.4904,
-    "region": "Africa",
-    "animal": "Desert Elephant",
+    "slug": "desert-elephant",
+    "commonName": "Desert Elephant",
     "scientificName": "Loxodonta africana",
-    "emoji": "🐘",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Aid desert and semi-arid regions of northwestern Namibia (Damaraland and Kaokoveld)",
-    "population": "~150–200",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Proboscidea",
+      "family": "Elephantidae",
+      "genus": "Loxodonta"
+    },
+    "iucnStatus": "VU",
+    "description": "The Desert Elephant (Loxodonta africana) is a mammal indigenous to Namibia. It inhabits aid desert and semi-arid regions of northwestern namibia (damaraland and kaokoveld).",
+    "habitat": [
+      "aid desert and semi-arid regions of northwestern namibia (damaraland and kaokoveld)"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 60,
+      "max": 70,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2500,
+      "max": 6000,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -22.9576,
+        "lng": 18.4904,
+        "label": "Namibia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Desert elephants have adapted to survive in one of the harshest environments on Earth — the Namib Desert — with virtually no surface water",
       "They have wider footpads than other African elephants, adapted for walking on sandy desert terrain without sinking",
       "These elephants travel enormous distances — up to 70 km per day — between sparse water and food sources",
       "In Namibian culture, desert elephants symbolize resilience and the country's commitment to community-based conservation",
       "They can remember the locations of water sources across thousands of square kilometers, passing this knowledge between generations"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Desert%20Elephant",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Namibia",
+    "flag": "🇳🇦",
+    "region": "Africa",
+    "animal": "Desert Elephant",
+    "emoji": "🐘",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Aid desert and semi-arid regions of northwestern Namibia (Damaraland and Kaokoveld)",
+    "population": "~150–200"
   },
   {
     "id": "bw",
-    "country": "Botswana",
-    "flag": "🇧🇼",
-    "lat": -22.3285,
-    "lng": 24.6849,
-    "region": "Africa",
-    "animal": "African Wild Dog",
+    "slug": "african-wild-dog",
+    "commonName": "African Wild Dog",
     "scientificName": "Lycaon pictus",
-    "emoji": "🐕",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Savannas, grasslands, and woodland areas with sufficient prey",
-    "population": "~6,600 (total, ~800–900 in Botswana)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Lycaon"
+    },
+    "iucnStatus": "EN",
+    "description": "The African Wild Dog (Lycaon pictus) is a mammal indigenous to Botswana. It inhabits savannas, grasslands, and woodland areas with sufficient prey.",
+    "habitat": [
+      "savannas",
+      "grasslands",
+      "and woodland areas with sufficient prey"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 12,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 17,
+      "max": 36,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -22.3285,
+        "lng": 24.6849,
+        "label": "Botswana"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "African wild dogs have the highest hunting success rate of any large carnivore — approximately 80% of their hunts are successful",
       "Their scientific name Lycaon pictus means 'painted wolf,' referring to each dog's unique coat pattern — no two are alike",
       "With only about 6,600 adults remaining in the wild, they are one of Africa's most endangered carnivores",
       "Botswana is one of the last strongholds for African wild dogs, with significant populations in the Okavango Delta and Chobe regions",
       "They are the most social of all canids, sharing food with sick or injured pack members and regurgitating for pups"
-    ]
-  },
-  {
-    "id": "ma",
-    "country": "Morocco",
-    "flag": "🇲🇦",
-    "lat": 31.7917,
-    "lng": -7.0926,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/African%20Wild%20Dog",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Botswana",
+    "flag": "🇧🇼",
     "region": "Africa",
-    "animal": "Barbary Macaque",
-    "scientificName": "Macaca sylvanus",
-    "emoji": "🐵",
+    "animal": "African Wild Dog",
+    "emoji": "🐕",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Atlas cedar and oak forests of the Rif and Atlas Mountains of Morocco",
-    "population": "~10,000–12,000",
+    "habitatOld": "Savannas, grasslands, and woodland areas with sufficient prey",
+    "population": "~6,600 (total, ~800–900 in Botswana)"
+  },
+  {
+    "id": "ma",
+    "slug": "barbary-macaque",
+    "commonName": "Barbary Macaque",
+    "scientificName": "Macaca sylvanus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Macaca"
+    },
+    "iucnStatus": "EN",
+    "description": "The Barbary Macaque (Macaca sylvanus) is a mammal indigenous to Morocco. It inhabits atlas cedar and oak forests of the rif and atlas mountains of morocco.",
+    "habitat": [
+      "atlas cedar and oak forests of the rif and atlas mountains of morocco"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 5,
+      "max": 14,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 31.7917,
+        "lng": -7.0926,
+        "label": "Morocco"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Barbary macaque is the only macaque species found in Africa — all other macaques are native to Asia",
       "They are the only free-living primates in Europe, with a small population in Gibraltar descended from Moroccan introductions",
       "Their population has declined by over 50% in the last 30 years due to habitat loss and the illegal pet trade",
       "In Moroccan culture, the 'Gibraltar apes' are historically associated with the Rock of Gibraltar and appear in local folklore",
       "Unlike most primates, Barbary macaques have a relatively egalitarian social structure with less rigid dominance hierarchies"
-    ]
-  },
-  {
-    "id": "et",
-    "country": "Ethiopia",
-    "flag": "🇪🇹",
-    "lat": 9.145,
-    "lng": 40.4897,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Barbary%20Macaque",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Morocco",
+    "flag": "🇲🇦",
     "region": "Africa",
-    "animal": "Ethiopian Wolf",
-    "scientificName": "Canis simensis",
-    "emoji": "🐺",
+    "animal": "Barbary Macaque",
+    "emoji": "🐵",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Alpine moorlands and afroalpine grasslands above 3,000 meters in the Ethiopian Highlands",
-    "population": "~366",
+    "habitatOld": "Atlas cedar and oak forests of the Rif and Atlas Mountains of Morocco",
+    "population": "~10,000–12,000"
+  },
+  {
+    "id": "et",
+    "slug": "ethiopian-wolf",
+    "commonName": "Ethiopian Wolf",
+    "scientificName": "Canis simensis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis"
+    },
+    "iucnStatus": "EN",
+    "description": "The Ethiopian Wolf (Canis simensis) is a mammal indigenous to Ethiopia. It inhabits alpine moorlands and afroalpine grasslands above 3,000 meters in the ethiopian highlands.",
+    "habitat": [
+      "alpine moorlands and afroalpine grasslands above 3",
+      "000 meters in the ethiopian highlands"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 8,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 11,
+      "max": 19,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 9.145,
+        "lng": 40.4897,
+        "label": "Ethiopia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Ethiopian wolf is the rarest canid in the world and Africa's only wolf species",
       "They are specialized hunters of the big-headed mole-rat, which makes up about 90% of their diet in the Bale Mountains",
       "With only about 366 adults remaining, they are one of the most endangered carnivores on the planet",
       "In Ethiopian culture, the wolf (key kebero, 'red jackal') appears in highland folklore and is a symbol of the unique Bale Mountains ecosystem",
       "They live in family-based packs with a dominant breeding pair, but hunt alone — unusual among social canids"
-    ]
-  },
-  {
-    "id": "rw",
-    "country": "Rwanda",
-    "flag": "🇷🇼",
-    "lat": -1.9403,
-    "lng": 29.8739,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ethiopian%20Wolf",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Ethiopia",
+    "flag": "🇪🇹",
     "region": "Africa",
-    "animal": "Golden Monkey",
-    "scientificName": "Cercopithecus kandti",
-    "emoji": "🐒",
+    "animal": "Ethiopian Wolf",
+    "emoji": "🐺",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Bamboo forests of the Virunga Volcanic Mountains at 2,200–3,800 meters",
-    "population": "~3,000–4,000",
+    "habitatOld": "Alpine moorlands and afroalpine grasslands above 3,000 meters in the Ethiopian Highlands",
+    "population": "~366"
+  },
+  {
+    "id": "rw",
+    "slug": "golden-monkey",
+    "commonName": "Golden Monkey",
+    "scientificName": "Cercopithecus kandti",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Cercopithecus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Golden Monkey (Cercopithecus kandti) is a mammal indigenous to Rwanda. It inhabits bamboo forests of the virunga volcanic mountains at 2,200–3,800 meters.",
+    "habitat": [
+      "bamboo forests of the virunga volcanic mountains at 2",
+      "200–3",
+      "800 meters"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4,
+      "max": 9,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -1.9403,
+        "lng": 29.8739,
+        "label": "Rwanda"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Golden monkeys have striking bright orange-gold fur on their backs and tails contrasting with dark limbs and faces",
       "They live in troops of 30–80 individuals and are among the most social of the guenon monkeys",
       "Endemic to the Virunga Mountains shared by Rwanda, Uganda, and DR Congo, with the largest population in Rwanda's Volcanoes National Park",
       "Rwanda's golden monkey trekking has become a significant ecotourism draw, complementing the famous mountain gorilla tours",
       "They feed primarily on young bamboo shoots, leaves, and fruit — spending most of their day foraging in the canopy"
-    ]
-  },
-  {
-    "id": "cg",
-    "country": "Congo",
-    "flag": "🇨🇬",
-    "lat": -4.0383,
-    "lng": 21.7587,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Golden%20Monkey",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Rwanda",
+    "flag": "🇷🇼",
     "region": "Africa",
-    "animal": "Bonobo",
-    "scientificName": "Pan paniscus",
-    "emoji": "🐵",
+    "animal": "Golden Monkey",
+    "emoji": "🐒",
     "classification": "Mammal",
     "conservationStatus": "Endangered",
     "indigenous": true,
-    "habitat": "Primary and secondary moist tropical forests south of the Congo River",
-    "population": "~10,000–50,000",
+    "habitatOld": "Bamboo forests of the Virunga Volcanic Mountains at 2,200–3,800 meters",
+    "population": "~3,000–4,000"
+  },
+  {
+    "id": "cg",
+    "slug": "bonobo",
+    "commonName": "Bonobo",
+    "scientificName": "Pan paniscus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Pan"
+    },
+    "iucnStatus": "EN",
+    "description": "The Bonobo (Pan paniscus) is a mammal indigenous to Congo. It inhabits primary and secondary moist tropical forests south of the congo river.",
+    "habitat": [
+      "primary and secondary moist tropical forests south of the congo river"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 30,
+      "max": 60,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -4.0383,
+        "lng": 21.7587,
+        "label": "Congo"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Bonobos share 98.7% of their DNA with humans and are chimpanzees' closest relatives, often called 'pygmy chimpanzees'",
       "They are distinguished from chimpanzees by their matriarchal societies, peaceful conflict resolution, and remarkable social intelligence",
       "Found only in the Democratic Republic of the Congo, bonobos are Endangered due to poaching and habitat destruction",
       "Bonobos are known for using social bonding and sexual behavior to resolve conflicts — a unique trait among great apes",
       "They are one of the few animals besides humans observed making and using tools in multiple contexts"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Bonobo",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Congo",
+    "flag": "🇨🇬",
+    "region": "Africa",
+    "animal": "Bonobo",
+    "emoji": "🐵",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Primary and secondary moist tropical forests south of the Congo River",
+    "population": "~10,000–50,000"
   },
   {
     "id": "gb",
-    "country": "United Kingdom",
-    "flag": "🇬🇧",
-    "lat": 55.3781,
-    "lng": -3.436,
-    "region": "Europe",
-    "animal": "Red Fox",
+    "slug": "red-fox",
+    "commonName": "Red Fox",
     "scientificName": "Vulpes vulpes",
-    "emoji": "🦊",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Diverse habitats including urban areas, farmland, woodland, and coastal regions",
-    "population": "~240,000 (UK)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes"
+    },
+    "iucnStatus": "LC",
+    "description": "The Red Fox (Vulpes vulpes) is a mammal indigenous to United Kingdom. It inhabits diverse habitats including urban areas, farmland, woodland, and coastal regions.",
+    "habitat": [
+      "diverse habitats including urban areas",
+      "farmland",
+      "woodland",
+      "and coastal regions"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 5,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 11,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 55.3781,
+        "lng": -3.436,
+        "label": "United Kingdom"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Red foxes have an extraordinary range — they are found across the entire Northern Hemisphere, from the Arctic Circle to North Africa",
       "They use Earth's magnetic field to hunt, pouncing on prey with a northeast-facing orientation to improve accuracy",
       "The UK red fox population is stable and abundant, with urban foxes now commonly seen in London and other major cities",
       "Fox hunting has been a deeply controversial topic in British culture for centuries, with the Hunting Act banning it in 2004",
       "Red foxes can make over 40 different vocalizations, including screams, barks, and gekkering sounds"
-    ]
-  },
-  {
-    "id": "fr",
-    "country": "France",
-    "flag": "🇫🇷",
-    "lat": 46.2276,
-    "lng": 2.2137,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Red%20Fox",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
     "region": "Europe",
-    "animal": "European Badger",
-    "scientificName": "Meles meles",
-    "emoji": "🦡",
+    "animal": "Red Fox",
+    "emoji": "🦊",
     "classification": "Mammal",
     "conservationStatus": "Least Concern",
     "indigenous": true,
-    "habitat": "Deciduous and mixed woodlands, hedgerows, and pastureland across Europe",
-    "population": "~500,000 (France)",
+    "habitatOld": "Diverse habitats including urban areas, farmland, woodland, and coastal regions",
+    "population": "~240,000 (UK)"
+  },
+  {
+    "id": "fr",
+    "slug": "european-badger",
+    "commonName": "European Badger",
+    "scientificName": "Meles meles",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Meles"
+    },
+    "iucnStatus": "LC",
+    "description": "The European Badger (Meles meles) is a mammal indigenous to France. It inhabits deciduous and mixed woodlands, hedgerows, and pastureland across europe.",
+    "habitat": [
+      "deciduous and mixed woodlands",
+      "hedgerows",
+      "and pastureland across europe"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 14,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 7,
+      "max": 17,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 46.2276,
+        "lng": 2.2137,
+        "label": "France"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "European badgers live in extensive underground tunnel systems called setts, some of which have been continuously occupied for hundreds of years",
       "A single sett can have over 50 entrances and extend up to 100 meters underground with multiple chambers",
       "France's badger population is stable, though they face localized threats from road collisions and culling related to bovine tuberculosis control",
       "In French folklore, 'le blaireau' is associated with stubbornness and determination — the French word 'blairaut' means 'to smell out' something",
       "Badgers are incredibly clean animals — they regularly change their bedding material and build dedicated latrines away from their sleeping chambers"
-    ]
-  },
-  {
-    "id": "de",
-    "country": "Germany",
-    "flag": "🇩🇪",
-    "lat": 51.1657,
-    "lng": 10.4515,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European%20Badger",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "France",
+    "flag": "🇫🇷",
     "region": "Europe",
-    "animal": "European Beaver",
-    "scientificName": "Castor fiber",
-    "emoji": "🦫",
+    "animal": "European Badger",
+    "emoji": "🦡",
     "classification": "Mammal",
     "conservationStatus": "Least Concern",
     "indigenous": true,
-    "habitat": "Freshwater rivers, streams, and lakes with riparian woodland",
-    "population": "~25,000 (Germany)",
+    "habitatOld": "Deciduous and mixed woodlands, hedgerows, and pastureland across Europe",
+    "population": "~500,000 (France)"
+  },
+  {
+    "id": "de",
+    "slug": "european-beaver",
+    "commonName": "European Beaver",
+    "scientificName": "Castor fiber",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Rodentia",
+      "family": "Castoridae",
+      "genus": "Castor"
+    },
+    "iucnStatus": "LC",
+    "description": "The European Beaver (Castor fiber) is a mammal indigenous to Germany. It inhabits freshwater rivers, streams, and lakes with riparian woodland.",
+    "habitat": [
+      "freshwater rivers",
+      "streams",
+      "and lakes with riparian woodland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 11,
+      "max": 30,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 51.1657,
+        "lng": 10.4515,
+        "label": "Germany"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The European beaver was hunted to near extinction by the early 20th century but has made a remarkable comeback across Germany",
       "Germany now has the largest European beaver population in the EU thanks to successful reintroduction programs",
       "They build smaller, more inconspicuous dams than their North American cousins, preferring to burrow into riverbanks",
       "The German word for beaver, 'Biber,' is the root of 'Biberach' and other German place names where beavers were historically common",
       "A beaver's incisors never stop growing and are self-sharpening — the orange enamel front is harder than the white dentin behind it"
-    ]
-  },
-  {
-    "id": "se",
-    "country": "Sweden",
-    "flag": "🇸🇪",
-    "lat": 60.1282,
-    "lng": 18.6435,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European%20Beaver",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Germany",
+    "flag": "🇩🇪",
     "region": "Europe",
-    "animal": "European Elk (Moose)",
-    "scientificName": "Alces alces",
-    "emoji": "🫎",
+    "animal": "European Beaver",
+    "emoji": "🦫",
     "classification": "Mammal",
     "conservationStatus": "Least Concern",
     "indigenous": true,
-    "habitat": "Boreal and temperate forests, wetlands, and marshy areas",
-    "population": "~300,000–400,000",
+    "habitatOld": "Freshwater rivers, streams, and lakes with riparian woodland",
+    "population": "~25,000 (Germany)"
+  },
+  {
+    "id": "se",
+    "slug": "european-elk-moose",
+    "commonName": "European Elk (Moose)",
+    "scientificName": "Alces alces",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Alces"
+    },
+    "iucnStatus": "LC",
+    "description": "The European Elk (Moose) (Alces alces) is a mammal indigenous to Sweden. It inhabits boreal and temperate forests, wetlands, and marshy areas.",
+    "habitat": [
+      "boreal and temperate forests",
+      "wetlands",
+      "and marshy areas"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 700,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 60.1282,
+        "lng": 18.6435,
+        "label": "Sweden"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The moose (called 'älg' in Swedish) is the largest member of the deer family, with males weighing up to 700 kg (1,540 lbs)",
       "Sweden has one of the highest moose densities in the world, with an estimated 300,000–400,000 animals",
       "Moose are excellent swimmers and can dive up to 6 meters underwater to feed on aquatic plants",
       "Moose hunting is a deeply ingrained Swedish tradition — the annual moose hunt (älgjakten) in autumn is a major cultural event",
       "Despite their size, moose can run at speeds up to 56 km/h (35 mph) and are surprisingly agile in forest terrain"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European%20Elk%20(Moose)",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Sweden",
+    "flag": "🇸🇪",
+    "region": "Europe",
+    "animal": "European Elk (Moose)",
+    "emoji": "🫎",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Boreal and temperate forests, wetlands, and marshy areas",
+    "population": "~300,000–400,000"
   },
   {
     "id": "no",
-    "country": "Norway",
-    "flag": "🇳🇴",
-    "lat": 60.472,
-    "lng": 8.4689,
-    "region": "Europe",
-    "animal": "Atlantic Puffin",
+    "slug": "atlantic-puffin",
+    "commonName": "Atlantic Puffin",
     "scientificName": "Fratercula arctica",
-    "emoji": "🐧",
-    "classification": "Bird",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Coastal cliffs and offshore islands of the North Atlantic",
-    "population": "~2–3 million (Norway)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Alcidae",
+      "genus": "Fratercula"
+    },
+    "iucnStatus": "VU",
+    "description": "The Atlantic Puffin (Fratercula arctica) is a bird indigenous to Norway. It inhabits coastal cliffs and offshore islands of the north atlantic.",
+    "habitat": [
+      "coastal cliffs and offshore islands of the north atlantic"
+    ],
+    "diet": "Piscivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.3,
+      "max": 0.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 60.472,
+        "lng": 8.4689,
+        "label": "Norway"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Atlantic puffins can hold 10–12 fish in their bills simultaneously, arranged neatly crosswise — a feat made possible by backward-facing spines on their tongue and palate",
       "Their colorful beaks are not permanent — they shed the outer layers after breeding season, revealing a duller winter beak",
       "Norway has the world's largest Atlantic puffin colony on Runde Island, with over 500,000 breeding pairs",
       "Puffins mate for life and return to the same burrow each year — they can live up to 25+ years",
       "Norwegians sometimes call them 'lunde' and they feature prominently in Norwegian coastal culture and tourism"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Atlantic%20Puffin",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Norway",
+    "flag": "🇳🇴",
+    "region": "Europe",
+    "animal": "Atlantic Puffin",
+    "emoji": "🐧",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Coastal cliffs and offshore islands of the North Atlantic",
+    "population": "~2–3 million (Norway)"
   },
   {
     "id": "es",
-    "country": "Spain",
-    "flag": "🇪🇸",
-    "lat": 40.4637,
-    "lng": -3.7492,
-    "region": "Europe",
-    "animal": "Iberian Lynx",
+    "slug": "iberian-lynx",
+    "commonName": "Iberian Lynx",
     "scientificName": "Lynx pardinus",
-    "emoji": "🐱",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Mediterranean scrubland and open forest of the Iberian Peninsula",
-    "population": "~1,100–1,200",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Lynx"
+    },
+    "iucnStatus": "EN",
+    "description": "The Iberian Lynx (Lynx pardinus) is a mammal indigenous to Spain. It inhabits mediterranean scrubland and open forest of the iberian peninsula.",
+    "habitat": [
+      "mediterranean scrubland and open forest of the iberian peninsula"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 7,
+      "max": 15,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 40.4637,
+        "lng": -3.7492,
+        "label": "Spain"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Iberian lynx is the world's most endangered feline species and is endemic to the Iberian Peninsula",
       "It has distinctive ear tufts and prominent 'sideburns' (cheek ruffs) that give it a uniquely regal appearance",
       "Brought back from the brink of extinction — only 94 individuals remained in 2002, now over 1,100 thanks to intensive conservation programs",
       "In Spanish culture, the lynx (lince) was once a symbol of the wild Iberian landscape and appears in ancient cave paintings",
       "They specialize in hunting European rabbits, which make up 80–90% of their diet, making rabbit population crashes especially devastating"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Iberian%20Lynx",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "region": "Europe",
+    "animal": "Iberian Lynx",
+    "emoji": "🐱",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Mediterranean scrubland and open forest of the Iberian Peninsula",
+    "population": "~1,100–1,200"
   },
   {
     "id": "it",
-    "country": "Italy",
-    "flag": "🇮🇹",
-    "lat": 41.8719,
-    "lng": 12.5674,
-    "region": "Europe",
-    "animal": "Alpine Ibex",
+    "slug": "alpine-ibex",
+    "commonName": "Alpine Ibex",
     "scientificName": "Capra ibex",
-    "emoji": "🐐",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Rocky mountain terrain above the tree line in the European Alps",
-    "population": "~60,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Capra"
+    },
+    "iucnStatus": "LC",
+    "description": "The Alpine Ibex (Capra ibex) is a mammal indigenous to Italy. It inhabits rocky mountain terrain above the tree line in the european alps.",
+    "habitat": [
+      "rocky mountain terrain above the tree line in the european alps"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 65,
+      "max": 100,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 41.8719,
+        "lng": 12.5674,
+        "label": "Italy"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Alpine ibex are legendary climbers — they can scale near-vertical dam walls up to 60° to lick salt deposits from the concrete",
       "Males (known as 'steinböcke') grow magnificent curved horns up to 1 meter long, used in dominance displays during rutting season",
       "Hunted to near extinction by the 1800s, the species was saved by King Victor Emmanuel II of Italy who established a royal hunting reserve in Gran Paradiso",
       "Gran Paradiso National Park, Italy's oldest national park, was created in 1922 specifically to protect the Alpine ibex",
       "They can jump over 2 meters vertically and 6 meters horizontally — remarkable agility for animals that can weigh over 100 kg"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Alpine%20Ibex",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "region": "Europe",
+    "animal": "Alpine Ibex",
+    "emoji": "🐐",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Rocky mountain terrain above the tree line in the European Alps",
+    "population": "~60,000"
   },
   {
     "id": "gr",
-    "country": "Greece",
-    "flag": "🇬🇷",
-    "lat": 39.0742,
-    "lng": 21.8243,
-    "region": "Europe",
-    "animal": "Mediterranean Monk Seal",
+    "slug": "mediterranean-monk-seal",
+    "commonName": "Mediterranean Monk Seal",
     "scientificName": "Monachus monachus",
-    "emoji": "🦭",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Coastal waters, sea caves, and remote beaches of the Mediterranean",
-    "population": "~300–400 (in Greece, ~700 total worldwide)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Phocidae",
+      "genus": "Monachus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Mediterranean Monk Seal (Monachus monachus) is a mammal indigenous to Greece. It inhabits coastal waters, sea caves, and remote beaches of the mediterranean.",
+    "habitat": [
+      "coastal waters",
+      "sea caves",
+      "and remote beaches of the mediterranean"
+    ],
+    "diet": "Piscivore",
+    "lifespan": {
+      "min": 25,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 300,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 39.0742,
+        "lng": 21.8243,
+        "label": "Greece"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Mediterranean monk seal is one of the rarest marine mammals on Earth, with fewer than 700 individuals remaining worldwide",
       "They are one of only two remaining monk seal species — the Caribbean monk seal went extinct in the 1950s",
       "Greece hosts the largest surviving population, particularly around the Aegean and Ionian islands",
       "In ancient Greece, the monk seal was protected by the god Poseidon and appears in Homeric writings — Aristotle described them in his biological works",
       "They give birth in sea caves — a unique adaptation that helped them survive but now makes them vulnerable to human disturbance of coastal habitats"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mediterranean%20Monk%20Seal",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "region": "Europe",
+    "animal": "Mediterranean Monk Seal",
+    "emoji": "🦭",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Coastal waters, sea caves, and remote beaches of the Mediterranean",
+    "population": "~300–400 (in Greece, ~700 total worldwide)"
   },
   {
     "id": "pl",
-    "country": "Poland",
-    "flag": "🇵🇱",
-    "lat": 51.9194,
-    "lng": 19.1451,
-    "region": "Europe",
-    "animal": "European Bison",
+    "slug": "european-bison",
+    "commonName": "European Bison",
     "scientificName": "Bison bonasus",
-    "emoji": "🐃",
-    "classification": "Mammal",
-    "conservationStatus": "Near Threatened",
-    "indigenous": true,
-    "habitat": "Deciduous and mixed forests, lowland and mountainous areas",
-    "population": "~2,300 (Poland, ~7,000 worldwide)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bison"
+    },
+    "iucnStatus": "NT",
+    "description": "The European Bison (Bison bonasus) is a mammal indigenous to Poland. It inhabits deciduous and mixed forests, lowland and mountainous areas.",
+    "habitat": [
+      "deciduous and mixed forests",
+      "lowland and mountainous areas"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 400,
+      "max": 920,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 51.9194,
+        "lng": 19.1451,
+        "label": "Poland"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The European bison is the heaviest surviving wild land animal in Europe, with bulls weighing up to 920 kg (2,030 lbs)",
       "They were driven to extinction in the wild by 1927 but were successfully reintroduced from zoo-bred animals starting in the 1950s",
       "Poland's Białowieża Forest is home to the largest free-living European bison herd and is one of Europe's last primeval forests",
       "In Polish culture, the żubr is a national symbol of strength and appears on the logo of Polska Wielka (Poland's heritage brand)",
       "All living European bison descend from just 12 founders — making them genetically one of the most bottlenecked large mammals"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European%20Bison",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Poland",
+    "flag": "🇵🇱",
+    "region": "Europe",
+    "animal": "European Bison",
+    "emoji": "🐃",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "indigenous": true,
+    "habitatOld": "Deciduous and mixed forests, lowland and mountainous areas",
+    "population": "~2,300 (Poland, ~7,000 worldwide)"
   },
   {
     "id": "ro",
-    "country": "Romania",
-    "flag": "🇷🇴",
-    "lat": 45.9432,
-    "lng": 24.9668,
-    "region": "Europe",
-    "animal": "Carpathian Brown Bear",
+    "slug": "carpathian-brown-bear",
+    "commonName": "Carpathian Brown Bear",
     "scientificName": "Ursus arctos",
-    "emoji": "🐻",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Dense forests of the Carpathian Mountains, from foothills to alpine zones",
-    "population": "~6,000–8,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ursus"
+    },
+    "iucnStatus": "LC",
+    "description": "The Carpathian Brown Bear (Ursus arctos) is a mammal indigenous to Romania. It inhabits dense forests of the carpathian mountains, from foothills to alpine zones.",
+    "habitat": [
+      "dense forests of the carpathian mountains",
+      "from foothills to alpine zones"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 100,
+      "max": 350,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 45.9432,
+        "lng": 24.9668,
+        "label": "Romania"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Carpathian Mountains hold the largest contiguous brown bear population in Europe outside Russia",
       "Romania's bear population has grown so much that human-bear encounters in Transylvania have become a significant conservation challenge",
       "Despite being the same species as grizzly bears (Ursus arctos), European brown bears are less aggressive and more skittish around humans",
       "In Romanian folklore, the bear (ursul) is a central figure — 'Capcaun' is a mythical bear-like creature said to kidnap children",
       "They can eat up to 40 kg (90 lbs) of food per day in autumn to build fat reserves for hibernation lasting 3–7 months"
-    ]
-  },
-  {
-    "id": "au",
-    "country": "Australia",
-    "flag": "🇦🇺",
-    "lat": -25.2744,
-    "lng": 133.7751,
-    "region": "Oceania",
-    "animal": "Red Kangaroo",
-    "scientificName": "Osphranter rufus",
-    "emoji": "🦘",
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Carpathian%20Brown%20Bear",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Romania",
+    "flag": "🇷🇴",
+    "region": "Europe",
+    "animal": "Carpathian Brown Bear",
+    "emoji": "🐻",
     "classification": "Mammal",
     "conservationStatus": "Least Concern",
     "indigenous": true,
-    "habitat": "Arid and semi-arid central Australian deserts and grasslands",
-    "population": "~10–15 million",
+    "habitatOld": "Dense forests of the Carpathian Mountains, from foothills to alpine zones",
+    "population": "~6,000–8,000"
+  },
+  {
+    "id": "au",
+    "slug": "red-kangaroo",
+    "commonName": "Red Kangaroo",
+    "scientificName": "Osphranter rufus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Macropodidae",
+      "genus": "Osphranter"
+    },
+    "iucnStatus": "LC",
+    "description": "The Red Kangaroo (Osphranter rufus) is a mammal indigenous to Australia. It inhabits arid and semi-arid central australian deserts and grasslands.",
+    "habitat": [
+      "arid and semi-arid central australian deserts and grasslands"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 12,
+      "max": 18,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 55,
+      "max": 90,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -25.2744,
+        "lng": 133.7751,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The red kangaroo is the largest living marsupial — males can reach 2 meters tall and weigh up to 90 kg (200 lbs)",
       "They can hop at speeds up to 70 km/h (43 mph) and leap over 3 meters (9 feet) in a single bound",
       "Australia's kangaroo population is abundant and actually increasing — they are the most numerous large wild mammal on the continent",
       "The red kangaroo appears on Australia's coat of arms alongside the emu, chosen because neither animal can walk backwards — symbolizing a forward-looking nation",
       "Females can pause their pregnancy at the embryo stage (embryonic diapause) until conditions are favorable for raising a joey"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Red%20Kangaroo",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Australia",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "animal": "Red Kangaroo",
+    "emoji": "🦘",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Arid and semi-arid central Australian deserts and grasslands",
+    "population": "~10–15 million"
   },
   {
     "id": "nz",
-    "country": "New Zealand",
-    "flag": "🇳🇿",
-    "lat": -40.9006,
-    "lng": 174.886,
-    "region": "Oceania",
-    "animal": "Kiwi",
+    "slug": "kiwi",
+    "commonName": "Kiwi",
     "scientificName": "Apteryx mantelli",
-    "emoji": "🥝",
-    "classification": "Bird",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Dense native forests, scrubland, and coastal areas of New Zealand's North Island",
-    "population": "~25,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Apterygiformes",
+      "family": "Apterygidae",
+      "genus": "Apteryx"
+    },
+    "iucnStatus": "VU",
+    "description": "The Kiwi (Apteryx mantelli) is a bird indigenous to New Zealand. It inhabits dense native forests, scrubland, and coastal areas of new zealand's north island.",
+    "habitat": [
+      "dense native forests",
+      "scrubland",
+      "and coastal areas of new zealand's north island"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 25,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 3.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -40.9006,
+        "lng": 174.886,
+        "label": "New Zealand"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Kiwis are the only birds with nostrils at the tip of their beak, using an exceptional sense of smell to find underground insects",
       "They lay the largest egg relative to body size of any bird — a kiwi egg is about 20% of the mother's body weight",
       "Despite being birds, kiwis have more in common with mammals — they have bone marrow, whisker-like feathers, and poor eyesight but excellent hearing",
       "The kiwi is New Zealand's national icon and the informal term for a New Zealander — it appears on coins, stamps, and the national rugby team emblem",
       "Before human arrival, New Zealand had no land mammals — kiwis evolved to fill ecological niches that mammals occupy elsewhere"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Kiwi",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "New Zealand",
+    "flag": "🇳🇿",
+    "region": "Oceania",
+    "animal": "Kiwi",
+    "emoji": "🥝",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Dense native forests, scrubland, and coastal areas of New Zealand's North Island",
+    "population": "~25,000"
   },
   {
     "id": "pg",
-    "country": "Papua New Guinea",
-    "flag": "🇵🇬",
-    "lat": -6.3149,
-    "lng": 143.9556,
-    "region": "Oceania",
-    "animal": "Tree Kangaroo",
+    "slug": "tree-kangaroo",
+    "commonName": "Tree Kangaroo",
     "scientificName": "Dendrolagus",
-    "emoji": "🦘",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical montane forests and cloud forests of New Guinea at 1,000–3,000 meters",
-    "population": "Varies by species (some <100)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Macropodidae",
+      "genus": "Dendrolagus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Tree Kangaroo (Dendrolagus) is a mammal indigenous to Papua New Guinea. It inhabits tropical montane forests and cloud forests of new guinea at 1,000–3,000 meters.",
+    "habitat": [
+      "tropical montane forests and cloud forests of new guinea at 1",
+      "000–3",
+      "000 meters"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 6,
+      "max": 15,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -6.3149,
+        "lng": 143.9556,
+        "label": "Papua New Guinea"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Tree kangaroos are the only marsupials adapted to life in the canopy — they can leap up to 9 meters (30 feet) between trees",
       "Papua New Guinea is home to 10 of the 14 tree kangaroo species, several of which were only recently discovered by science",
       "They move differently than ground kangaroos — walking on two legs and using their tail for balance rather than hopping",
       "Tree kangaroos are culturally significant to PNG's indigenous communities and feature in traditional stories and ceremonies",
       "Many species are Critically Endangered due to habitat loss and hunting, with some species numbering fewer than 100 individuals"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Tree%20Kangaroo",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Papua New Guinea",
+    "flag": "🇵🇬",
+    "region": "Oceania",
+    "animal": "Tree Kangaroo",
+    "emoji": "🦘",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical montane forests and cloud forests of New Guinea at 1,000–3,000 meters",
+    "population": "Varies by species (some <100)"
   },
   {
     "id": "fj",
-    "country": "Fiji",
-    "flag": "🇫🇯",
-    "lat": -17.7134,
-    "lng": 178.065,
-    "region": "Oceania",
-    "animal": "Banded Iguana",
+    "slug": "banded-iguana",
+    "commonName": "Banded Iguana",
     "scientificName": "Brachylophus fasciatus",
-    "emoji": "🦎",
-    "classification": "Reptile",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical dry forests and coastal forests of the Fiji Islands",
-    "population": "~10,000–15,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Brachylophus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Banded Iguana (Brachylophus fasciatus) is a reptile indigenous to Fiji. It inhabits tropical dry forests and coastal forests of the fiji islands.",
+    "habitat": [
+      "tropical dry forests and coastal forests of the fiji islands"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.1,
+      "max": 0.3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -17.7134,
+        "lng": 178.065,
+        "label": "Fiji"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Banded iguanas are among the most colorful lizards in the world — males have bright emerald green bands contrasting with pale blue bands",
       "They are one of the few iguana species found outside the Americas — their ancestors likely rafted across the Pacific Ocean millions of years ago",
       "Endemic to Fiji, they are found on fewer than 15 islands and are Endangered due to habitat destruction and invasive species",
       "In Fijian culture, iguanas were historically considered sacred (tabu) in some communities and were not to be harmed",
       "Males display their bright colors during territorial disputes and courtship by bobbing their heads and changing their band patterns"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Banded%20Iguana",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Fiji",
+    "flag": "🇫🇯",
+    "region": "Oceania",
+    "animal": "Banded Iguana",
+    "emoji": "🦎",
+    "classification": "Reptile",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical dry forests and coastal forests of the Fiji Islands",
+    "population": "~10,000–15,000"
   },
   {
     "id": "ws",
-    "country": "Samoa",
-    "flag": "🇼🇸",
-    "lat": -13.759,
-    "lng": -172.1046,
-    "region": "Oceania",
-    "animal": "Samoan Flying Fox",
+    "slug": "samoan-flying-fox",
+    "commonName": "Samoan Flying Fox",
     "scientificName": "Pteropus tonganus",
-    "emoji": "🦇",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Tropical moist forests and coastal areas of the Samoan archipelago",
-    "population": "Unknown (declining)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Chiroptera",
+      "family": "Pteropodidae",
+      "genus": "Pteropus"
+    },
+    "iucnStatus": "LC",
+    "description": "The Samoan Flying Fox (Pteropus tonganus) is a mammal indigenous to Samoa. It inhabits tropical moist forests and coastal areas of the samoan archipelago.",
+    "habitat": [
+      "tropical moist forests and coastal areas of the samoan archipelago"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.4,
+      "max": 0.8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -13.759,
+        "lng": -172.1046,
+        "label": "Samoa"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Samoan flying fox is one of the largest bat species with a wingspan of up to 1.5 meters (5 feet)",
       "Despite their name, they don't actually fly — they glide using a membrane stretched between elongated finger bones, the same structure as all bats",
       "Flying foxes are crucial pollinators and seed dispersers for tropical forests — many tree species depend entirely on bats for reproduction",
       "In Samoan culture, the flying fox (pe'a) is a traditional food source and appears in Samoan tattoo (tatau) motifs",
       "They navigate using excellent eyesight rather than echolocation, making them 'megabats' distinct from the smaller insect-eating microbats"
-    ]
-  },
-  {
-    "id": "to",
-    "country": "Tonga",
-    "flag": "🇹🇴",
-    "lat": -21.1785,
-    "lng": -175.1982,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Samoan%20Flying%20Fox",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Samoa",
+    "flag": "🇼🇸",
     "region": "Oceania",
-    "animal": "Tongan Fruit Bat",
-    "scientificName": "Pteropus tonganus",
+    "animal": "Samoan Flying Fox",
     "emoji": "🦇",
     "classification": "Mammal",
     "conservationStatus": "Least Concern",
     "indigenous": true,
-    "habitat": "Tropical forests and coastal areas of the Tongan archipelago",
-    "population": "Unknown (declining)",
+    "habitatOld": "Tropical moist forests and coastal areas of the Samoan archipelago",
+    "population": "Unknown (declining)"
+  },
+  {
+    "id": "to",
+    "slug": "tongan-fruit-bat",
+    "commonName": "Tongan Fruit Bat",
+    "scientificName": "Pteropus tonganus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Chiroptera",
+      "family": "Pteropodidae",
+      "genus": "Pteropus"
+    },
+    "iucnStatus": "LC",
+    "description": "The Tongan Fruit Bat (Pteropus tonganus) is a mammal indigenous to Tonga. It inhabits tropical forests and coastal areas of the tongan archipelago.",
+    "habitat": [
+      "tropical forests and coastal areas of the tongan archipelago"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.4,
+      "max": 0.8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -21.1785,
+        "lng": -175.1982,
+        "label": "Tonga"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Tongan fruit bat (known locally as 'peka') has a wingspan of over 1 meter and is one of the most visible animals in Tonga",
       "They roost in large colonies of hundreds to thousands of individuals in tall trees, creating a spectacular sight at dusk",
       "Fruit bats are the only native land mammals remaining in Tonga — all other native mammals are marine species",
       "In Tongan culture, fruit bats were traditionally hunted as a delicacy and featured in Tongan royal feasts",
       "They play a vital ecological role by pollinating tropical flowers and dispersing seeds across the islands"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Tongan%20Fruit%20Bat",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Tonga",
+    "flag": "🇹🇴",
+    "region": "Oceania",
+    "animal": "Tongan Fruit Bat",
+    "emoji": "🦇",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Tropical forests and coastal areas of the Tongan archipelago",
+    "population": "Unknown (declining)"
   },
   {
     "id": "is",
-    "country": "Iceland",
-    "flag": "🇮🇸",
-    "lat": 64.9631,
-    "lng": -19.0208,
-    "region": "Europe",
-    "animal": "Atlantic Puffin",
+    "slug": "atlantic-puffin",
+    "commonName": "Atlantic Puffin",
     "scientificName": "Fratercula arctica",
-    "emoji": "🐧",
-    "classification": "Bird",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Coastal cliffs, sea stacks, and islands of the North Atlantic",
-    "population": "~3–4 million (Iceland)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Charadriiformes",
+      "family": "Alcidae",
+      "genus": "Fratercula"
+    },
+    "iucnStatus": "VU",
+    "description": "The Atlantic Puffin (Fratercula arctica) is a bird indigenous to Iceland. It inhabits coastal cliffs, sea stacks, and islands of the north atlantic.",
+    "habitat": [
+      "coastal cliffs",
+      "sea stacks",
+      "and islands of the north atlantic"
+    ],
+    "diet": "Piscivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.3,
+      "max": 0.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 64.9631,
+        "lng": -19.0208,
+        "label": "Iceland"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Iceland is home to the world's largest Atlantic puffin colony — approximately 60% of all Atlantic puffins breed in Iceland",
       "Puffins can flap their wings up to 400 times per minute to achieve flight, despite their small, stocky bodies",
       "Iceland's puffin population has been declining in recent years due to climate change affecting their prey fish populations",
       "Puffins (lundi in Icelandic) are beloved in Icelandic culture — they appear on souvenirs, stamps, and in the famous puffin-watching tours of Vestmannaeyjar",
       "Icelandic pufflings sometimes get confused by town lights and need to be rescued by locals — an annual tradition in some towns"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Atlantic%20Puffin",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Iceland",
+    "flag": "🇮🇸",
+    "region": "Europe",
+    "animal": "Atlantic Puffin",
+    "emoji": "🐧",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Coastal cliffs, sea stacks, and islands of the North Atlantic",
+    "population": "~3–4 million (Iceland)"
   },
   {
     "id": "mv",
-    "country": "Maldives",
-    "flag": "🇲🇻",
-    "lat": 3.2028,
-    "lng": 73.2207,
-    "region": "Asia",
-    "animal": "Whale Shark",
+    "slug": "whale-shark",
+    "commonName": "Whale Shark",
     "scientificName": "Rhincodon typus",
-    "emoji": "🦈",
-    "classification": "Fish",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Open oceans and coastal areas with high plankton productivity",
-    "population": "~7,000–10,000 (Indian Ocean)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Orectolobiformes",
+      "family": "Rhincodontidae",
+      "genus": "Rhincodon"
+    },
+    "iucnStatus": "EN",
+    "description": "The Whale Shark (Rhincodon typus) is a fish indigenous to Maldives. It inhabits open oceans and coastal areas with high plankton productivity.",
+    "habitat": [
+      "open oceans and coastal areas with high plankton productivity"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 70,
+      "max": 100,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 15000,
+      "max": 21000,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 3.2028,
+        "lng": 73.2207,
+        "label": "Maldives"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The whale shark is the largest fish in the sea, reaching lengths of up to 18 meters (59 feet) — as long as a school bus",
       "Despite their enormous size, they are gentle filter feeders that consume mainly plankton, fish eggs, and small fish",
       "Upgraded to Endangered status in 2016 due to population declines from fishing, ship strikes, and bycatch",
       "The Maldives is one of the world's best places to see whale sharks, particularly in the South Ari Atoll where they are year-round residents",
       "Each whale shark has a unique pattern of spots, like a fingerprint, used by researchers to identify individual sharks"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Whale%20Shark",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Maldives",
+    "flag": "🇲🇻",
+    "region": "Asia",
+    "animal": "Whale Shark",
+    "emoji": "🦈",
+    "classification": "Fish",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Open oceans and coastal areas with high plankton productivity",
+    "population": "~7,000–10,000 (Indian Ocean)"
   },
   {
     "id": "pf",
-    "country": "French Polynesia",
-    "flag": "🇵🇫",
-    "lat": -17.6797,
-    "lng": -149.4068,
-    "region": "Oceania",
-    "animal": "Tahitian Monarch",
+    "slug": "tahitian-monarch",
+    "commonName": "Tahitian Monarch",
     "scientificName": "Pomarea nigra",
-    "emoji": "🐦",
-    "classification": "Bird",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Native forests with dense undergrowth on Tahiti island",
-    "population": "~50–80",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Monarchidae",
+      "genus": "Pomarea"
+    },
+    "iucnStatus": "CR",
+    "description": "The Tahitian Monarch (Pomarea nigra) is a bird indigenous to French Polynesia. It inhabits native forests with dense undergrowth on tahiti island.",
+    "habitat": [
+      "native forests with dense undergrowth on tahiti island"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 8,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 20,
+      "max": 28,
+      "unit": "g"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -17.6797,
+        "lng": -149.4068,
+        "label": "French Polynesia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Tahitian monarch is one of the rarest birds in the world, with only 50–80 individuals remaining in the wild",
       "This small flycatcher is found only on the island of Tahiti and nowhere else in the world",
       "Intensive conservation efforts including rat control and invasive species management are the only things preventing its extinction",
       "Known locally as 'omama'o,' the Tahitian monarch is a powerful symbol of French Polynesia's unique and threatened endemic biodiversity",
       "Females lay only one egg per breeding season, making population recovery agonizingly slow"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Tahitian%20Monarch",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "French Polynesia",
+    "flag": "🇵🇫",
+    "region": "Oceania",
+    "animal": "Tahitian Monarch",
+    "emoji": "🐦",
+    "classification": "Bird",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Native forests with dense undergrowth on Tahiti island",
+    "population": "~50–80"
   },
   {
     "id": "gu",
-    "country": "Guam",
-    "flag": "🇬🇺",
-    "lat": 13.4443,
-    "lng": 144.7937,
-    "region": "Oceania",
-    "animal": "Mariana Fruit Bat",
+    "slug": "mariana-fruit-bat",
+    "commonName": "Mariana Fruit Bat",
     "scientificName": "Pteropus mariannus",
-    "emoji": "🦇",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Tropical forests on Guam and the Northern Mariana Islands",
-    "population": "~400–500 (Guam)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Chiroptera",
+      "family": "Pteropodidae",
+      "genus": "Pteropus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Mariana Fruit Bat (Pteropus mariannus) is a mammal indigenous to Guam. It inhabits tropical forests on guam and the northern mariana islands.",
+    "habitat": [
+      "tropical forests on guam and the northern mariana islands"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.4,
+      "max": 1,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": 13.4443,
+        "lng": 144.7937,
+        "label": "Guam"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Mariana fruit bat (fanihi in Chamorro) was once abundant on Guam but was devastated by the invasive brown tree snake, which arrived after WWII",
       "They have a wingspan of nearly 1 meter and are the only native mammal of Guam",
       "The brown tree snake decimated Guam's native bird and bat populations after being accidentally introduced in the 1940s–1950s",
       "In Chamorro culture, fanihi is a traditional delicacy and is prepared in special coconut milk dishes for cultural gatherings",
       "Conservation efforts include captive breeding programs and snake control to help restore the population"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mariana%20Fruit%20Bat",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Guam",
+    "flag": "🇬🇺",
+    "region": "Oceania",
+    "animal": "Mariana Fruit Bat",
+    "emoji": "🦇",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Tropical forests on Guam and the Northern Mariana Islands",
+    "population": "~400–500 (Guam)"
   },
   {
     "id": "nc",
-    "country": "New Caledonia",
-    "flag": "🇳🇨",
-    "lat": -22.2763,
-    "lng": 166.4481,
-    "region": "Oceania",
-    "animal": "Kagu",
+    "slug": "kagu",
+    "commonName": "Kagu",
     "scientificName": "Rhynochetos jubatus",
-    "emoji": "🐦",
-    "classification": "Bird",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Dense humid forests of New Caledonia's main island, Grande Terre",
-    "population": "~600–1,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Rhynochetidae",
+      "genus": "Rhynochetos"
+    },
+    "iucnStatus": "EN",
+    "description": "The Kagu (Rhynochetos jubatus) is a bird indigenous to New Caledonia. It inhabits dense humid forests of new caledonia's main island, grande terre.",
+    "habitat": [
+      "dense humid forests of new caledonia's main island",
+      "grande terre"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.7,
+      "max": 1.1,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -22.2763,
+        "lng": 166.4481,
+        "label": "New Caledonia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The kagu is a flightless bird endemic to New Caledonia — it is the only surviving member of its entire family Rhynochetidae",
       "It has unique 'nasal corns' — no other bird species has these nostril coverings, giving the kagu one of the most advanced senses of smell among birds",
       "Despite being unable to fly, the kagu has fully developed wings it uses for dramatic threat displays and balancing while running through the forest",
       "Known as 'cagou' locally, it is the national bird of New Caledonia and appears on the territory's coat of arms and banknotes",
       "They form monogamous pairs that share chick-rearing duties and maintain the same territory for many years"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Kagu",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "New Caledonia",
+    "flag": "🇳🇨",
+    "region": "Oceania",
+    "animal": "Kagu",
+    "emoji": "🐦",
+    "classification": "Bird",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Dense humid forests of New Caledonia's main island, Grande Terre",
+    "population": "~600–1,000"
   },
   {
     "id": "cx",
-    "country": "Christmas Island",
-    "flag": "🇨🇽",
-    "lat": -10.4475,
-    "lng": 105.6904,
-    "region": "Asia",
-    "animal": "Christmas Island Red Crab",
+    "slug": "christmas-island-red-crab",
+    "commonName": "Christmas Island Red Crab",
     "scientificName": "Gecarcoidea natalis",
-    "emoji": "🦀",
-    "classification": "Crustacean",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Tropical rainforests of Christmas Island in the Indian Ocean",
-    "population": "~40–50 million",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Gecarcinidae",
+      "genus": "Gecarcoidea"
+    },
+    "iucnStatus": "LC",
+    "description": "The Christmas Island Red Crab (Gecarcoidea natalis) is a crustacean indigenous to Christmas Island. It inhabits tropical rainforests of christmas island in the indian ocean.",
+    "habitat": [
+      "tropical rainforests of christmas island in the indian ocean"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 500,
+      "unit": "g"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": -10.4475,
+        "lng": 105.6904,
+        "label": "Christmas Island"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Each year, up to 50 million red crabs migrate simultaneously from the forest to the ocean to breed — one of nature's most spectacular mass migrations",
       "The migration is so massive that bridges and roads are closed, and special crab tunnels and fences are built to protect them",
       "Christmas Island is an Australian territory and the red crab migration is one of the island's biggest tourist attractions",
       "Red crabs play a vital role in the island's ecosystem by recycling nutrients and maintaining the forest floor",
       "Baby crabs that survive the ocean phase return to land and make their way back to the forest — a journey of several kilometers"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Christmas%20Island%20Red%20Crab",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Christmas Island",
+    "flag": "🇨🇽",
+    "region": "Asia",
+    "animal": "Christmas Island Red Crab",
+    "emoji": "🦀",
+    "classification": "Crustacean",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforests of Christmas Island in the Indian Ocean",
+    "population": "~40–50 million"
   },
   {
     "id": "sa",
-    "country": "Saudi Arabia",
-    "flag": "🇸🇦",
-    "lat": 23.8859,
-    "lng": 45.0792,
-    "region": "Middle East",
-    "animal": "Arabian Oryx",
+    "slug": "arabian-oryx",
+    "commonName": "Arabian Oryx",
     "scientificName": "Oryx leucoryx",
-    "emoji": "🦌",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Desert and steppe regions of the Arabian Peninsula",
-    "population": "~1,220 (wild), ~6,000–7,000 (total)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Oryx"
+    },
+    "iucnStatus": "VU",
+    "description": "The Arabian Oryx (Oryx leucoryx) is a mammal indigenous to Saudi Arabia. It inhabits desert and steppe regions of the arabian peninsula.",
+    "habitat": [
+      "desert and steppe regions of the arabian peninsula"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 65,
+      "max": 80,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 23.8859,
+        "lng": 45.0792,
+        "label": "Saudi Arabia"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Arabian oryx is famously known as the animal that inspired the legend of the unicorn — when viewed in profile, its two long, straight horns can appear as one",
       "It was the first species to be reclassified from 'Extinct in the Wild' (1972) to 'Vulnerable' thanks to successful captive breeding and reintroduction programs",
       "They can detect rainfall from over 100 km away and will travel to newly vegetated areas to feed",
       "The Arabian oryx holds deep cultural significance in Saudi Arabia and the Gulf — it is the national animal of the UAE, Oman, and Jordan",
       "Their brilliant white coat reflects the harsh desert sun, and their wide hooves allow them to walk on sand without sinking"
-    ]
-  },
-  {
-    "id": "ae",
-    "country": "United Arab Emirates",
-    "flag": "🇦🇪",
-    "lat": 23.4241,
-    "lng": 53.8478,
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Arabian%20Oryx",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Saudi Arabia",
+    "flag": "🇸🇦",
     "region": "Middle East",
-    "animal": "Arabian Sand Gazelle",
-    "scientificName": "Gazella marica",
+    "animal": "Arabian Oryx",
     "emoji": "🦌",
     "classification": "Mammal",
     "conservationStatus": "Vulnerable",
     "indigenous": true,
-    "habitat": "Sandy and stony deserts, gravel plains, and coastal sabkhas of the Arabian Peninsula",
-    "population": "~10,000",
+    "habitatOld": "Desert and steppe regions of the Arabian Peninsula",
+    "population": "~1,220 (wild), ~6,000–7,000 (total)"
+  },
+  {
+    "id": "ae",
+    "slug": "arabian-sand-gazelle",
+    "commonName": "Arabian Sand Gazelle",
+    "scientificName": "Gazella marica",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Gazella"
+    },
+    "iucnStatus": "VU",
+    "description": "The Arabian Sand Gazelle (Gazella marica) is a mammal indigenous to United Arab Emirates. It inhabits sandy and stony deserts, gravel plains, and coastal sabkhas of the arabian peninsula.",
+    "habitat": [
+      "sandy and stony deserts",
+      "gravel plains",
+      "and coastal sabkhas of the arabian peninsula"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 12,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 15,
+      "max": 20,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 23.4241,
+        "lng": 53.8478,
+        "label": "United Arab Emirates"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Arabian sand gazelle (reem in Arabic) is one of the most desert-adapted antelopes, capable of surviving without drinking water",
       "They obtain all the moisture they need from the plants they eat and can concentrate their urine to minimize water loss",
       "The UAE has been a global leader in gazelle conservation through breeding programs at the Arabian Wildlife Center and protected reserves",
       "The reem gazelle appears in ancient Arabic poetry and is a symbol of grace and beauty in Gulf culture",
       "They are incredibly fast, reaching speeds of up to 80 km/h (50 mph) to escape predators in open desert terrain"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Arabian%20Sand%20Gazelle",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "region": "Middle East",
+    "animal": "Arabian Sand Gazelle",
+    "emoji": "🦌",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Sandy and stony deserts, gravel plains, and coastal sabkhas of the Arabian Peninsula",
+    "population": "~10,000"
   },
   {
     "id": "om",
-    "country": "Oman",
-    "flag": "🇴🇲",
-    "lat": 21.4735,
-    "lng": 55.9754,
-    "region": "Middle East",
-    "animal": "Arabian Tahr",
+    "slug": "arabian-tahr",
+    "commonName": "Arabian Tahr",
     "scientificName": "Arabitragus jayakari",
-    "emoji": "🐐",
-    "classification": "Mammal",
-    "conservationStatus": "Endangered",
-    "indigenous": true,
-    "habitat": "Rugged mountain terrain of the Hajar Mountains in northern Oman and the UAE",
-    "population": "~2,500",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Arabitragus"
+    },
+    "iucnStatus": "EN",
+    "description": "The Arabian Tahr (Arabitragus jayakari) is a mammal indigenous to Oman. It inhabits rugged mountain terrain of the hajar mountains in northern oman and the uae.",
+    "habitat": [
+      "rugged mountain terrain of the hajar mountains in northern oman and the uae"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 10,
+      "max": 14,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 17,
+      "max": 25,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 21.4735,
+        "lng": 55.9754,
+        "label": "Oman"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Arabian tahr is one of the most endangered large mammals in the Arabian Peninsula, found only in the Hajar Mountains",
       "It is the smallest member of the goat family (Caprinae), weighing only 17–25 kg and standing just 60 cm tall at the shoulder",
       "They have rubbery hooves that provide excellent grip on steep, rocky mountain slopes that would defeat most other animals",
       "In Oman, the tahr is a symbol of the country's mountain heritage and is protected in several nature reserves including Wadi Sareen",
       "Unlike many mountain goats, they drink water regularly from mountain streams and springs, making water access critical to their survival"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Arabian%20Tahr",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Oman",
+    "flag": "🇴🇲",
+    "region": "Middle East",
+    "animal": "Arabian Tahr",
+    "emoji": "🐐",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "indigenous": true,
+    "habitatOld": "Rugged mountain terrain of the Hajar Mountains in northern Oman and the UAE",
+    "population": "~2,500"
   },
   {
     "id": "il",
-    "country": "Israel",
-    "flag": "🇮🇱",
-    "lat": 31.0461,
-    "lng": 34.8516,
-    "region": "Middle East",
-    "animal": "Nubian Ibex",
+    "slug": "nubian-ibex",
+    "commonName": "Nubian Ibex",
     "scientificName": "Capra nubiana",
-    "emoji": "🐐",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Rocky mountainous terrain and desert cliffs of the Negev Desert and Dead Sea region",
-    "population": "~1,000 (Israel)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Capra"
+    },
+    "iucnStatus": "VU",
+    "description": "The Nubian Ibex (Capra nubiana) is a mammal indigenous to Israel. It inhabits rocky mountainous terrain and desert cliffs of the negev desert and dead sea region.",
+    "habitat": [
+      "rocky mountainous terrain and desert cliffs of the negev desert and dead sea region"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 10,
+      "max": 17,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 40,
+      "max": 75,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 31.0461,
+        "lng": 34.8516,
+        "label": "Israel"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Nubian ibex are extraordinary climbers — they can scale near-vertical cliff faces and balance on impossibly narrow ledges",
       "Males have impressive curved horns that can grow up to 1.2 meters (4 feet) long, used in dramatic head-butting contests during mating season",
       "Israel's ibex population has rebounded thanks to strict conservation laws — they are now commonly seen near Ein Gedi and Masada",
       "The ibex is mentioned in the Bible and appears in ancient Near Eastern rock art — they have been part of the region's wildlife for millennia",
       "They can survive in extreme desert heat by resting in shade during the hottest hours and feeding at dawn and dusk"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Nubian%20Ibex",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Israel",
+    "flag": "🇮🇱",
+    "region": "Middle East",
+    "animal": "Nubian Ibex",
+    "emoji": "🐐",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Rocky mountainous terrain and desert cliffs of the Negev Desert and Dead Sea region",
+    "population": "~1,000 (Israel)"
   },
   {
     "id": "jo",
-    "country": "Jordan",
-    "flag": "🇯🇴",
-    "lat": 30.5852,
-    "lng": 36.2384,
-    "region": "Middle East",
-    "animal": "Sand Cat",
+    "slug": "sand-cat",
+    "commonName": "Sand Cat",
     "scientificName": "Felis margarita",
-    "emoji": "🐱",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Sandy and stony deserts, arid shrubland, and rocky plains",
-    "population": "Unknown (patchy distribution)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Felis"
+    },
+    "iucnStatus": "LC",
+    "description": "The Sand Cat (Felis margarita) is a mammal indigenous to Jordan. It inhabits sandy and stony deserts, arid shrubland, and rocky plains.",
+    "habitat": [
+      "sandy and stony deserts",
+      "arid shrubland",
+      "and rocky plains"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 13,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 3.3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 30.5852,
+        "lng": 36.2384,
+        "label": "Jordan"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The sand cat is the only wild cat that lives primarily in true deserts — it can survive in temperatures ranging from -5°C to 58°C (23°F to 136°F)",
       "They have fur-covered paw pads that act like natural snowshoes on hot sand and protect against extreme desert temperatures",
       "Sand cats are remarkably skilled diggers — they dig burrows to escape the heat and can rapidly bury their prey in sand for later",
       "In Jordan's Wadi Rum desert, sand cats are rarely seen due to their nocturnal and secretive nature — they are sometimes called 'ghost cats'",
       "They are the smallest wild cat species in their range, weighing only 1.5–3.3 kg (3–7 lbs), roughly the size of a domestic cat"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sand%20Cat",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Jordan",
+    "flag": "🇯🇴",
+    "region": "Middle East",
+    "animal": "Sand Cat",
+    "emoji": "🐱",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Sandy and stony deserts, arid shrubland, and rocky plains",
+    "population": "Unknown (patchy distribution)"
   },
   {
     "id": "ye",
-    "country": "Yemen",
-    "flag": "🇾🇪",
-    "lat": 15.5527,
-    "lng": 48.5164,
-    "region": "Middle East",
-    "animal": "Arabian Leopard",
+    "slug": "arabian-leopard",
+    "commonName": "Arabian Leopard",
     "scientificName": "Panthera pardus nimr",
-    "emoji": "🐆",
-    "classification": "Mammal",
-    "conservationStatus": "Critically Endangered",
-    "indigenous": true,
-    "habitat": "Mountainous terrain, rocky outcrops, and semi-arid valleys of the Arabian Peninsula",
-    "population": "~45–80",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "CR",
+    "description": "The Arabian Leopard (Panthera pardus nimr) is a mammal indigenous to Yemen. It inhabits mountainous terrain, rocky outcrops, and semi-arid valleys of the arabian peninsula.",
+    "habitat": [
+      "mountainous terrain",
+      "rocky outcrops",
+      "and semi-arid valleys of the arabian peninsula"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 17,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 20,
+      "max": 30,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 15.5527,
+        "lng": 48.5164,
+        "label": "Yemen"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The Arabian leopard is the smallest leopard subspecies and one of the rarest big cats on Earth — fewer than 100 may remain",
       "They are Critically Endangered with populations fragmented across Yemen, Oman, and Saudi Arabia",
       "Historically found across the entire Arabian Peninsula, they now survive only in tiny, isolated populations in mountainous regions",
       "In Yemeni culture, the Arabian leopard (nimr) is a symbol of strength and grace, appearing in traditional poetry and folklore",
       "They are incredibly adaptable hunters, capable of taking prey up to three times their own body weight up into trees"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Arabian%20Leopard",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Yemen",
+    "flag": "🇾🇪",
+    "region": "Middle East",
+    "animal": "Arabian Leopard",
+    "emoji": "🐆",
+    "classification": "Mammal",
+    "conservationStatus": "Critically Endangered",
+    "indigenous": true,
+    "habitatOld": "Mountainous terrain, rocky outcrops, and semi-arid valleys of the Arabian Peninsula",
+    "population": "~45–80"
   },
   {
     "id": "sj",
-    "country": "Svalbard",
-    "flag": "🇳🇴",
-    "lat": 78.2232,
-    "lng": 15.6267,
-    "region": "Arctic",
-    "animal": "Polar Bear",
+    "slug": "polar-bear",
+    "commonName": "Polar Bear",
     "scientificName": "Ursus maritimus",
-    "emoji": "🐻‍❄️",
-    "classification": "Mammal",
-    "conservationStatus": "Vulnerable",
-    "indigenous": true,
-    "habitat": "Arctic sea ice, coastal areas, and tundra regions",
-    "population": "~2,500–3,000 (Barents Sea population)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Ursus"
+    },
+    "iucnStatus": "VU",
+    "description": "The Polar Bear (Ursus maritimus) is a mammal indigenous to Svalbard. It inhabits arctic sea ice, coastal areas, and tundra regions.",
+    "habitat": [
+      "arctic sea ice",
+      "coastal areas",
+      "and tundra regions"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 25,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 350,
+      "max": 700,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Arctic"
+    ],
+    "coordinates": [
+      {
+        "lat": 78.2232,
+        "lng": 15.6267,
+        "label": "Svalbard"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Polar bears are the largest land carnivores — males can weigh up to 700 kg (1,540 lbs) and measure 3 meters long",
       "Their fur is not actually white — each hair shaft is clear and hollow, scattering light to appear white while the skin underneath is black",
       "Svalbard has one of the highest densities of polar bears in the world, with roughly 3,000 bears in the Barents Sea population",
       "Polar bears are an iconic symbol of the Arctic and the impact of climate change — their sea ice habitat is shrinking at alarming rates",
       "They can smell seals from up to 32 km (20 miles) away and can detect prey under a meter of ice"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Polar%20Bear",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Svalbard",
+    "flag": "🇳🇴",
+    "region": "Arctic",
+    "animal": "Polar Bear",
+    "emoji": "🐻‍❄️",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "indigenous": true,
+    "habitatOld": "Arctic sea ice, coastal areas, and tundra regions",
+    "population": "~2,500–3,000 (Barents Sea population)"
   },
   {
     "id": "aq",
-    "country": "Antarctica",
-    "flag": "🇦🇶",
-    "lat": -82.8628,
-    "lng": 135,
-    "region": "Antarctic",
-    "animal": "Emperor Penguin",
+    "slug": "emperor-penguin",
+    "commonName": "Emperor Penguin",
     "scientificName": "Aptenodytes forsteri",
-    "emoji": "🐧",
-    "classification": "Bird",
-    "conservationStatus": "Near Threatened",
-    "indigenous": true,
-    "habitat": "Sea ice and surrounding cold Antarctic waters",
-    "population": "~595,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Sphenisciformes",
+      "family": "Spheniscidae",
+      "genus": "Aptenodytes"
+    },
+    "iucnStatus": "NT",
+    "description": "The Emperor Penguin (Aptenodytes forsteri) is a bird indigenous to Antarctica. It inhabits sea ice and surrounding cold antarctic waters.",
+    "habitat": [
+      "sea ice and surrounding cold antarctic waters"
+    ],
+    "diet": "Piscivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 22,
+      "max": 45,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Antarctic"
+    ],
+    "coordinates": [
+      {
+        "lat": -82.8628,
+        "lng": 135,
+        "label": "Antarctica"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "Emperor penguins are the tallest and heaviest of all penguin species, standing up to 1.2 meters (4 feet) tall and weighing up to 45 kg",
       "They breed during the harsh Antarctic winter, with males incubating eggs on their feet for 65 days in temperatures as low as -60°C (-76°F)",
       "They can dive to depths of over 500 meters (1,640 feet) and hold their breath for more than 20 minutes — the deepest and longest of any bird",
       "Emperor penguins were made globally famous by the documentary 'March of the Penguins' (2005), which won an Academy Award",
       "They huddle in groups of thousands to conserve heat, taking turns rotating from the cold outside to the warm center of the group"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Emperor%20Penguin",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Antarctica",
+    "flag": "🇦🇶",
+    "region": "Antarctic",
+    "animal": "Emperor Penguin",
+    "emoji": "🐧",
+    "classification": "Bird",
+    "conservationStatus": "Near Threatened",
+    "indigenous": true,
+    "habitatOld": "Sea ice and surrounding cold Antarctic waters",
+    "population": "~595,000"
   },
   {
     "id": "gl",
-    "country": "Greenland",
-    "flag": "🇬🇱",
-    "lat": 71.7069,
-    "lng": -42.6043,
-    "region": "Arctic",
-    "animal": "Narwhal",
+    "slug": "narwhal",
+    "commonName": "Narwhal",
     "scientificName": "Monodon monoceros",
-    "emoji": "🐋",
-    "classification": "Mammal",
-    "conservationStatus": "Least Concern",
-    "indigenous": true,
-    "habitat": "Arctic and sub-Arctic waters, particularly around sea ice and deep fjords",
-    "population": "~80,000",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetartiodactyla",
+      "family": "Monodontidae",
+      "genus": "Monodon"
+    },
+    "iucnStatus": "LC",
+    "description": "The Narwhal (Monodon monoceros) is a mammal indigenous to Greenland. It inhabits arctic and sub-arctic waters, particularly around sea ice and deep fjords.",
+    "habitat": [
+      "arctic and sub-arctic waters",
+      "particularly around sea ice and deep fjords"
+    ],
+    "diet": "Piscivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 800,
+      "max": 1600,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Arctic"
+    ],
+    "coordinates": [
+      {
+        "lat": 71.7069,
+        "lng": -42.6043,
+        "label": "Greenland"
+      }
+    ],
+    "images": [],
     "funFacts": [
       "The narwhal's iconic 'tusk' is actually an elongated canine tooth that spirals counterclockwise up to 3 meters (10 feet) long — it is found almost exclusively on males",
       "Their tusk contains up to 10 million nerve endings and may function as a sensory organ to detect changes in water salinity, temperature, and pressure",
       "Narwhals are one of the deepest-diving marine mammals, capable of diving to depths of 1,500 meters (4,900 feet) and staying submerged for 25 minutes",
       "In Greenlandic Inuit culture, narwhals are deeply important — narwhal meat (mattak) is a traditional food and the tusks have been traded for centuries",
       "Medieval Europeans believed narwhal tusks were unicorn horns, making them among the most valuable objects in the world — even more precious than gold"
-    ]
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Narwhal",
+    "updatedAt": "2026-04-16T00:00:00Z",
+    "country": "Greenland",
+    "flag": "🇬🇱",
+    "region": "Arctic",
+    "animal": "Narwhal",
+    "emoji": "🐋",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "indigenous": true,
+    "habitatOld": "Arctic and sub-Arctic waters, particularly around sea ice and deep fjords",
+    "population": "~80,000"
   }
 ]

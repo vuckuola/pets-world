@@ -9,9 +9,13 @@ import { useMapStore, type MapStyleName } from "../store/useMapStore";
 import { useFilteredAnimals } from "../hooks/useAnimals";
 import { audioService } from "./AudioService";
 import { t } from "../lib/i18n";
+import { IUCN_CONFIG } from "../lib/iucn";
 import MapControls from "./MapControls";
-import MobileDetailPanel from "./MobileDetailPanel";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
+
+const STATUS_CODE: Record<string, string> = { 'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU', 'Near Threatened': 'NT', 'Least Concern': 'LC', 'Data Deficient': 'DD' };
+
+import MobileDetailPanel from "./MobileDetailPanel";
 
 const CONTINENT_COLORS: Record<string, string> = {
   "North America": "#f87171",
@@ -197,13 +201,12 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                 <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
                   {tr.classification[selected.classification as keyof typeof tr.classification] ?? selected.classification}
                 </div>
-                <div className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${
-                  selected.conservationStatus === 'Critically Endangered' ? 'bg-red-50 text-red-700' :
-                  selected.conservationStatus === 'Endangered' ? 'bg-orange-50 text-orange-700' :
-                  selected.conservationStatus === 'Vulnerable' ? 'bg-yellow-50 text-yellow-700' :
-                  selected.conservationStatus === 'Near Threatened' ? 'bg-blue-50 text-blue-700' :
-                  'bg-green-50 text-green-700'
-                }`}
+                <div
+                  className="text-[10px] px-2 py-0.5 rounded-full font-medium"
+                  style={{
+                    background: `${IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888'}20`,
+                    color: IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888',
+                  }}
                 >
                   {tr.conservation[selected.conservationStatus as keyof typeof tr.conservation] ?? selected.conservationStatus}
                 </div>
