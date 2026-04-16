@@ -4,11 +4,11 @@ import path from 'path'
 export default defineConfig({
   test: {
     environment: 'jsdom',
-    setupFiles: ['./app/test/setup.ts'],
+    setupFiles: ['./src/test/setup.ts'],
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
 })

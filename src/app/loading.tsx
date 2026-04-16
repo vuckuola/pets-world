@@ -1,6 +1,6 @@
 'use client'
-import { useMapStore } from './store/useMapStore'
-import { t } from './lib/i18n'
+import { useMapStore } from '../store/useMapStore'
+import { t } from '../lib/i18n'
 
 export default function Loading() {
   const { locale } = useMapStore()

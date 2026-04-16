@@ -2,14 +2,14 @@
 
 import { useState, useCallback } from "react";
 import { MapPin, Shuffle, Globe } from "lucide-react";
-import { t } from "./lib/i18n";
-import { countries, type AnimalEntry } from "./data/countries";
-import { useMapStore } from "./store/useMapStore";
-import { useFilteredAnimals } from "./hooks/useAnimals";
-import { audioService } from "./components/AudioService";
-import Sidebar from "./components/Sidebar";
-import MobileSidebar from "./components/MobileSidebar";
-import MapView from "./components/MapView";
+import { t } from "../lib/i18n";
+import { countries, type AnimalEntry } from "../data/countries";
+import { useMapStore } from "../store/useMapStore";
+import { useFilteredAnimals } from "../hooks/useAnimals";
+import { audioService } from "../components/AudioService";
+import Sidebar from "../components/Sidebar";
+import MobileSidebar from "../components/MobileSidebar";
+import MapView from "../components/MapView";
 
 const DEFAULT_VIEW = { longitude: 20, latitude: 20, zoom: 2 };
 
