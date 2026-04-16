@@ -52,16 +52,16 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
   const filtered = useFilteredAnimals();
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
   const hovered = hoveredId ? countries.find((c) => c.id === hoveredId) ?? null : null;
-  const { imageUrl, audioUrl, imageLoading, audioLoading } = useAnimalMedia(selected?.animal ?? null);
+  const { imageUrl, imageLoading } = useAnimalMedia(selected?.animal ?? null);
   const [playing, setPlaying] = useState(false);
   const [imgError, setImgError] = useState(false);
 
   const playSound = useCallback(() => {
-    if (!audioUrl) return;
+    if (!selected) return;
     setPlaying(true);
-    audioService.playAnimalSound(audioUrl);
-    setTimeout(() => setPlaying(false), 3000);
-  }, [audioUrl]);
+    audioService.playAnimalRepresentativeSound(selected.animal, selected.classification);
+    setTimeout(() => setPlaying(false), 2000);
+  }, [selected]);
 
   const onMarkerClick = useCallback((c: AnimalEntry) => {
     audioService.playClickSound();
@@ -189,13 +189,9 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                   <div className="font-medium text-zinc-700">{selected.animal}</div>
                   <div className="text-xs text-zinc-400 italic">{selected.scientificName}</div>
                 </div>
-                {audioUrl ? (
-                  <button onClick={playSound} className="w-9 h-9 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 transition-colors">
-                    {playing ? "🔊" : "🔈"}
-                  </button>
-                ) : !audioLoading ? null : (
-                  <span className="text-xs text-zinc-400">...</span>
-                )}
+                <button onClick={playSound} className="w-9 h-9 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 transition-colors">
+                  {playing ? "🔊" : "🔈"}
+                </button>
               </div>
               <div className="mt-2 flex items-center gap-2 flex-wrap">
                 <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">

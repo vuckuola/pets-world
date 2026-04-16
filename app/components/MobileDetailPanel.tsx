@@ -1,6 +1,6 @@
 "use client";
 
-import { X, Volume2, VolumeX, Loader2 } from "lucide-react";
+import { X, Volume2 } from "lucide-react";
 import { countries } from "../data/countries";
 import { useMapStore } from "../store/useMapStore";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
@@ -24,7 +24,7 @@ export default function MobileDetailPanel() {
   const { selectedId, setSelectedId, locale } = useMapStore();
   const tr = t(locale);
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
-  const { imageUrl, audioUrl, imageLoading, audioLoading } = useAnimalMedia(selected?.animal ?? null);
+  const { imageUrl, imageLoading } = useAnimalMedia(selected?.animal ?? null);
   const [playing, setPlaying] = useState(false);
   const [imgError, setImgError] = useState(false);
 
@@ -33,10 +33,10 @@ export default function MobileDetailPanel() {
   const color = CONTINENT_COLORS[selected.region] || "#6366f1";
 
   const playSound = () => {
-    if (!audioUrl) return;
+    if (!selected) return;
     setPlaying(true);
-    audioService.playAnimalSound(audioUrl);
-    setTimeout(() => setPlaying(false), 3000);
+    audioService.playAnimalRepresentativeSound(selected.animal, selected.classification);
+    setTimeout(() => setPlaying(false), 2000);
   };
 
   return (
@@ -46,12 +46,12 @@ export default function MobileDetailPanel() {
         onClick={() => setSelectedId(null)}
       />
       <div className="mobile-sidebar-animate absolute inset-x-0 bottom-0 max-h-[80vh] flex flex-col bg-white rounded-t-2xl overflow-hidden border-t border-zinc-200">
-        {/* Close button - 44px tap target */}
+        {/* Close button - larger, higher position */}
         <button
           onClick={() => setSelectedId(null)}
-          className="absolute top-3 right-3 z-10 w-11 h-11 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 active:bg-zinc-300 transition-colors"
+          className="absolute -top-1 right-3 z-20 w-12 h-12 flex items-center justify-center rounded-full bg-white shadow-md border border-zinc-200 hover:bg-zinc-100 active:bg-zinc-200 active:scale-95 transition-all"
         >
-          <X size={22} className="text-zinc-600" />
+          <X size={24} className="text-zinc-700" />
         </button>
 
         <div className="w-10 h-1 rounded-full bg-zinc-200 mx-auto mt-3 mb-1" />
@@ -88,17 +88,12 @@ export default function MobileDetailPanel() {
             {/* Sound button */}
             <button
               onClick={playSound}
-              disabled={!audioUrl && !audioLoading}
-              className="w-11 h-11 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 active:bg-zinc-300 disabled:opacity-30 transition-colors"
+              className="w-12 h-12 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 active:bg-zinc-300 transition-colors"
             >
-              {audioLoading ? (
-                <Loader2 size={18} className="text-zinc-400 animate-spin" />
-              ) : playing ? (
-                <Volume2 size={18} className="text-zinc-700" />
-              ) : audioUrl ? (
-                <Volume2 size={18} className="text-zinc-500" />
+              {playing ? (
+                <Volume2 size={20} className="text-blue-500 animate-pulse" />
               ) : (
-                <VolumeX size={18} className="text-zinc-300" />
+                <Volume2 size={20} className="text-zinc-500" />
               )}
             </button>
           </div>
