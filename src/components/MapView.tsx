@@ -263,9 +263,11 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
             latitude={hovered.lat}
             anchor="bottom"
             closeOnClick={false}
+            closeButton={false}
             onClose={() => setHoveredId(null)}
             offset={14}
             maxWidth="220px"
+            className="hidden md:block"
           >
             <div className="bg-white rounded-lg border border-zinc-200 shadow-md p-3 min-w-[160px]">
               <div className="font-semibold text-base flex items-center gap-2 text-zinc-800">
@@ -300,6 +302,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
             latitude={selected.lat}
             anchor="bottom"
             closeOnClick={false}
+            closeButton={false}
             onClose={() => setSelectedId(null)}
             maxWidth="320px"
             className="hidden md:block"

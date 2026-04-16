@@ -53,9 +53,10 @@ export default function MobileDetailPanel() {
         {/* Close button - larger, higher position */}
         <button
           onClick={() => setSelectedId(null)}
-          className="absolute -top-1 right-3 z-20 w-12 h-12 flex items-center justify-center rounded-full bg-white shadow-md border border-zinc-200 hover:bg-zinc-100 active:bg-zinc-200 active:scale-95 transition-all"
+          className="absolute -top-3 right-2 z-20 w-14 h-14 flex items-center justify-center rounded-full bg-white shadow-lg border-2 border-zinc-300 hover:bg-red-50 hover:border-red-200 active:bg-red-100 active:scale-95 transition-all"
+          aria-label={tr.close}
         >
-          <X size={24} className="text-zinc-700" />
+          <X size={28} className="text-zinc-700 hover:text-red-600 transition-colors" />
         </button>
 
         <div className="w-10 h-1 rounded-full bg-zinc-200 mx-auto mt-3 mb-1" />

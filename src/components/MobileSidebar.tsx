@@ -33,9 +33,10 @@ export default function MobileSidebar() {
     <>
       <button
         onClick={toggleMobileOpen}
-        className="md:hidden p-1.5 rounded-lg hover:bg-zinc-100 transition-colors duration-150"
+        className="md:hidden w-11 h-11 flex items-center justify-center rounded-lg hover:bg-zinc-100 active:bg-zinc-200 transition-colors"
+        aria-label={mobileOpen ? tr.close : undefined}
       >
-        {mobileOpen ? <X size={18} /> : <Menu size={18} />}
+        {mobileOpen ? <X size={22} /> : <Menu size={22} />}
       </button>
 
       {mobileOpen && (
@@ -45,7 +46,13 @@ export default function MobileSidebar() {
             onClick={() => setMobileOpen(false)}
           />
           <aside className="mobile-sidebar-animate absolute inset-x-0 bottom-0 max-h-[60vh] flex flex-col gap-3 p-4 bg-white rounded-t-2xl overflow-hidden border-t border-zinc-200">
-            <div className="w-10 h-1 rounded-full bg-zinc-200 mx-auto mb-1" />
+            <div className="flex items-center justify-between">
+              <div className="w-10 h-1 rounded-full bg-zinc-200" />
+              <button
+                onClick={() => setMobileOpen(false)}
+                className="rounded-full px-4 py-1.5 text-xs font-semibold bg-zinc-100 hover:bg-zinc-200 active:bg-zinc-300 transition-colors"
+              >{tr.done}</button>
+            </div>
             <div className="relative">
               <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400" />
               <input

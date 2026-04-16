@@ -126,8 +126,14 @@
   html {
     @apply font-sans;
   }
+  .maplibregl-popup {
+    overflow: visible !important;
+    z-index: 10 !important;
+  }
   .maplibregl-popup-content {
     @apply bg-transparent! shadow-none! p-0! rounded-none!;
+    overflow: visible !important;
+    border-radius: 12px;
   }
   .maplibregl-popup-tip {
     @apply hidden!;
