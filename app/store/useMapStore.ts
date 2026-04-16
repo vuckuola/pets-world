@@ -1,22 +1,26 @@
 import { create } from 'zustand'
 
+type MapStyleName = 'voyager' | 'dark' | 'satellite'
+
 interface MapStore {
   selectedId: string | null
   hoveredId: string | null
   sidebarHoveredId: string | null
   searchQuery: string
   activeRegion: string
-  mapStyle: 'dark' | 'voyager' | 'satellite'
+  mapStyle: MapStyleName
   mobileOpen: boolean
   setSelectedId: (id: string | null) => void
   setHoveredId: (id: string | null) => void
   setSidebarHoveredId: (id: string | null) => void
   setSearchQuery: (q: string) => void
   setActiveRegion: (r: string) => void
-  setMapStyle: (s: 'dark' | 'voyager' | 'satellite') => void
+  setMapStyle: (s: MapStyleName) => void
   setMobileOpen: (open: boolean) => void
   toggleMobileOpen: () => void
 }
+
+export type { MapStyleName }
 
 export const useMapStore = create<MapStore>((set) => ({
   selectedId: null,

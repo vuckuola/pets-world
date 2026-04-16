@@ -12,7 +12,7 @@ export const animalSchema = z.object({
   emoji: z.string(),
   classification: z.string(),
   conservationStatus: z.enum(['Least Concern', 'Near Threatened', 'Vulnerable', 'Endangered', 'Critically Endangered', 'Data Deficient']),
-  indigenous: z.literal(true),
+  indigenous: z.boolean(),
   funFacts: z.array(z.string()).length(5),
   habitat: z.string(),
   population: z.string(),
