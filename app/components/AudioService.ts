@@ -61,6 +61,15 @@ class AudioService {
       console.warn('[audio]', err)
     }
   }
+
+  playAnimalSound(url: string) {
+    try {
+      const audio = new Audio(url)
+      audio.play().catch(() => {})
+    } catch (err) {
+      console.warn('[audio]', err)
+    }
+  }
 }
 
 export const audioService = new AudioService()

@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useRef } from "react";
+import { useCallback, useRef, useState } from "react";
 import Map, { Marker, Popup, NavigationControl } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { MapRef } from "react-map-gl/maplibre";
@@ -9,6 +9,8 @@ import { useMapStore, type MapStyleName } from "../store/useMapStore";
 import { useFilteredAnimals } from "../hooks/useAnimals";
 import { audioService } from "./AudioService";
 import MapControls from "./MapControls";
+import MobileDetailPanel from "./MobileDetailPanel";
+import { useAnimalMedia } from "../hooks/useAnimalMedia";
 
 const CONTINENT_COLORS: Record<string, string> = {
   "North America": "#f87171",
@@ -46,9 +48,18 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
     setSelectedId, setHoveredId, setMobileOpen,
   } = useMapStore();
   const filtered = useFilteredAnimals();
-
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
   const hovered = hoveredId ? countries.find((c) => c.id === hoveredId) ?? null : null;
+  const { imageUrl, audioUrl, imageLoading, audioLoading } = useAnimalMedia(selected?.animal ?? null);
+  const [playing, setPlaying] = useState(false);
+  const [imgError, setImgError] = useState(false);
+
+  const playSound = useCallback(() => {
+    if (!audioUrl) return;
+    setPlaying(true);
+    audioService.playAnimalSound(audioUrl);
+    setTimeout(() => setPlaying(false), 3000);
+  }, [audioUrl]);
 
   const onMarkerClick = useCallback((c: AnimalEntry) => {
     audioService.playClickSound();
@@ -133,6 +144,10 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
           </Popup>
         )}
 
+        {/* Mobile detail panel */}
+        <MobileDetailPanel />
+
+        {/* Desktop popup only - hidden on mobile */}
         {selected && (
           <Popup
             longitude={selected.lng}
@@ -141,18 +156,42 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
             closeOnClick={false}
             onClose={() => setSelectedId(null)}
             maxWidth="320px"
+            className="hidden md:block"
           >
             <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
+              {/* Image */}
+              <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ maxHeight: 200 }}>
+                {imageLoading || (!imageUrl || imgError) ? (
+                  <div className="flex items-center justify-center h-32 bg-zinc-50">
+                    <span className="text-5xl">{selected.emoji}</span>
+                  </div>
+                ) : (
+                  <img
+                    src={imageUrl}
+                    alt={selected.animal}
+                    className="w-full object-cover"
+                    style={{ maxHeight: 200 }}
+                    onError={() => setImgError(true)}
+                  />
+                )}
+              </div>
               <div className="text-base font-semibold flex items-center gap-2 text-zinc-800">
                 <span>{selected.flag}</span>
                 <span>{selected.country}</span>
               </div>
               <div className="mt-1 flex items-center gap-2 text-zinc-600">
                 <span className="text-2xl">{selected.emoji}</span>
-                <div>
+                <div className="flex-1">
                   <div className="font-medium text-zinc-700">{selected.animal}</div>
                   <div className="text-xs text-zinc-400 italic">{selected.scientificName}</div>
                 </div>
+                {audioUrl ? (
+                  <button onClick={playSound} className="w-9 h-9 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 transition-colors">
+                    {playing ? "🔊" : "🔈"}
+                  </button>
+                ) : !audioLoading ? null : (
+                  <span className="text-xs text-zinc-400">...</span>
+                )}
               </div>
               <div className="mt-2 flex items-center gap-2 flex-wrap">
                 <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
