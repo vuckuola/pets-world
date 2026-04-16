@@ -189,12 +189,14 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
     if (clusterFeatures.length > 0) {
       const clusterId = clusterFeatures[0].properties?.cluster_id;
       const source = map.getSource("animals") as any;
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       source.getClusterExpansionZoom(clusterId, (err: any, zoom: number) => {
         if (err) return;
-        map.flyTo({
-          center: (clusterFeatures[0].geometry as any).coordinates,
-          zoom: zoom,
-        });
+        if (prefersReducedMotion) {
+          map.jumpTo({ center: (clusterFeatures[0].geometry as any).coordinates, zoom });
+        } else {
+          map.flyTo({ center: (clusterFeatures[0].geometry as any).coordinates, zoom });
+        }
       });
     }
   }, [setSelectedId, setViewState]);
@@ -248,6 +250,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                 sidebarHoveredId === c.id ? "pet-marker-highlighted" : ""
               } ${selectedId === c.id ? "!scale-150" : ""}`}
               data-continent={c.region}
+              aria-label={`View ${c.animal}, ${c.conservationStatus}`}
             >
               {c.emoji}
             </button>

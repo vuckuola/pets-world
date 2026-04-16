@@ -142,6 +142,7 @@ export default function Sidebar() {
                 }}
               >
                 <span className="w-2 h-2 rounded-full shrink-0" style={{ background: iucnBg }} />
+                <span className="sr-only">{c.conservationStatus}</span>
                 <span className="text-base">{c.emoji}</span>
                 <div className="flex-1 min-w-0">
                   <span className="block truncate text-zinc-800">{c.country}</span>

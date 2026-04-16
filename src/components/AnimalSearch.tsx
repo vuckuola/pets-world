@@ -146,6 +146,7 @@ export default function AnimalSearch() {
                   }`}
                 >
                   <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ background: iucn?.bg ?? "#888" }} />
+                  <span className="sr-only">{c.conservationStatus}</span>
                   <span className="text-lg">{c.emoji}</span>
                   <div className="flex-1 min-w-0">
                     <div className="truncate text-zinc-800">{c.animal}</div>

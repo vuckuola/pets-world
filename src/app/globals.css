@@ -212,3 +212,19 @@
   background: #e4e4e7;
   border-radius: 999px;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pulse {
+    animation: none;
+  }
+  .pet-marker {
+    animation: none;
+  }
+  .country-item-animate {
+    animation: none;
+    opacity: 1;
+  }
+  .mobile-sidebar-animate {
+    animation: none;
+  }
+}
