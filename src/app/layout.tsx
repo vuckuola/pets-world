@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ServiceWorkerRegistrar from "../components/ServiceWorkerRegistrar";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -19,7 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
+      <head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#2D8A00" />
+        <link rel="apple-touch-icon" href="/icon-192.png" />
+      </head>
       <body className="h-full overflow-hidden bg-white text-zinc-900">
+        <ServiceWorkerRegistrar />
         {children}
       </body>
     </html>
