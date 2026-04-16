@@ -55,6 +55,13 @@ export default async function AnimalDetailPage({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-zinc-50">
+      {/* Sticky back button on mobile */}
+      <div className="sticky top-0 z-20 md:hidden bg-white border-b border-zinc-200 px-4 py-2">
+        <Link href="/" className="inline-flex items-center gap-1 text-sm text-zinc-600 hover:text-zinc-900">
+          ← Back to Map
+        </Link>
+      </div>
+
       {/* Hero */}
       <div className="relative bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 text-white">
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -87,7 +94,7 @@ export default async function AnimalDetailPage({ params }: Props) {
 
       <div className="max-w-3xl mx-auto px-4 py-8 space-y-8">
         {/* Quick Stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
           <StatCard label="Classification" value={animal.classification} />
           <StatCard label="Diet" value={animal.diet} />
           <StatCard label="Lifespan" value={`${animal.lifespan.min}–${animal.lifespan.max} ${animal.lifespan.unit}`} />

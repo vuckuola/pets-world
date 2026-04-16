@@ -64,11 +64,11 @@ export default function AnimalSearch() {
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-[15vh]">
+    <div className="fixed inset-0 z-50 flex items-start justify-center md:pt-[15vh]">
       <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
-      <div className="relative w-full max-w-lg bg-white rounded-xl shadow-2xl border border-zinc-200 overflow-hidden">
+      <div className="relative w-full max-w-lg md:rounded-xl shadow-2xl md:border md:border-zinc-200 overflow-hidden flex flex-col max-h-[100dvh] md:max-h-none">
         {/* Search input */}
-        <div className="flex items-center gap-2 px-4 py-3 border-b border-zinc-100">
+        <div className="flex items-center gap-2 px-4 py-4 md:py-3 border-b border-zinc-100">
           <Search size={18} className="text-zinc-400 shrink-0" />
           <input
             ref={inputRef}
@@ -141,7 +141,7 @@ export default function AnimalSearch() {
                 <button
                   key={c.id}
                   onClick={() => selectAnimal(c.id)}
-                  className={`w-full flex items-center gap-2 px-4 py-2 text-left text-sm hover:bg-zinc-50 transition-colors ${
+                  className={`w-full flex items-center gap-3 px-4 py-3 md:py-2 text-left text-sm hover:bg-zinc-50 transition-colors ${
                     selectedId === c.id ? "bg-blue-50" : ""
                   }`}
                 >

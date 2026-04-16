@@ -35,16 +35,16 @@ export default function MapControls({ viewState, setViewState, onResetView }: Ma
 
   return (
     <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
-      <button onClick={zoomIn} className="map-control-btn bg-white rounded-lg w-10 h-10 flex items-center justify-center text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm" title="Zoom in">
+      <button onClick={zoomIn} className="map-control-btn bg-white rounded-lg w-12 h-12 md:w-10 md:h-10 flex items-center justify-center text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm" title="Zoom in">
         <Plus size={16} />
       </button>
-      <button onClick={zoomOut} className="map-control-btn bg-white rounded-lg w-10 h-10 flex items-center justify-center text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm" title="Zoom out">
+      <button onClick={zoomOut} className="map-control-btn bg-white rounded-lg w-12 h-12 md:w-10 md:h-10 flex items-center justify-center text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm" title="Zoom out">
         <Minus size={16} />
       </button>
-      <button onClick={onResetView} className="map-control-btn bg-white rounded-lg w-10 h-10 flex items-center justify-center text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm" title="Reset view">
+      <button onClick={onResetView} className="map-control-btn bg-white rounded-lg w-12 h-12 md:w-10 md:h-10 flex items-center justify-center text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm" title="Reset view">
         <RotateCcw size={16} />
       </button>
-      <button onClick={cycleMapStyle} className="map-control-btn bg-white rounded-lg px-3 h-10 flex items-center justify-center text-xs font-medium text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm gap-1.5" title="Switch map style">
+      <button onClick={cycleMapStyle} className="map-control-btn bg-white rounded-lg px-3 h-12 md:h-10 flex items-center justify-center text-xs font-medium text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm gap-1.5" title="Switch map style">
         <Layers size={14} />
         {mapStyleLabels[mapStyle]}
       </button>

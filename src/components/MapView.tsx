@@ -370,7 +370,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
       <MapControls viewState={viewState} setViewState={setViewState} onResetView={resetView} />
 
       {/* IUCN Legend */}
-      <div className="absolute bottom-4 left-4 z-10">
+      <div className="hidden md:block absolute bottom-4 left-4 z-10">
         <div className="bg-white/90 backdrop-blur-sm rounded-lg border border-zinc-200 shadow-sm px-3 py-2">
           <div className="text-[9px] font-semibold text-zinc-500 uppercase tracking-wider mb-1.5">IUCN Status</div>
           <div className="grid grid-cols-3 gap-x-3 gap-y-1">
