@@ -9,6 +9,7 @@ import { useFilteredAnimals } from "../hooks/useAnimals";
 import { audioService } from "./AudioService";
 import { t } from "../lib/i18n";
 import { IUCN_CONFIG } from "../lib/iucn";
+import AnimalListSkeleton from "./AnimalListSkeleton";
 
 const STATUS_CODE: Record<string, string> = {
   'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU',
@@ -92,6 +93,7 @@ export default function Sidebar() {
       </div>
 
       <div ref={parentRef} className="flex flex-1 flex-col gap-0.5 overflow-y-auto pr-1 scrollbar-thin">
+        {virtualizer.getVirtualItems().length === 0 && <AnimalListSkeleton />}
         <div style={{ height: `${virtualizer.getTotalSize()}px`, width: '100%', position: 'relative' }}>
           {virtualizer.getVirtualItems().map((virtualItem) => {
             const item = groupedItems[virtualItem.index];

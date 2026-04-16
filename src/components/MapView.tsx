@@ -13,8 +13,8 @@ import { IUCN_CONFIG } from "../lib/iucn";
 import MapControls from "./MapControls";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
 import MobileDetailPanel from "./MobileDetailPanel";
+import MapSkeleton from "./MapSkeleton";
 import Image from "next/image";
-
 const STATUS_CODE: Record<string, string> = {
   'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU',
   'Near Threatened': 'NT', 'Least Concern': 'LC', 'Data Deficient': 'DD',
@@ -53,6 +53,7 @@ function iucnColor(status: string): string {
 
 export default function MapView({ viewState, setViewState }: MapViewProps) {
   const mapRef = useRef<MapRef>(null);
+  const [mapLoaded, setMapLoaded] = useState(false);
   const {
     selectedId, hoveredId, sidebarHoveredId, mapStyle, locale,
     setSelectedId, setHoveredId, setMobileOpen,
@@ -210,10 +211,12 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
 
   return (
     <main className="relative flex-1">
+      {!mapLoaded && <MapSkeleton />}
       <Map
         ref={mapRef}
         {...viewState}
         onMove={(evt) => setViewState(evt.viewState)}
+        onLoad={() => setMapLoaded(true)}
         style={{ width: "100%", height: "100%" }}
         mapStyle={MAP_STYLES[mapStyle]}
         onClick={onMapClick}
