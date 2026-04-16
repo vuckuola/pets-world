@@ -5,6 +5,7 @@ import { countries } from "../data/countries";
 import { useMapStore } from "../store/useMapStore";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
 import { audioService } from "./AudioService";
+import { t } from "../lib/i18n";
 import { useState } from "react";
 
 const CONTINENT_COLORS: Record<string, string> = {
@@ -20,7 +21,8 @@ const CONTINENT_COLORS: Record<string, string> = {
 };
 
 export default function MobileDetailPanel() {
-  const { selectedId, setSelectedId } = useMapStore();
+  const { selectedId, setSelectedId, locale } = useMapStore();
+  const tr = t(locale);
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
   const { imageUrl, audioUrl, imageLoading, audioLoading } = useAnimalMedia(selected?.animal ?? null);
   const [playing, setPlaying] = useState(false);
@@ -104,7 +106,7 @@ export default function MobileDetailPanel() {
           {/* Badges */}
           <div className="mt-2 flex items-center gap-2 flex-wrap">
             <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
-              {selected.classification}
+              {tr.classification[selected.classification as keyof typeof tr.classification] ?? selected.classification}
             </div>
             <div
               className="text-[10px] px-2 py-0.5 rounded-full font-medium"
@@ -113,7 +115,7 @@ export default function MobileDetailPanel() {
                 color,
               }}
             >
-              {selected.conservationStatus}
+              {tr.conservation[selected.conservationStatus as keyof typeof tr.conservation] ?? selected.conservationStatus}
             </div>
             <div className="text-[10px] px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 font-medium">
               Pop: {selected.population}

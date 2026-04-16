@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { MapPin, Shuffle } from "lucide-react";
+import { MapPin, Shuffle, Globe } from "lucide-react";
+import { t } from "./lib/i18n";
 import { countries, type AnimalEntry } from "./data/countries";
 import { useMapStore } from "./store/useMapStore";
 import { useFilteredAnimals } from "./hooks/useAnimals";
@@ -15,7 +16,7 @@ const DEFAULT_VIEW = { longitude: 20, latitude: 20, zoom: 2 };
 export default function Home() {
   const [viewState, setViewState] = useState(DEFAULT_VIEW);
   const filtered = useFilteredAnimals();
-  const { selectedId, setSelectedId, setMobileOpen } = useMapStore();
+  const { selectedId, setSelectedId, setMobileOpen, locale, setLocale } = useMapStore();
 
   const flyTo = useCallback((c: AnimalEntry) => {
     setSelectedId(c.id);
@@ -40,18 +41,22 @@ export default function Home() {
         <MobileSidebar />
         <MapPin size={18} className="text-zinc-400" />
         <span className="text-sm font-semibold text-zinc-800">
-          World Wildlife Atlas
+          {t(locale).title}
         </span>
         <span className="text-xs text-zinc-400 hidden sm:inline">
-          {filtered.length} countries
+          {filtered.length} {t(locale).countries}
         </span>
         <div className="flex-1" />
+        <button onClick={() => setLocale(locale === 'id' ? 'en' : 'id')} className="flex items-center gap-1 px-3 py-1.5 text-sm text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 rounded-lg transition-colors">
+          <Globe size={16} />
+          {locale === 'id' ? 'EN' : 'ID'}
+        </button>
         <button
           onClick={randomAnimal}
           className="flex items-center gap-1.5 rounded-full border border-zinc-200 bg-white px-3 py-1.5 text-xs font-medium text-zinc-600 hover:bg-zinc-50 transition-colors duration-150 shadow-sm"
         >
           <Shuffle size={14} />
-          Random
+          {t(locale).random}
         </button>
       </header>
 

@@ -8,6 +8,7 @@ import { countries, type AnimalEntry } from "../data/countries";
 import { useMapStore, type MapStyleName } from "../store/useMapStore";
 import { useFilteredAnimals } from "../hooks/useAnimals";
 import { audioService } from "./AudioService";
+import { t } from "../lib/i18n";
 import MapControls from "./MapControls";
 import MobileDetailPanel from "./MobileDetailPanel";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
@@ -44,9 +45,10 @@ interface MapViewProps {
 export default function MapView({ viewState, setViewState }: MapViewProps) {
   const mapRef = useRef<MapRef>(null);
   const {
-    selectedId, hoveredId, sidebarHoveredId, mapStyle,
+    selectedId, hoveredId, sidebarHoveredId, mapStyle, locale,
     setSelectedId, setHoveredId, setMobileOpen,
   } = useMapStore();
+  const tr = t(locale);
   const filtered = useFilteredAnimals();
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
   const hovered = hoveredId ? countries.find((c) => c.id === hoveredId) ?? null : null;
@@ -119,13 +121,15 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
             anchor="bottom"
             closeOnClick={false}
             onClose={() => setHoveredId(null)}
+            offset={14}
+            maxWidth="220px"
           >
-            <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-3 text-sm min-w-[160px]">
-              <div className="font-semibold flex items-center gap-2 text-zinc-800">
+            <div className="bg-white rounded-lg border border-zinc-200 shadow-md p-3 min-w-[160px]">
+              <div className="font-semibold text-base flex items-center gap-2 text-zinc-800">
                 <span>{hovered.flag}</span>
                 <span>{hovered.country}</span>
               </div>
-              <div className="text-zinc-500 mt-1">
+              <div className="text-sm text-zinc-500 mt-1">
                 {hovered.emoji} {hovered.animal}
               </div>
               <div className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
@@ -138,7 +142,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                   color: CONTINENT_COLORS[hovered.region],
                 }}
               >
-                {hovered.region}
+                {tr.regions[hovered.region as keyof typeof tr.regions] ?? hovered.region}
               </div>
             </div>
           </Popup>
@@ -195,7 +199,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
               </div>
               <div className="mt-2 flex items-center gap-2 flex-wrap">
                 <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
-                  {selected.classification}
+                  {tr.classification[selected.classification as keyof typeof tr.classification] ?? selected.classification}
                 </div>
                 <div className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${
                   selected.conservationStatus === 'Critically Endangered' ? 'bg-red-50 text-red-700' :
@@ -205,7 +209,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                   'bg-green-50 text-green-700'
                 }`}
                 >
-                  {selected.conservationStatus}
+                  {tr.conservation[selected.conservationStatus as keyof typeof tr.conservation] ?? selected.conservationStatus}
                 </div>
                 <div className="text-[10px] px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 font-medium">
                   Pop: {selected.population}

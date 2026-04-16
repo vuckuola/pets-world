@@ -1,4 +1,5 @@
 import { create } from 'zustand'
+import type { Locale } from '../lib/i18n'
 
 type MapStyleName = 'voyager' | 'dark' | 'satellite'
 
@@ -10,6 +11,7 @@ interface MapStore {
   activeRegion: string
   mapStyle: MapStyleName
   mobileOpen: boolean
+  locale: Locale
   setSelectedId: (id: string | null) => void
   setHoveredId: (id: string | null) => void
   setSidebarHoveredId: (id: string | null) => void
@@ -18,6 +20,7 @@ interface MapStore {
   setMapStyle: (s: MapStyleName) => void
   setMobileOpen: (open: boolean) => void
   toggleMobileOpen: () => void
+  setLocale: (l: Locale) => void
 }
 
 export type { MapStyleName }
@@ -30,6 +33,7 @@ export const useMapStore = create<MapStore>((set) => ({
   activeRegion: 'All',
   mapStyle: 'voyager',
   mobileOpen: false,
+  locale: 'id' as Locale,
   setSelectedId: (id) => set({ selectedId: id }),
   setHoveredId: (id) => set({ hoveredId: id }),
   setSidebarHoveredId: (id) => set({ sidebarHoveredId: id }),
@@ -38,4 +42,5 @@ export const useMapStore = create<MapStore>((set) => ({
   setMapStyle: (s) => set({ mapStyle: s }),
   setMobileOpen: (open) => set({ mobileOpen: open }),
   toggleMobileOpen: () => set((s) => ({ mobileOpen: !s.mobileOpen })),
+  setLocale: (l) => set({ locale: l }),
 }))
