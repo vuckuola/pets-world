@@ -1,9 +1,11 @@
 "use client";
 
-import { useState, useCallback, useRef, useEffect } from "react";
+import { useState, useCallback, useRef } from "react";
 import Map, { Marker, Popup } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { countries, type AnimalEntry, continents } from "./data/countries";
+import { useMapStore } from "./store/useMapStore";
+import { useFilteredAnimals } from "./hooks/useAnimals";
 import {
   Search,
   Plus,
@@ -95,28 +97,28 @@ const playDingSound = () => {
 const DEFAULT_VIEW = { longitude: 20, latitude: 20, zoom: 2 };
 
 export default function Home() {
-  const [search, setSearch] = useState("");
-  const [continent, setContinent] = useState("All");
-  const [selected, setSelected] = useState<AnimalEntry | null>(null);
-  const [hovered, setHovered] = useState<AnimalEntry | null>(null);
-  const [sidebarHovered, setSidebarHovered] = useState<string | null>(null);
-  const [mapStyle, setMapStyle] = useState<MapStyleName>("voyager");
-  const [mobileOpen, setMobileOpen] = useState(false);
+  // Map viewport stays as local state (high-frequency updates)
+  const [viewState, setViewState] = useState(DEFAULT_VIEW);
   const mapRef = useRef<any>(null);
 
-  const [viewState, setViewState] = useState(DEFAULT_VIEW);
+  // Zustand state
+  const {
+    selectedId, hoveredId, sidebarHoveredId, mobileOpen, mapStyle,
+    searchQuery,
+    setSelectedId, setHoveredId, setSidebarHoveredId,
+    setSearchQuery, activeRegion, setActiveRegion,
+    setMapStyle, setMobileOpen, toggleMobileOpen,
+  } = useMapStore();
 
-  const filtered = countries.filter((c) => {
-    const matchContinent = continent === "All" || c.region === continent;
-    const matchSearch =
-      !search ||
-      c.country.toLowerCase().includes(search.toLowerCase()) ||
-      c.animal.toLowerCase().includes(search.toLowerCase());
-    return matchContinent && matchSearch;
-  });
+  // react-query for filtered animals
+  const filtered = useFilteredAnimals();
+
+  // Derive full objects from IDs
+  const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
+  const hovered = hoveredId ? countries.find((c) => c.id === hoveredId) ?? null : null;
 
   const flyTo = useCallback((c: AnimalEntry) => {
-    setSelected(c);
+    setSelectedId(c.id);
     setViewState((v) => ({
       ...v,
       longitude: c.lng,
@@ -125,31 +127,31 @@ export default function Home() {
     }));
     playDingSound();
     setMobileOpen(false);
-  }, []);
+  }, [setSelectedId, setMobileOpen]);
 
   const onMarkerClick = useCallback((c: AnimalEntry) => {
     playClickSound();
-    setSelected((prev) => (prev?.id === c.id ? null : c));
+    setSelectedId(selectedId === c.id ? null : c.id);
     setViewState((v) => ({
       ...v,
       longitude: c.lng,
       latitude: c.lat,
       zoom: Math.max(v.zoom, 4),
     }));
-  }, []);
+  }, [setSelectedId, selectedId]);
 
   const onMarkerHover = useCallback((c: AnimalEntry) => {
-    if (hovered?.id !== c.id) {
-      setHovered(c);
+    if (hoveredId !== c.id) {
+      setHoveredId(c.id);
     }
-  }, [hovered]);
+  }, [hoveredId, setHoveredId]);
 
   const resetView = useCallback(() => {
     setViewState(DEFAULT_VIEW);
-    setSelected(null);
-    setHovered(null);
+    setSelectedId(null);
+    setHoveredId(null);
     playClickSound();
-  }, []);
+  }, [setSelectedId, setHoveredId]);
 
   const zoomIn = useCallback(() => {
     setViewState((v) => ({ ...v, zoom: Math.min(v.zoom + 1, 18) }));
@@ -166,9 +168,9 @@ export default function Home() {
 
   const cycleMapStyle = useCallback(() => {
     const styles: MapStyleName[] = ["voyager", "dark", "satellite"];
-    const idx = (styles.indexOf(mapStyle) + 1) % styles.length;
+    const idx = (styles.indexOf(mapStyle as MapStyleName) + 1) % styles.length;
     setMapStyle(styles[idx]);
-  }, [mapStyle]);
+  }, [mapStyle, setMapStyle]);
 
   const mapStyleLabels: Record<MapStyleName, string> = {
     dark: "Dark",
@@ -178,18 +180,18 @@ export default function Home() {
 
   const renderCountryList = (items: typeof filtered) =>
     items.map((c, i) => {
-      const isSelected = selected?.id === c.id;
-      const isHovered = sidebarHovered === c.id;
+      const isSelected = selectedId === c.id;
+      const isHovered = sidebarHoveredId === c.id;
       const color = CONTINENT_COLORS[c.region] || "#6366f1";
       return (
         <button
           key={c.id}
           onClick={() => flyTo(c)}
           onMouseEnter={() => {
-            setSidebarHovered(c.id);
+            setSidebarHoveredId(c.id);
             playHoverSound();
           }}
-          onMouseLeave={() => setSidebarHovered(null)}
+          onMouseLeave={() => setSidebarHoveredId(null)}
           className={`sidebar-item country-item-animate flex items-center gap-2 rounded-lg px-3 py-2 text-left text-sm ${
             isSelected
               ? "bg-blue-50 border-l-2 border-l-blue-500"
@@ -217,9 +219,9 @@ export default function Home() {
       {["All", ...continents].map((c) => (
         <button
           key={c}
-          onClick={() => setContinent(c)}
+          onClick={() => setActiveRegion(c)}
           className={`rounded-full px-3 py-1 text-xs font-medium transition-colors duration-150 ${
-            continent === c
+            activeRegion === c
               ? "bg-zinc-900 text-white"
               : "bg-zinc-100 text-zinc-500 hover:bg-zinc-200 hover:text-zinc-700"
           }`}
@@ -235,7 +237,7 @@ export default function Home() {
       {/* Header */}
       <header className="flex h-14 shrink-0 items-center gap-3 border-b border-zinc-200 bg-white px-4 z-20">
         <button
-          onClick={() => setMobileOpen(!mobileOpen)}
+          onClick={toggleMobileOpen}
           className="md:hidden p-1.5 rounded-lg hover:bg-zinc-100 transition-colors duration-150"
         >
           {mobileOpen ? <X size={18} /> : <Menu size={18} />}
@@ -266,8 +268,8 @@ export default function Home() {
             <input
               type="text"
               placeholder="Search country or animal..."
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full rounded-lg border border-zinc-200 bg-zinc-50 py-2 pl-9 pr-3 text-sm outline-none placeholder:text-zinc-400 focus:border-zinc-300 focus:bg-white transition-colors duration-150"
             />
           </div>
@@ -293,8 +295,8 @@ export default function Home() {
                 <input
                   type="text"
                   placeholder="Search..."
-                  value={search}
-                  onChange={(e) => setSearch(e.target.value)}
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full rounded-lg border border-zinc-200 bg-zinc-50 py-2 pl-9 pr-3 text-sm outline-none placeholder:text-zinc-400 focus:border-zinc-300 focus:bg-white transition-colors duration-150"
                 />
               </div>
@@ -313,17 +315,17 @@ export default function Home() {
             {...viewState}
             onMove={(evt) => setViewState(evt.viewState)}
             style={{ width: "100%", height: "100%" }}
-            mapStyle={MAP_STYLES[mapStyle]}
+            mapStyle={MAP_STYLES[mapStyle as MapStyleName]}
           >
             {filtered.map((c) => (
               <Marker key={c.id} longitude={c.lng} latitude={c.lat} anchor="center">
                 <button
                   onClick={() => onMarkerClick(c)}
                   onMouseEnter={() => onMarkerHover(c)}
-                  onMouseLeave={() => setHovered(null)}
+                  onMouseLeave={() => setHoveredId(null)}
                   className={`pet-marker text-2xl md:text-3xl ${
-                    sidebarHovered === c.id ? "pet-marker-highlighted" : ""
-                  } ${selected?.id === c.id ? "!scale-150" : ""}`}
+                    sidebarHoveredId === c.id ? "pet-marker-highlighted" : ""
+                  } ${selectedId === c.id ? "!scale-150" : ""}`}
                   data-continent={c.region}
                 >
                   {c.emoji}
@@ -338,7 +340,7 @@ export default function Home() {
                 latitude={hovered.lat}
                 anchor="bottom"
                 closeOnClick={false}
-                onClose={() => setHovered(null)}
+                onClose={() => setHoveredId(null)}
               >
                 <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-3 text-sm min-w-[160px]">
                   <div className="font-semibold flex items-center gap-2 text-zinc-800">
@@ -371,7 +373,7 @@ export default function Home() {
                 latitude={selected.lat}
                 anchor="bottom"
                 closeOnClick={false}
-                onClose={() => setSelected(null)}
+                onClose={() => setSelectedId(null)}
                 maxWidth="320px"
               >
                 <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
@@ -438,7 +440,7 @@ export default function Home() {
             </button>
             <button onClick={cycleMapStyle} className="map-control-btn bg-white rounded-lg px-3 h-10 flex items-center justify-center text-xs font-medium text-zinc-600 hover:bg-zinc-50 border border-zinc-200 shadow-sm gap-1.5" title="Switch map style">
               <Layers size={14} />
-              {mapStyleLabels[mapStyle]}
+              {mapStyleLabels[mapStyle as MapStyleName]}
             </button>
           </div>
 
