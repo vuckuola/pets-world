@@ -1,6 +1,7 @@
 "use client";
 
 import { X, Volume2 } from "lucide-react";
+import Image from "next/image";
 import { countries } from "../data/countries";
 import { useMapStore } from "../store/useMapStore";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
@@ -67,12 +68,15 @@ export default function MobileDetailPanel() {
                 <span className="text-6xl">{selected.emoji}</span>
               </div>
             ) : (
-              <img
+              <Image
                 src={imageUrl}
                 alt={selected.animal}
                 className="w-full object-cover"
+                width={400}
+                height={200}
                 style={{ maxHeight: 200 }}
                 onError={() => setImgError(true)}
+                unoptimized
               />
             )}
           </div>

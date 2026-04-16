@@ -1,28 +1,61 @@
 "use client";
 
+import { useRef, useEffect, useMemo } from "react";
 import { Search } from "lucide-react";
+import { useVirtualizer } from "@tanstack/react-virtual";
 import { countries, type AnimalEntry, continents } from "../data/countries";
 import { useMapStore } from "../store/useMapStore";
 import { useFilteredAnimals } from "../hooks/useAnimals";
 import { audioService } from "./AudioService";
 import { t } from "../lib/i18n";
+import { IUCN_CONFIG } from "../lib/iucn";
+
+const STATUS_CODE: Record<string, string> = {
+  'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU',
+  'Near Threatened': 'NT', 'Least Concern': 'LC', 'Data Deficient': 'DD',
+};
 
 const CONTINENT_COLORS: Record<string, string> = {
-  "North America": "#f87171",
-  "South America": "#fb923c",
-  Europe: "#60a5fa",
-  Africa: "#fbbf24",
-  Asia: "#f472b6",
-  Oceania: "#34d399",
-  "Middle East": "#c084fc",
-  Arctic: "#93c5fd",
-  Antarctic: "#e0f2fe",
+  "North America": "#f87171", "South America": "#fb923c", Europe: "#60a5fa",
+  Africa: "#fbbf24", Asia: "#f472b6", Oceania: "#34d399",
+  "Middle East": "#c084fc", Arctic: "#93c5fd", Antarctic: "#e0f2fe",
 };
 
 export default function Sidebar() {
   const { searchQuery, setSearchQuery, activeRegion, setActiveRegion, selectedId, sidebarHoveredId, setSidebarHoveredId, locale } = useMapStore();
   const tr = t(locale);
   const filtered = useFilteredAnimals();
+  const parentRef = useRef<HTMLDivElement>(null);
+
+  // Group by classification for sticky headers
+  const groupedItems = useMemo(() => {
+    const groups: ({ type: 'header'; classification: string; id: string } | { type: 'animal'; animal: AnimalEntry; id: string })[] = [];
+    let lastClass = '';
+    for (const c of filtered) {
+      if (c.classification !== lastClass) {
+        lastClass = c.classification;
+        groups.push({ type: 'header', classification: c.classification, id: `h-${c.classification}` });
+      }
+      groups.push({ type: 'animal', animal: c, id: c.id });
+    }
+    return groups;
+  }, [filtered]);
+
+  const virtualizer = useVirtualizer({
+    count: groupedItems.length,
+    getScrollElement: () => parentRef.current,
+    estimateSize: (i) => groupedItems[i].type === 'header' ? 32 : 64,
+    overscan: 10,
+  });
+
+  // Scroll to selected animal when selectedId changes
+  useEffect(() => {
+    if (!selectedId) return;
+    const idx = groupedItems.findIndex((item) => item.type === 'animal' && item.animal.id === selectedId);
+    if (idx >= 0) {
+      virtualizer.scrollToIndex(idx, { behavior: 'smooth', align: 'center' });
+    }
+  }, [selectedId]);
 
   const flyTo = (c: AnimalEntry) => {
     useMapStore.getState().setSelectedId(c.id);
@@ -58,41 +91,65 @@ export default function Sidebar() {
         ))}
       </div>
 
-      <div className="flex flex-1 flex-col gap-1 overflow-y-auto pr-1 scrollbar-thin">
-        {filtered.map((c, i) => {
-          const isSelected = selectedId === c.id;
-          const isHovered = sidebarHoveredId === c.id;
-          const color = CONTINENT_COLORS[c.region] || "#6366f1";
-          return (
-            <button
-              key={c.id}
-              onClick={() => flyTo(c)}
-              onMouseEnter={() => {
-                setSidebarHoveredId(c.id);
-                audioService.playHoverSound();
-              }}
-              onMouseLeave={() => setSidebarHoveredId(null)}
-              className={`sidebar-item country-item-animate flex items-center gap-2 rounded-lg px-3 py-2 text-left text-sm ${
-                isSelected
-                  ? "bg-blue-50 border-l-2 border-l-blue-500"
-                  : isHovered
-                  ? "bg-zinc-50"
-                  : ""
-              }`}
-              style={{
-                animationDelay: `${i * 30}ms`,
-                ...(isSelected ? {} : { borderLeft: `2px solid ${color}40` }),
-              }}
-            >
-              <span className="text-base">{c.flag}</span>
-              <div className="flex-1 min-w-0">
-                <span className="block truncate text-zinc-800">{c.country}</span>
-                <span className="block text-xs text-zinc-400 truncate">{c.animal}</span>
-              </div>
-              <span className="text-base">{c.emoji}</span>
-            </button>
-          );
-        })}
+      <div ref={parentRef} className="flex flex-1 flex-col gap-0.5 overflow-y-auto pr-1 scrollbar-thin">
+        <div style={{ height: `${virtualizer.getTotalSize()}px`, width: '100%', position: 'relative' }}>
+          {virtualizer.getVirtualItems().map((virtualItem) => {
+            const item = groupedItems[virtualItem.index];
+            if (item.type === 'header') {
+              return (
+                <div
+                  key={item.id}
+                  className="absolute left-0 right-0 flex items-center px-3 text-[10px] font-semibold text-zinc-400 uppercase tracking-wider bg-white z-10"
+                  style={{
+                    height: `${virtualItem.size}px`,
+                    top: `${virtualItem.start}px`,
+                  }}
+                >
+                  {item.classification}
+                </div>
+              );
+            }
+
+            const c = item.animal;
+            const isSelected = selectedId === c.id;
+            const isHovered = sidebarHoveredId === c.id;
+            const color = CONTINENT_COLORS[c.region] || "#6366f1";
+            const code = STATUS_CODE[c.conservationStatus] || 'LC';
+            const iucnBg = IUCN_CONFIG[code]?.bg ?? '#888';
+
+            return (
+              <button
+                key={item.id}
+                onClick={() => flyTo(c)}
+                onMouseEnter={() => {
+                  setSidebarHoveredId(c.id);
+                  audioService.playHoverSound();
+                }}
+                onMouseLeave={() => setSidebarHoveredId(null)}
+                className={`sidebar-item absolute left-0 right-0 flex items-center gap-2 rounded-lg px-3 text-left text-sm ${
+                  isSelected
+                    ? "bg-blue-50 border-l-2 border-l-blue-500"
+                    : isHovered
+                    ? "bg-zinc-50"
+                    : ""
+                }`}
+                style={{
+                  height: `${virtualItem.size}px`,
+                  top: `${virtualItem.start}px`,
+                  ...(isSelected ? {} : { borderLeft: `2px solid ${color}40` }),
+                }}
+              >
+                <span className="w-2 h-2 rounded-full shrink-0" style={{ background: iucnBg }} />
+                <span className="text-base">{c.emoji}</span>
+                <div className="flex-1 min-w-0">
+                  <span className="block truncate text-zinc-800">{c.country}</span>
+                  <span className="block text-xs text-zinc-400 truncate">{c.animal}</span>
+                </div>
+                <span className="text-[10px] px-1.5 py-0.5 rounded bg-zinc-100 text-zinc-500">{c.region}</span>
+              </button>
+            );
+          })}
+        </div>
       </div>
     </aside>
   );

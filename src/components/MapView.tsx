@@ -1,7 +1,7 @@
 "use client";
 
-import { useCallback, useRef, useState } from "react";
-import Map, { Marker, Popup, NavigationControl } from "react-map-gl/maplibre";
+import { useCallback, useRef, useState, useEffect } from "react";
+import Map, { Popup, NavigationControl, Source, Layer, Marker } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { MapRef } from "react-map-gl/maplibre";
 import { countries, type AnimalEntry } from "../data/countries";
@@ -12,21 +12,18 @@ import { t } from "../lib/i18n";
 import { IUCN_CONFIG } from "../lib/iucn";
 import MapControls from "./MapControls";
 import { useAnimalMedia } from "../hooks/useAnimalMedia";
-
-const STATUS_CODE: Record<string, string> = { 'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU', 'Near Threatened': 'NT', 'Least Concern': 'LC', 'Data Deficient': 'DD' };
-
 import MobileDetailPanel from "./MobileDetailPanel";
+import Image from "next/image";
+
+const STATUS_CODE: Record<string, string> = {
+  'Critically Endangered': 'CR', 'Endangered': 'EN', 'Vulnerable': 'VU',
+  'Near Threatened': 'NT', 'Least Concern': 'LC', 'Data Deficient': 'DD',
+};
 
 const CONTINENT_COLORS: Record<string, string> = {
-  "North America": "#f87171",
-  "South America": "#fb923c",
-  Europe: "#60a5fa",
-  Africa: "#fbbf24",
-  Asia: "#f472b6",
-  Oceania: "#34d399",
-  "Middle East": "#c084fc",
-  Arctic: "#93c5fd",
-  Antarctic: "#e0f2fe",
+  "North America": "#f87171", "South America": "#fb923c", Europe: "#60a5fa",
+  Africa: "#fbbf24", Asia: "#f472b6", Oceania: "#34d399",
+  "Middle East": "#c084fc", Arctic: "#93c5fd", Antarctic: "#e0f2fe",
 };
 
 const MAP_STYLES: Record<MapStyleName, string> = {
@@ -44,6 +41,14 @@ interface ViewState {
 interface MapViewProps {
   viewState: ViewState;
   setViewState: React.Dispatch<React.SetStateAction<ViewState>>;
+}
+
+function getIucnCode(conservationStatus: string): string {
+  return STATUS_CODE[conservationStatus] || 'LC';
+}
+
+function iucnColor(status: string): string {
+  return IUCN_CONFIG[getIucnCode(status)]?.bg ?? '#888';
 }
 
 export default function MapView({ viewState, setViewState }: MapViewProps) {
@@ -79,9 +84,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
   }, [setSelectedId, selectedId, setViewState]);
 
   const onMarkerHover = useCallback((c: AnimalEntry) => {
-    if (hoveredId !== c.id) {
-      setHoveredId(c.id);
-    }
+    if (hoveredId !== c.id) setHoveredId(c.id);
   }, [hoveredId, setHoveredId]);
 
   const resetView = useCallback(() => {
@@ -91,6 +94,120 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
     audioService.playClickSound();
   }, [setSelectedId, setHoveredId, setViewState]);
 
+  // Build GeoJSON for clustering
+  const geojson = {
+    type: "FeatureCollection" as const,
+    features: filtered.map((c) => ({
+      type: "Feature" as const,
+      properties: {
+        id: c.id,
+        iucnCode: getIucnCode(c.conservationStatus),
+        iucnColor: iucnColor(c.conservationStatus),
+      },
+      geometry: { type: "Point" as const, coordinates: [c.lng, c.lat] },
+    })),
+  };
+
+  // Cluster layer styles
+  const clusterLayer: maplibregl.LayerSpecification = {
+    id: "clusters",
+    type: "circle",
+    source: "animals",
+    filter: ["has", "point_count"],
+    paint: {
+      "circle-radius": ["step", ["get", "point_count"], 14, 100, 20, 750, 28],
+      "circle-color": "#6366f1",
+      "circle-opacity": 0.85,
+      "circle-stroke-width": 3,
+      "circle-stroke-color": "rgba(255,255,255,0.8)",
+    },
+  };
+
+  const clusterCountLayer: maplibregl.LayerSpecification = {
+    id: "cluster-count",
+    type: "symbol",
+    source: "animals",
+    filter: ["has", "point_count"],
+    layout: {
+      "text-field": "{point_count_abbreviated}",
+      "text-size": 12,
+      "text-font": ["Open Sans Regular"],
+    },
+    paint: {
+      "text-color": "#fff",
+    },
+  };
+
+  const unclusteredPointLayer: maplibregl.LayerSpecification = {
+    id: "unclustered-point",
+    type: "circle",
+    source: "animals",
+    filter: ["!", ["has", "point_count"]],
+    paint: {
+      "circle-radius": [
+        "case",
+        ["boolean", ["feature-state", "selected"], false], 10,
+        ["boolean", ["feature-state", "hover"], false], 8,
+        6
+      ],
+      "circle-color": ["get", "iucnColor"],
+      "circle-stroke-width": 2,
+      "circle-stroke-color": "rgba(255,255,255,0.9)",
+      "circle-opacity": 0.9,
+    },
+  };
+
+  const onMapClick = useCallback((evt: any) => {
+    const map = mapRef.current?.getMap();
+    if (!map) return;
+
+    const features = map.queryRenderedFeatures(evt.point, {
+      layers: ["unclustered-point"],
+    });
+    if (features.length > 0) {
+      const id = features[0].properties?.id;
+      if (id) {
+        audioService.playClickSound();
+        setSelectedId(id);
+        const c = countries.find((x) => x.id === id);
+        if (c) {
+          setViewState((v) => ({
+            ...v,
+            longitude: c.lng,
+            latitude: c.lat,
+            zoom: Math.max(v.zoom, 4),
+          }));
+        }
+      }
+      return;
+    }
+
+    const clusterFeatures = map.queryRenderedFeatures(evt.point, {
+      layers: ["clusters"],
+    });
+    if (clusterFeatures.length > 0) {
+      const clusterId = clusterFeatures[0].properties?.cluster_id;
+      const source = map.getSource("animals") as any;
+      source.getClusterExpansionZoom(clusterId, (err: any, zoom: number) => {
+        if (err) return;
+        map.flyTo({
+          center: (clusterFeatures[0].geometry as any).coordinates,
+          zoom: zoom,
+        });
+      });
+    }
+  }, [setSelectedId, setViewState]);
+
+  // Cursor on hover
+  const onMapMouseMove = useCallback((evt: any) => {
+    const map = mapRef.current?.getMap();
+    if (!map) return;
+    const features = map.queryRenderedFeatures(evt.point, {
+      layers: ["unclustered-point", "clusters"],
+    });
+    map.getCanvas().style.cursor = features.length ? "pointer" : "";
+  }, []);
+
   return (
     <main className="relative flex-1">
       <Map
@@ -99,9 +216,25 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
         onMove={(evt) => setViewState(evt.viewState)}
         style={{ width: "100%", height: "100%" }}
         mapStyle={MAP_STYLES[mapStyle]}
+        onClick={onMapClick}
+        onMouseMove={onMapMouseMove}
       >
         <NavigationControl position="bottom-right" />
 
+        <Source
+          id="animals"
+          type="geojson"
+          data={geojson}
+          cluster={true}
+          clusterMaxZoom={8}
+          clusterRadius={50}
+        >
+          <Layer {...clusterLayer} />
+          <Layer {...clusterCountLayer} />
+          <Layer {...unclusteredPointLayer} />
+        </Source>
+
+        {/* Emoji markers for individual animals (on top of clusters) */}
         {filtered.map((c) => (
           <Marker key={c.id} longitude={c.lng} latitude={c.lat} anchor="center">
             <button
@@ -152,10 +285,9 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
           </Popup>
         )}
 
-        {/* Mobile detail panel */}
         <MobileDetailPanel />
 
-        {/* Desktop popup only - hidden on mobile */}
+        {/* Desktop popup */}
         {selected && (
           <Popup
             longitude={selected.lng}
@@ -167,19 +299,21 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
             className="hidden md:block"
           >
             <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
-              {/* Image */}
               <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ maxHeight: 200 }}>
                 {imageLoading || (!imageUrl || imgError) ? (
                   <div className="flex items-center justify-center h-32 bg-zinc-50">
                     <span className="text-5xl">{selected.emoji}</span>
                   </div>
                 ) : (
-                  <img
+                  <Image
                     src={imageUrl}
                     alt={selected.animal}
                     className="w-full object-cover"
+                    width={320}
+                    height={200}
                     style={{ maxHeight: 200 }}
                     onError={() => setImgError(true)}
+                    unoptimized
                   />
                 )}
               </div>
@@ -220,12 +354,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
               <ul className="mt-3 space-y-1.5 text-xs text-zinc-500 leading-relaxed">
                 {selected.funFacts.map((f, i) => (
                   <li key={i} className="flex gap-1.5">
-                    <span
-                      className="shrink-0"
-                      style={{ color: CONTINENT_COLORS[selected.region] }}
-                    >
-                      •
-                    </span>
+                    <span className="shrink-0" style={{ color: CONTINENT_COLORS[selected.region] }}>•</span>
                     <span>{f}</span>
                   </li>
                 ))}
@@ -237,9 +366,19 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
 
       <MapControls viewState={viewState} setViewState={setViewState} onResetView={resetView} />
 
+      {/* IUCN Legend */}
       <div className="absolute bottom-4 left-4 z-10">
-        <div className="bg-white rounded-lg border border-zinc-200 shadow-sm px-3 py-1.5 text-[10px] text-zinc-400 font-medium">
-          {viewState.zoom.toFixed(1)}x
+        <div className="bg-white/90 backdrop-blur-sm rounded-lg border border-zinc-200 shadow-sm px-3 py-2">
+          <div className="text-[9px] font-semibold text-zinc-500 uppercase tracking-wider mb-1.5">IUCN Status</div>
+          <div className="grid grid-cols-3 gap-x-3 gap-y-1">
+            {["LC", "NT", "VU", "EN", "CR", "EX"].map((code) => (
+              <div key={code} className="flex items-center gap-1.5">
+                <span className="w-2.5 h-2.5 rounded-full shrink-0" style={{ background: IUCN_CONFIG[code]?.bg ?? "#888" }} />
+                <span className="text-[10px] text-zinc-600 font-medium">{code}</span>
+              </div>
+            ))}
+          </div>
+          <div className="mt-1 text-[9px] text-zinc-400">{viewState.zoom.toFixed(1)}x</div>
         </div>
       </div>
     </main>

@@ -10,8 +10,10 @@ interface MapStore {
   searchQuery: string
   activeRegion: string
   mapStyle: MapStyleName
+  searchOpen: boolean
   mobileOpen: boolean
   locale: Locale
+  setSearchOpen: (open: boolean) => void
   setSelectedId: (id: string | null) => void
   setHoveredId: (id: string | null) => void
   setSidebarHoveredId: (id: string | null) => void
@@ -32,6 +34,7 @@ export const useMapStore = create<MapStore>((set) => ({
   searchQuery: '',
   activeRegion: 'All',
   mapStyle: 'voyager',
+  searchOpen: false,
   mobileOpen: false,
   locale: 'id' as Locale,
   setSelectedId: (id) => set({ selectedId: id }),
@@ -40,6 +43,7 @@ export const useMapStore = create<MapStore>((set) => ({
   setSearchQuery: (q) => set({ searchQuery: q }),
   setActiveRegion: (r) => set({ activeRegion: r }),
   setMapStyle: (s) => set({ mapStyle: s }),
+  setSearchOpen: (open) => set({ searchOpen: open }),
   setMobileOpen: (open) => set({ mobileOpen: open }),
   toggleMobileOpen: () => set((s) => ({ mobileOpen: !s.mobileOpen })),
   setLocale: (l) => set({ locale: l }),

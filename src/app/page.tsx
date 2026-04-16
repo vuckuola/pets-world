@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { MapPin, Shuffle, Globe } from "lucide-react";
+import { MapPin, Shuffle, Globe, Search } from "lucide-react";
 import { t } from "../lib/i18n";
 import { countries, type AnimalEntry } from "../data/countries";
 import { useMapStore } from "../store/useMapStore";
@@ -10,6 +10,7 @@ import { audioService } from "../components/AudioService";
 import Sidebar from "../components/Sidebar";
 import MobileSidebar from "../components/MobileSidebar";
 import MapView from "../components/MapView";
+import AnimalSearch from "../components/AnimalSearch";
 
 const DEFAULT_VIEW = { longitude: 20, latitude: 20, zoom: 2 };
 
@@ -47,6 +48,10 @@ export default function Home() {
           {filtered.length} {t(locale).countries}
         </span>
         <div className="flex-1" />
+        <button onClick={() => useMapStore.getState().setSearchOpen(true)} className="flex items-center gap-1 px-3 py-1.5 text-sm text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 rounded-lg transition-colors">
+          <Search size={16} />
+          <span className="hidden sm:inline text-xs text-zinc-400">⌘K</span>
+        </button>
         <button onClick={() => setLocale(locale === 'id' ? 'en' : 'id')} className="flex items-center gap-1 px-3 py-1.5 text-sm text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100 rounded-lg transition-colors">
           <Globe size={16} />
           {locale === 'id' ? 'EN' : 'ID'}
@@ -60,6 +65,7 @@ export default function Home() {
         </button>
       </header>
 
+      <AnimalSearch />
       <div className="flex flex-1 overflow-hidden relative">
         <Sidebar />
         <MapView viewState={viewState} setViewState={setViewState} />
