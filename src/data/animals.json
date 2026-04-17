@@ -8050,5 +8050,3400 @@
     "population": "~20,000,000+",
     "indigenous": true,
     "habitatOld": "forest, urban areas, wetlands, suburban"
+  },
+  {
+    "id": "132",
+    "slug": "jaguar",
+    "commonName": "Jaguar",
+    "scientificName": "Panthera onca",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "NT",
+    "description": "The largest cat in the Americas and a apex predator of Neotropical forests.",
+    "habitat": [
+      "tropical rainforest",
+      "swamps",
+      "grassland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 56,
+      "max": 96,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": -62.2,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Jaguar has the strongest bite force of any big cat relative to its size.",
+      "They are excellent swimmers and often hunt in water.",
+      "Their spotted coat is called rosettes, unique to each individual.",
+      "Jaguars are keystone species that help maintain balanced ecosystems.",
+      "Unlike most cats, jaguars kill prey with a single bite to the skull."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Jaguar",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🐆",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "~64,000",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest, swamps, grassland"
+  },
+  {
+    "id": "133",
+    "slug": "toco-toucan",
+    "commonName": "Toco Toucan",
+    "scientificName": "Ramphastos toco",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Ramphastidae",
+      "genus": "Ramphastos"
+    },
+    "iucnStatus": "LC",
+    "description": "The largest and most recognizable toucan species, famous for its massive orange bill.",
+    "habitat": [
+      "tropical forest",
+      "savanna",
+      "woodland"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 18,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.5,
+      "max": 0.8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -15.8,
+        "lng": -47.9,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their iconic bill can be up to one-third of their body length.",
+      "The bill is lightweight — a honeycomb of keratin with air pockets.",
+      "They use their bill to reach fruit on thin branches they can't perch on.",
+      "Toco toucans regulate body temperature by adjusting blood flow to their bill.",
+      "They nest in tree hollows, often taking over woodpecker holes."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Toco_toucan",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🦜",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, savanna, woodland"
+  },
+  {
+    "id": "134",
+    "slug": "giant-anteater",
+    "commonName": "Giant Anteater",
+    "scientificName": "Myrmecophaga tridactyla",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Pilosa",
+      "family": "Myrmecophagidae",
+      "genus": "Myrmecophaga"
+    },
+    "iucnStatus": "VU",
+    "description": "The largest anteater species, adapted to a diet of ants and termites with its elongated snout and sticky tongue.",
+    "habitat": [
+      "grassland",
+      "tropical forest",
+      "swamp"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 14,
+      "max": 16,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 22,
+      "max": 39,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -15.8,
+        "lng": -47.9,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their tongue can extend up to 60 cm and flicks 150 times per minute.",
+      "Anteaters have no teeth — they grind insects against hard stomach folds.",
+      "They sleep up to 15 hours a day to conserve energy from a low-calorie diet.",
+      "Their powerful claws can dig into concrete-hard termite mounds.",
+      "Despite being solitary, mothers carry babies on their backs for up to a year."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Giant_anteater",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🦦",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~5,000",
+    "indigenous": true,
+    "habitatOld": "Grassland, tropical forest, swamp"
+  },
+  {
+    "id": "135",
+    "slug": "blue-morpho-butterfly",
+    "commonName": "Blue Morpho Butterfly",
+    "scientificName": "Morpho menelaus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Nymphalidae",
+      "genus": "Morpho"
+    },
+    "iucnStatus": "LC",
+    "description": "A stunning tropical butterfly with iridescent blue wings caused by structural coloration, not pigment.",
+    "habitat": [
+      "tropical rainforest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 1,
+      "max": 3,
+      "unit": "months"
+    },
+    "weight": {
+      "min": 0.002,
+      "max": 0.003,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -12.0,
+        "lng": -77.0,
+        "label": "Peru"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their brilliant blue color comes from microscopic scales that reflect light.",
+      "When they close their wings, the brown underside acts as camouflage against predators.",
+      "Blue morphos have a wingspan of up to 20 cm, making them among the largest butterflies.",
+      "Caterpillars are cannibalistic and will eat other morpho eggs.",
+      "They taste terrible to predators due to chemicals from their host plants."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Morpho_menelaus",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Peru",
+    "emoji": "🦋",
+    "flag": "🇵🇪",
+    "region": "South America",
+    "classification": "Insect",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest"
+  },
+  {
+    "id": "136",
+    "slug": "spectacled-bear",
+    "commonName": "Spectacled Bear",
+    "scientificName": "Tremarctos ornatus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Tremarctos"
+    },
+    "iucnStatus": "VU",
+    "description": "The only bear species native to South America, named for the distinctive light-colored facial markings.",
+    "habitat": [
+      "cloud forest",
+      "montane grassland",
+      "scrub"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 60,
+      "max": 175,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -13.5,
+        "lng": -72.0,
+        "label": "Peru"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They are the only surviving species of the short-faced bear subfamily.",
+      "Despite being classified as carnivores, up to 95% of their diet is plant-based.",
+      "They build tree platforms for sleeping and feeding on fruit.",
+      "Spectacled bears are important seed dispersers in Andean cloud forests.",
+      "They are the smallest of the bear species, about half the size of a grizzly."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Spectacled_bear",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Peru",
+    "emoji": "🐻",
+    "flag": "🇵🇪",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~2,500-10,000",
+    "indigenous": true,
+    "habitatOld": "Cloud forest, montane grassland, scrub"
+  },
+  {
+    "id": "137",
+    "slug": "marine-iguana",
+    "commonName": "Marine Iguana",
+    "scientificName": "Amblyrhynchus cristatus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Iguanidae",
+      "genus": "Amblyrhynchus"
+    },
+    "iucnStatus": "VU",
+    "description": "The world's only seagoing lizard, found on the Galápagos Islands, adapted to forage in the ocean.",
+    "habitat": [
+      "rocky coast",
+      "volcanic island",
+      "intertidal zone"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 12,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 12,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -0.95,
+        "lng": -90.9,
+        "label": "Ecuador"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They can dive up to 30 meters deep and hold their breath for over an hour.",
+      "Marine iguanas shrink in size during food shortages to survive El Niño events.",
+      "They sneeze out excess salt ingested from seawater through special glands.",
+      "Charles Darwin called them 'hideous-looking' and 'imps of darkness.'",
+      "They bask in the sun for hours to warm up before entering the cold ocean water."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Marine_iguana",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Ecuador",
+    "emoji": "🦎",
+    "flag": "🇪🇨",
+    "region": "South America",
+    "classification": "Reptile",
+    "conservationStatus": "Vulnerable",
+    "population": "~200,000-300,000",
+    "indigenous": true,
+    "habitatOld": "Rocky coast, volcanic island, intertidal zone"
+  },
+  {
+    "id": "138",
+    "slug": "two-toed-sloth",
+    "commonName": "Two-toed Sloth",
+    "scientificName": "Choloepus didactylus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Pilosa",
+      "family": "Megalonychidae",
+      "genus": "Choloepus"
+    },
+    "iucnStatus": "LC",
+    "description": "A slow-moving arboreal mammal of Central and South American tropical forests, spending nearly its entire life upside down.",
+    "habitat": [
+      "tropical rainforest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4,
+      "max": 8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": 10.0,
+        "lng": -84.0,
+        "label": "Costa Rica"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Sloths only descend from trees about once a week to defecate.",
+      "They move so slowly that algae grows on their fur, providing camouflage.",
+      "Two-toed sloths have two fingers; three-toed sloths have three — they're not closely related.",
+      "Their slow metabolism means they digest food extremely slowly, surviving on little energy.",
+      "Sloths are surprisingly good swimmers, three times faster in water than on land."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Two-toed_sloth",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Costa Rica",
+    "emoji": "🦥",
+    "flag": "🇨🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest"
+  },
+  {
+    "id": "139",
+    "slug": "poison-dart-frog",
+    "commonName": "Poison Dart Frog",
+    "scientificName": "Dendrobatidae (family)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Anura",
+      "family": "Dendrobatidae",
+      "genus": "Various"
+    },
+    "iucnStatus": "LC",
+    "description": "A group of brightly colored frogs whose skin toxins serve as a defense mechanism against predators.",
+    "habitat": [
+      "tropical rainforest",
+      "cloud forest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.001,
+      "max": 0.007,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.0,
+        "lng": -74.0,
+        "label": "Colombia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The golden poison frog has enough toxin to kill 10 adult humans.",
+      "Their bright colors warn predators of toxicity — called aposematism.",
+      "Captive-bred poison dart frogs are not toxic — their poison comes from their diet.",
+      "Indigenous peoples have used their poison on blow darts for hunting.",
+      "Some species carry tadpoles on their backs to individual water pools."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Poison_dart_frog",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Colombia",
+    "emoji": "🐸",
+    "flag": "🇨🇴",
+    "region": "South America",
+    "classification": "Amphibian",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest, cloud forest"
+  },
+  {
+    "id": "140",
+    "slug": "howler-monkey",
+    "commonName": "Howler Monkey",
+    "scientificName": "Alouatta (genus)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Atelidae",
+      "genus": "Alouatta"
+    },
+    "iucnStatus": "LC",
+    "description": "Among the loudest land animals, known for their territorial calls that can be heard 5 km away.",
+    "habitat": [
+      "tropical rainforest",
+      "deciduous forest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4,
+      "max": 10,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": -62.2,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their howl is amplified by an enlarged hyoid bone that acts as a resonance chamber.",
+      "Howler monkeys are one of the few New World monkeys with trichromatic color vision.",
+      "They spend up to 80% of their time resting — one of the laziest primates.",
+      "Their prehensile tail is as strong as an arm and acts as a fifth limb.",
+      "A group's dawn howling session can last over an hour."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Howler_monkey",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🐒",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest, deciduous forest"
+  },
+  {
+    "id": "141",
+    "slug": "south-american-coati",
+    "commonName": "South American Coati",
+    "scientificName": "Nasua nasua",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Procyonidae",
+      "genus": "Nasua"
+    },
+    "iucnStatus": "LC",
+    "description": "A diurnal mammal related to raccoons, recognized by its long flexible snout and ringed tail.",
+    "habitat": [
+      "tropical forest",
+      "grassland",
+      "dry forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 7,
+      "max": 14,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 6,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -15.8,
+        "lng": -47.9,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Coatis are highly social, forming bands of up to 30 individuals.",
+      "Their flexible snout can rotate 60 degrees in any direction to forage.",
+      "They sleep with their tails wrapped around themselves for warmth.",
+      "Female coatis leave the group to give birth, then rejoin with their kits.",
+      "They use their powerful claws to tear apart rotting logs for insects."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/South_American_coati",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🦝",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, grassland, dry forest"
+  },
+  {
+    "id": "143",
+    "slug": "orinoco-crocodile",
+    "commonName": "Orinoco Crocodile",
+    "scientificName": "Crocodylus intermedius",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Crocodylia",
+      "family": "Crocodylidae",
+      "genus": "Crocodylus"
+    },
+    "iucnStatus": "CR",
+    "description": "A large crocodilian endemic to the Orinoco River basin, one of the most endangered reptiles in the world.",
+    "habitat": [
+      "river",
+      "freshwater wetland",
+      "lagoon"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 50,
+      "max": 70,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 400,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": 7.9,
+        "lng": -67.5,
+        "label": "Venezuela"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They can grow up to 5 meters, making them the largest predator in their range.",
+      "Hunted nearly to extinction for their valuable hide in the early 20th century.",
+      "Fewer than 250 mature individuals remain in the wild.",
+      "They are apex predators that help control fish populations in the Orinoco basin.",
+      "Conservation breeding programs have released hundreds back into the wild."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Orinoco_crocodile",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Venezuela",
+    "emoji": "🐊",
+    "flag": "🇻🇪",
+    "region": "South America",
+    "classification": "Reptile",
+    "conservationStatus": "Critically Endangered",
+    "population": "~250-1,500",
+    "indigenous": true,
+    "habitatOld": "River, freshwater wetland, lagoon"
+  },
+  {
+    "id": "144",
+    "slug": "harpy-eagle",
+    "commonName": "Harpy Eagle",
+    "scientificName": "Harpia harpyja",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "genus": "Harpia"
+    },
+    "iucnStatus": "NT",
+    "description": "The most powerful eagle in the Americas, with talons as large as grizzly bear claws, found in tropical forests.",
+    "habitat": [
+      "tropical rainforest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 25,
+      "max": 35,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4,
+      "max": 9,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": -62.2,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their talons exert over 200 PSI of pressure — enough to crush bones.",
+      "Harpy eagles primarily hunt sloths and monkeys in the forest canopy.",
+      "Their wingspan reaches 2 meters, but they are surprisingly agile in dense forest.",
+      "Named after the harpies of Greek mythology — wind spirits with bird bodies.",
+      "A breeding pair only raises one chick every 2-3 years."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Harpy_eagle",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🦅",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Bird",
+    "conservationStatus": "Near Threatened",
+    "population": "~20,000-50,000",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest"
+  },
+  {
+    "id": "145",
+    "slug": "amazon-river-dolphin",
+    "commonName": "Amazon River Dolphin",
+    "scientificName": "Inia geoffrensis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetacea",
+      "family": "Iniidae",
+      "genus": "Inia"
+    },
+    "iucnStatus": "EN",
+    "description": "Also known as the pink river dolphin or boto, a freshwater dolphin unique to Amazon and Orinoco river systems.",
+    "habitat": [
+      "river",
+      "flooded forest",
+      "lake"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 35,
+      "max": 100,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": -62.2,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Adults can turn pink — the pinker the dolphin, the more attractive to mates.",
+      "They can rotate their necks 180 degrees, unlike ocean dolphins.",
+      "Their unfused neck vertebrae allow them to navigate flooded forests easily.",
+      "They use echolocation to find fish in murky river water.",
+      "Local legends say the boto can transform into a handsome man at night."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Amazon_river_dolphin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🐬",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~10,000",
+    "indigenous": true,
+    "habitatOld": "River, flooded forest, lake"
+  },
+  {
+    "id": "146",
+    "slug": "anaconda",
+    "commonName": "Green Anaconda",
+    "scientificName": "Eunectes murinus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Boidae",
+      "genus": "Eunectes"
+    },
+    "iucnStatus": "LC",
+    "description": "The heaviest snake in the world, found in the Amazon basin, an ambush predator of aquatic habitats.",
+    "habitat": [
+      "swamp",
+      "river",
+      "tropical rainforest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 30,
+      "max": 250,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": -62.2,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Green anacondas can grow over 9 meters, making them the heaviest snakes alive.",
+      "Females are significantly larger than males — one of the largest sexual dimorphisms in snakes.",
+      "They are semi-aquatic and spend most of their time in or near water.",
+      "Anacondas can go months without eating after a large meal.",
+      "They constrict their prey rather than using venom, suffocating animals like caimans and deer."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Green_anaconda",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🐍",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Swamp, river, tropical rainforest"
+  },
+  {
+    "id": "147",
+    "slug": "scarlet-macaw",
+    "commonName": "Scarlet Macaw",
+    "scientificName": "Ara macao",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Ara"
+    },
+    "iucnStatus": "LC",
+    "description": "A large, brilliantly colored parrot native to the neotropics, one of the most iconic birds of the Amazon.",
+    "habitat": [
+      "tropical rainforest",
+      "savanna"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 40,
+      "max": 75,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 1.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -15.8,
+        "lng": -47.9,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Scarlet macaws can live up to 75 years in captivity.",
+      "They eat clay from riverbanks to neutralize toxins from unripe seeds.",
+      "Their powerful beaks can crack open the hardest nuts in the forest.",
+      "Mates stay together for life, often flying in pairs.",
+      "They gather at clay licks in groups of hundreds to socialize and feed."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Scarlet_macaw",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🦜",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "~20,000-50,000",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest, savanna"
+  },
+  {
+    "id": "149",
+    "slug": "vicuna",
+    "commonName": "Vicuña",
+    "scientificName": "Vicugna vicugna",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Camelidae",
+      "genus": "Vicugna"
+    },
+    "iucnStatus": "LC",
+    "description": "The smallest wild camelid, native to the high Andes, prized for the finest and most expensive wool in the world.",
+    "habitat": [
+      "alpine grassland",
+      "puna",
+      "moorland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 35,
+      "max": 65,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -13.5,
+        "lng": -72.0,
+        "label": "Peru"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Vicuña wool is among the most expensive natural fibers, costing up to $500 per kilogram.",
+      "Incan law made it punishable by death to kill a vicuña — they were considered sacred.",
+      "They can run at speeds up to 50 km/h across mountainous terrain.",
+      "Vicuñas produce only about 200 grams of wool per year, sheared every three years.",
+      "Conservation success: from 6,000 in the 1970s to over 350,000 today."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Vicuña",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Peru",
+    "emoji": "🦙",
+    "flag": "🇵🇪",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~350,000",
+    "indigenous": true,
+    "habitatOld": "Alpine grassland, puna, moorland"
+  },
+  {
+    "id": "150",
+    "slug": "platypus",
+    "commonName": "Platypus",
+    "scientificName": "Ornithorhynchus anatinus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Monotremata",
+      "family": "Ornithorhynchidae",
+      "genus": "Ornithorhynchus"
+    },
+    "iucnStatus": "LC",
+    "description": "One of only five egg-laying mammals, the platypus is a semiaquatic marvel with a duck-like bill and venomous spurs.",
+    "habitat": [
+      "river",
+      "stream",
+      "freshwater wetland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 17,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.5,
+      "max": 2.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -33.9,
+        "lng": 151.2,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "When first discovered, scientists thought it was a hoax — a stitched-together animal.",
+      "Male platypuses have venomous spurs on their hind legs, one of few venomous mammals.",
+      "They electrolocate prey by detecting electric fields in water with their bill.",
+      "They close their eyes, ears, and nose underwater, relying entirely on their bill to hunt.",
+      "Platypuses have no stomach — their esophagus connects directly to the intestine."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Platypus",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🦆",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~300,000",
+    "indigenous": true,
+    "habitatOld": "River, stream, freshwater wetland"
+  },
+  {
+    "id": "151",
+    "slug": "short-beaked-echidna",
+    "commonName": "Short-beaked Echidna",
+    "scientificName": "Tachyglossus aculeatus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Monotremata",
+      "family": "Tachyglossidae",
+      "genus": "Tachyglossus"
+    },
+    "iucnStatus": "LC",
+    "description": "An egg-laying mammal covered in spines, one of only two monotreme species still alive today.",
+    "habitat": [
+      "forest",
+      "grassland",
+      "desert",
+      "alpine"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 10,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 7,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -33.9,
+        "lng": 151.2,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Echidnas and platypuses are the only mammals that lay eggs.",
+      "They have no teeth — they grind insects between their tongue and the roof of their mouth.",
+      "An echidna can curl into a tight ball when threatened, presenting only spines.",
+      "They have an unusually low body temperature of around 32°C.",
+      "Male echidnas have a four-headed penis — one of the strangest anatomical features in nature."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Short-beaked_echidna",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🦔",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Forest, grassland, desert, alpine"
+  },
+  {
+    "id": "152",
+    "slug": "wombat",
+    "commonName": "Wombat",
+    "scientificName": "Vombatus ursinus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Vombatidae",
+      "genus": "Vombatus"
+    },
+    "iucnStatus": "LC",
+    "description": "A stocky, burrowing marsupial native to Australia, known for its cube-shaped droppings.",
+    "habitat": [
+      "forest",
+      "grassland",
+      "woodland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 20,
+      "max": 35,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -33.9,
+        "lng": 151.2,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Wombat poop is cube-shaped — the only animal known to produce cubic feces.",
+      "Their backward-facing pouch keeps dirt out when digging burrows.",
+      "Wombats can run up to 40 km/h in short bursts when threatened.",
+      "Their burrows can extend over 30 meters underground with multiple chambers.",
+      "Wombat rumps are made of tough cartilage — they use them to block burrow entrances from predators."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Wombat",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🐹",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Forest, grassland, woodland"
+  },
+  {
+    "id": "153",
+    "slug": "thorny-devil",
+    "commonName": "Thorny Devil",
+    "scientificName": "Moloch horridus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Moloch"
+    },
+    "iucnStatus": "LC",
+    "description": "A small Australian lizard covered in spines that collects moisture through grooves on its body.",
+    "habitat": [
+      "desert",
+      "scrubland"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 6,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.03,
+      "max": 0.1,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -25.3,
+        "lng": 131.0,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Thorny devils drink water by standing in dew — capillary action pulls moisture to their mouth.",
+      "Their 'false head' on their neck confuses predators into attacking the wrong end.",
+      "Despite their fearsome appearance, they eat only ants — thousands per day.",
+      "They can change color from pale yellow to dark brown for temperature regulation.",
+      "Named after Moloch, a Canaanite deity associated with sacrifice."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Thorny_devil",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🦎",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Desert, scrubland"
+  },
+  {
+    "id": "155",
+    "slug": "southern-cassowary",
+    "commonName": "Southern Cassowary",
+    "scientificName": "Casuarius casuarius",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Casuariiformes",
+      "family": "Casuariidae",
+      "genus": "Casuarius"
+    },
+    "iucnStatus": "EN",
+    "description": "A large flightless bird with a distinctive casque on its head, considered one of the most dangerous birds in the world.",
+    "habitat": [
+      "tropical rainforest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 45,
+      "max": 75,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -16.9,
+        "lng": 145.8,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Cassowaries have been called the world's most dangerous bird due to their powerful kicks.",
+      "Their inner toe bears a dagger-like claw up to 12 cm long.",
+      "They are critical rainforest seed dispersers — some tree species depend entirely on them.",
+      "The casque on their head may help them hear low-frequency sounds in dense forest.",
+      "They can run up to 50 km/h and jump nearly 2 meters high."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Southern_cassowary",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🦃",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Bird",
+    "conservationStatus": "Endangered",
+    "population": "~4,000",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest"
+  },
+  {
+    "id": "156",
+    "slug": "quokka",
+    "commonName": "Quokka",
+    "scientificName": "Setonix brachyurus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Diprotodontia",
+      "family": "Macropodidae",
+      "genus": "Setonix"
+    },
+    "iucnStatus": "LC",
+    "description": "A small marsupial known as the 'happiest animal on Earth' for its seemingly smiling face, found on Rottnest Island.",
+    "habitat": [
+      "forest",
+      "scrubland",
+      "coastal heath"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 5,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -32.0,
+        "lng": 115.5,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Quokkas became internet famous for 'quokka selfies' — they appear to smile in photos.",
+      "They can survive months without food by using fat stored in their tails.",
+      "Dutch explorer Willem de Vlamingh mistook them for giant rats, naming the island 'Rottnest' (rat's nest).",
+      "Females can pause their pregnancy during unfavorable conditions — called embryonic diapause.",
+      "They are nocturnal but often approach humans during the day."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Quokka",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🐭",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~10,000-15,000",
+    "indigenous": true,
+    "habitatOld": "Forest, scrubland, coastal heath"
+  },
+  {
+    "id": "157",
+    "slug": "inland-taipan",
+    "commonName": "Inland Taipan",
+    "scientificName": "Oxyuranus microlepidotus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Elapidae",
+      "genus": "Oxyuranus"
+    },
+    "iucnStatus": "LC",
+    "description": "The most venomous snake in the world by toxicological measures, native to the arid interior of Australia.",
+    "habitat": [
+      "desert",
+      "dry plains",
+      "scrubland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -25.3,
+        "lng": 131.0,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "A single bite contains enough venom to kill 100 adult humans or 250,000 mice.",
+      "Despite being the most venomous, no human fatalities have been recorded — they are shy and reclusive.",
+      "They change color with the seasons — darker in winter to absorb heat, lighter in summer.",
+      "Inland taipans specialize in hunting fast-moving mammals like the long-haired rat.",
+      "Their venom acts within minutes, causing paralysis and internal bleeding."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Inland_taipan",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🐍",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Desert, dry plains, scrubland"
+  },
+  {
+    "id": "158",
+    "slug": "kakapo",
+    "commonName": "Kakapo",
+    "scientificName": "Strigops habroptilus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Strigopidae",
+      "genus": "Strigops"
+    },
+    "iucnStatus": "CR",
+    "description": "The world's only flightless parrot and one of the longest-living birds, critically endangered and endemic to New Zealand.",
+    "habitat": [
+      "forest",
+      "scrubland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 40,
+      "max": 90,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1.5,
+      "max": 4,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -41.3,
+        "lng": 174.8,
+        "label": "New Zealand"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Kakapos are the only parrots that cannot fly — they climb trees instead.",
+      "Males produce a booming call that can be heard up to 5 km away during breeding season.",
+      "They are the heaviest parrots in the world, weighing up to 4 kg.",
+      "Only about 250 kakapos remain, making them one of the rarest birds on Earth.",
+      "They smell like honey and mild must, an unusual trait for a bird."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Kakapo",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "New Zealand",
+    "emoji": "🦜",
+    "flag": "🇳🇿",
+    "region": "Oceania",
+    "classification": "Bird",
+    "conservationStatus": "Critically Endangered",
+    "population": "~250",
+    "indigenous": true,
+    "habitatOld": "Forest, scrubland"
+  },
+  {
+    "id": "160",
+    "slug": "blue-ringed-octopus",
+    "commonName": "Blue-ringed Octopus",
+    "scientificName": "Hapalochlaena (genus)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Mollusca",
+      "class": "Cephalopoda",
+      "order": "Octopoda",
+      "family": "Octopodidae",
+      "genus": "Hapalochlaena"
+    },
+    "iucnStatus": "LC",
+    "description": "A tiny but deadly octopus found in tide pools and coral reefs of the Pacific, whose venom contains tetrodotoxin.",
+    "habitat": [
+      "coral reef",
+      "tide pool",
+      "rocky shore"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 1,
+      "max": 2,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.004,
+      "max": 0.08,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -33.9,
+        "lng": 151.2,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their venom contains tetrodotoxin — the same toxin found in pufferfish.",
+      "Blue rings flash iridescently as a warning when the octopus feels threatened.",
+      "They are small enough to fit in the palm of your hand, only 5-8 cm across.",
+      "There is no known antivenom for their bite, which can cause paralysis in minutes.",
+      "Despite being tiny, they carry enough venom to kill 26 adult humans."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Blue-ringed_octopus",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🐙",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mollusk",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Coral reef, tide pool, rocky shore"
+  },
+  {
+    "id": "161",
+    "slug": "leafy-sea-dragon",
+    "commonName": "Leafy Sea Dragon",
+    "scientificName": "Phycodurus eques",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Syngnathiformes",
+      "family": "Syngnathidae",
+      "genus": "Phycodurus"
+    },
+    "iucnStatus": "LC",
+    "description": "A marine fish related to seahorses, covered in leaf-like appendages that provide camouflage among seaweed.",
+    "habitat": [
+      "kelp forest",
+      "rocky reef",
+      "seagrass meadow"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.1,
+      "max": 0.2,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -35.0,
+        "lng": 138.6,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their leaf-like appendages are purely for camouflage — they serve no purpose in swimming.",
+      "Unlike seahorses, sea dragons cannot grip surfaces with their tails.",
+      "Males carry and incubate eggs on a brood patch under their tail.",
+      "They have no teeth or stomach — prey is swallowed whole.",
+      "Leafy sea dragons are the marine emblem of South Australia."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Leafy_seadragon",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🐟",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Fish",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Kelp forest, rocky reef, seagrass meadow"
+  },
+  {
+    "id": "162",
+    "slug": "tasmanian-devil",
+    "commonName": "Tasmanian Devil",
+    "scientificName": "Sarcophilus harrisii",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Dasyuromorphia",
+      "family": "Dasyuridae",
+      "genus": "Sarcophilus"
+    },
+    "iucnStatus": "EN",
+    "description": "The largest carnivorous marsupial, found only in Tasmania, known for its powerful jaws and ferocious temperament.",
+    "habitat": [
+      "forest",
+      "scrubland",
+      "coastal heath"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 8,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 5,
+      "max": 12,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -42.9,
+        "lng": 147.3,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Tasmanian devils have the strongest bite force relative to body size of any mammal.",
+      "They eat entire prey including bones, fur, and organs — nothing goes to waste.",
+      "Devil Facial Tumor Disease has wiped out 80% of the population since 1996.",
+      "They are nocturnal and can travel up to 16 km per night hunting.",
+      "Mothers can produce up to 50 tiny joeys, but only four survive as she has four teats."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Tasmanian_devil",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🦡",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~15,000-25,000",
+    "indigenous": true,
+    "habitatOld": "Forest, scrubland, coastal heath"
+  },
+  {
+    "id": "163",
+    "slug": "dingo",
+    "commonName": "Dingo",
+    "scientificName": "Canis lupus dingo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis"
+    },
+    "iucnStatus": "LC",
+    "description": "Australia's largest terrestrial predator, an ancient lineage of dog that arrived on the continent thousands of years ago.",
+    "habitat": [
+      "desert",
+      "grassland",
+      "forest",
+      "scrubland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 12,
+      "max": 24,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -25.3,
+        "lng": 131.0,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Dingoes arrived in Australia at least 4,000 years ago, making them one of the oldest dog lineages.",
+      "They don't bark like domestic dogs — they howl and whimper instead.",
+      "Pure dingoes are at risk of hybridization with feral domestic dogs.",
+      "Dingoes have flexible wrists that allow them to rotate their paws for opening doors and gates.",
+      "They play a crucial ecological role as apex predators in Australian ecosystems."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Dingo",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🐕",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~10,000-50,000",
+    "indigenous": true,
+    "habitatOld": "Desert, grassland, forest, scrubland"
+  },
+  {
+    "id": "164",
+    "slug": "hercules-moth",
+    "commonName": "Hercules Moth",
+    "scientificName": "Coscinocera hercules",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Saturniidae",
+      "genus": "Coscinocera"
+    },
+    "iucnStatus": "LC",
+    "description": "The largest moth in the world by wing area, found in the tropical forests of Australia and New Guinea.",
+    "habitat": [
+      "tropical rainforest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 1,
+      "max": 2,
+      "unit": "weeks"
+    },
+    "weight": {
+      "min": 0.02,
+      "max": 0.03,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Oceania"
+    ],
+    "coordinates": [
+      {
+        "lat": -16.9,
+        "lng": 145.8,
+        "label": "Australia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Adult Hercules moths have a wingspan of up to 27 cm — the largest of any moth.",
+      "Adults don't eat — they survive on energy stored as caterpillars and only live 1-2 weeks.",
+      "Males have longer, more feathery antennae to detect female pheromones from kilometers away.",
+      "Caterpillars can grow up to 12 cm long and are bright green with blue spikes.",
+      "They are named after Hercules, the Greek demigod known for his immense strength."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Coscinocera_hercules",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Australia",
+    "emoji": "🦋",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "classification": "Insect",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest"
+  },
+  {
+    "id": "165",
+    "slug": "spiny-tailed-lizard",
+    "commonName": "Spiny-tailed Lizard",
+    "scientificName": "Uromastyx (genus)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Agamidae",
+      "genus": "Uromastyx"
+    },
+    "iucnStatus": "LC",
+    "description": "A medium-sized herbivorous lizard of arid regions, known for its spiked tail used as a defense weapon.",
+    "habitat": [
+      "desert",
+      "rocky outcrop",
+      "scrubland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.3,
+      "max": 0.9,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 24.7,
+        "lng": 46.7,
+        "label": "Saudi Arabia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They use their spiky tail as a defensive club to block burrow entrances from predators.",
+      "Spiny-tailed lizards can survive body temperatures exceeding 50°C.",
+      "They obtain most of their water from the plants they eat, rarely needing to drink.",
+      "Males become brightly colored during breeding season — blues, greens, and oranges.",
+      "They are called 'dhub' in Arabic and are considered a delicacy in some regions."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Uromastyx",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Saudi Arabia",
+    "emoji": "🦎",
+    "flag": "🇸🇦",
+    "region": "Middle East",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Desert, rocky outcrop, scrubland"
+  },
+  {
+    "id": "166",
+    "slug": "desert-hedgehog",
+    "commonName": "Desert Hedgehog",
+    "scientificName": "Paraechinus aethiopicus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Eulipotyphla",
+      "family": "Erinaceidae",
+      "genus": "Paraechinus"
+    },
+    "iucnStatus": "LC",
+    "description": "The smallest hedgehog species, adapted to survive in the harsh conditions of the Sahara and Arabian deserts.",
+    "habitat": [
+      "desert",
+      "scrubland",
+      "dry grassland"
+    ],
+    "diet": "Insectivore",
+    "lifespan": {
+      "min": 3,
+      "max": 6,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.3,
+      "max": 0.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 31.8,
+        "lng": 34.8,
+        "label": "Israel"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Desert hedgehogs are one of the few hedgehog species found in true deserts.",
+      "They can enter torpor during extreme heat, reducing their metabolic rate significantly.",
+      "Their spines are modified hairs that provide excellent protection from predators.",
+      "They are immune to many toxins, including snake venom from their prey.",
+      "Desert hedgehogs forage primarily at night and can travel several kilometers."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Desert_hedgehog",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Israel",
+    "emoji": "🦔",
+    "flag": "🇮🇱",
+    "region": "Middle East",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Desert, scrubland, dry grassland"
+  },
+  {
+    "id": "168",
+    "slug": "ruppells-fox",
+    "commonName": "Rüppell's Fox",
+    "scientificName": "Vulpes rueppellii",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes"
+    },
+    "iucnStatus": "LC",
+    "description": "A small desert fox adapted to arid environments across North Africa and the Middle East, one of the smallest canids.",
+    "habitat": [
+      "desert",
+      "semidesert",
+      "rocky terrain"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 7,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 3.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 24.7,
+        "lng": 46.7,
+        "label": "Saudi Arabia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their fur-covered paw pads help them walk on hot desert sand.",
+      "Rüppell's foxes can survive without water, getting moisture entirely from prey.",
+      "They are named after German naturalist Eduard Rüppell.",
+      "They cache excess food by burying it for later consumption.",
+      "These foxes can climb rocks and even trees to escape predators or hunt."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Rüppell%27s_fox",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Saudi Arabia",
+    "emoji": "🦊",
+    "flag": "🇸🇦",
+    "region": "Middle East",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Desert, semidesert, rocky terrain"
+  },
+  {
+    "id": "169",
+    "slug": "sand-gazelle",
+    "commonName": "Sand Gazelle",
+    "scientificName": "Gazella marica",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Gazella"
+    },
+    "iucnStatus": "VU",
+    "description": "A desert-adapted gazelle of the Arabian Peninsula, capable of surviving in extreme arid conditions.",
+    "habitat": [
+      "desert",
+      "gravel plain",
+      "sand dune"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 15,
+      "max": 25,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 24.7,
+        "lng": 46.7,
+        "label": "Saudi Arabia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Sand gazelles can go their entire lives without drinking free-standing water.",
+      "Their light-colored fur reflects heat and provides camouflage in the desert.",
+      "They can detect rainfall from hundreds of kilometers away and migrate toward it.",
+      "Their nasal passages cool blood before it reaches the brain, reducing water loss.",
+      "Once abundant across Arabia, habitat loss has made them vulnerable."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sand_gazelle",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Saudi Arabia",
+    "emoji": "🦌",
+    "flag": "🇸🇦",
+    "region": "Middle East",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~10,000",
+    "indigenous": true,
+    "habitatOld": "Desert, gravel plain, sand dune"
+  },
+  {
+    "id": "170",
+    "slug": "dead-sea-sparrow",
+    "commonName": "Dead Sea Sparrow",
+    "scientificName": "Passer moabiticus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Passeridae",
+      "genus": "Passer"
+    },
+    "iucnStatus": "NT",
+    "description": "A small songbird found around the Dead Sea and other arid regions of the Middle East, remarkably adapted to saline environments.",
+    "habitat": [
+      "riparian woodland",
+      "desert oasis",
+      "tamarisk scrub"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 5,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.01,
+      "max": 0.02,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 31.5,
+        "lng": 35.5,
+        "label": "Jordan"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They nest almost exclusively in tamarisk trees along saline waterways.",
+      "Males have a distinctive gray crown and a small black bib during breeding season.",
+      "Dead Sea sparrows are one of the few songbirds adapted to extreme desert conditions.",
+      "They can drink brackish water that other birds cannot tolerate.",
+      "Their population is declining due to habitat loss around the Dead Sea."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Dead_Sea_sparrow",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Jordan",
+    "emoji": "🐦",
+    "flag": "🇯🇴",
+    "region": "Middle East",
+    "classification": "Bird",
+    "conservationStatus": "Near Threatened",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Riparian woodland, desert oasis, tamarisk scrub"
+  },
+  {
+    "id": "172",
+    "slug": "hawksbill-sea-turtle",
+    "commonName": "Hawksbill Sea Turtle",
+    "scientificName": "Eretmochelys imbricata",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Cheloniidae",
+      "genus": "Eretmochelys"
+    },
+    "iucnStatus": "CR",
+    "description": "A critically endangered sea turtle found in tropical oceans worldwide, prized for its beautiful shell.",
+    "habitat": [
+      "coral reef",
+      "tropical ocean",
+      "coastal area"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 45,
+      "max": 75,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Middle East"
+    ],
+    "coordinates": [
+      {
+        "lat": 21.5,
+        "lng": 59.6,
+        "label": "Oman"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Hawksbill turtles are essential to coral reef health — they eat sponges that otherwise smother reefs.",
+      "Their narrow, pointed beak resembles a hawk's bill, giving them their name.",
+      "They can hold their breath for up to 5 hours while sleeping underwater.",
+      "Hawksbill shell (tortoiseshell) trade caused catastrophic population decline.",
+      "Females return to the exact beach where they were born to lay eggs."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Hawksbill_sea_turtle",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Oman",
+    "emoji": "🐢",
+    "flag": "🇴🇲",
+    "region": "Middle East",
+    "classification": "Reptile",
+    "conservationStatus": "Critically Endangered",
+    "population": "~23,000 nesting females",
+    "indigenous": true,
+    "habitatOld": "Coral reef, tropical ocean, coastal area"
+  },
+  {
+    "id": "173",
+    "slug": "arctic-fox",
+    "commonName": "Arctic Fox",
+    "scientificName": "Vulpes lagopus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes"
+    },
+    "iucnStatus": "LC",
+    "description": "A small fox supremely adapted to the Arctic, famous for its fur that changes color with the seasons.",
+    "habitat": [
+      "tundra",
+      "ice sheet",
+      "coastal area"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 6,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Arctic"
+    ],
+    "coordinates": [
+      {
+        "lat": 71.7,
+        "lng": -42.6,
+        "label": "Greenland"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their fur changes from white in winter to brown/gray in summer for camouflage.",
+      "Arctic foxes can withstand temperatures as low as -70°C.",
+      "They have the warmest fur of any mammal, even warmer than polar bears.",
+      "They can hear prey moving under a meter of snow and dive head-first to catch it.",
+      "During lemming population booms, Arctic foxes can have litters of up to 14 pups."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Arctic_fox",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Greenland",
+    "emoji": "🦊",
+    "flag": "🇬🇱",
+    "region": "Arctic",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Several hundred thousand",
+    "indigenous": true,
+    "habitatOld": "Tundra, ice sheet, coastal area"
+  },
+  {
+    "id": "174",
+    "slug": "walrus",
+    "commonName": "Walrus",
+    "scientificName": "Odobenus rosmarus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Odobenidae",
+      "genus": "Odobenus"
+    },
+    "iucnStatus": "VU",
+    "description": "A large marine mammal immediately recognizable by its long tusks and prominent whiskers, found in the Arctic.",
+    "habitat": [
+      "ice sheet",
+      "coastal area",
+      "shallow ocean"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 40,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 400,
+      "max": 1500,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Arctic"
+    ],
+    "coordinates": [
+      {
+        "lat": 70.0,
+        "lng": -96.0,
+        "label": "Canada"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Walrus tusks can grow up to 1 meter and are used to haul out onto ice.",
+      "Their scientific name means 'tooth-walking sea horse' in Latin.",
+      "They have the most sensitive whiskers of any mammal — used to detect clams in dark water.",
+      "A single walrus can eat up to 4,000 clams in one feeding session.",
+      "They can sleep floating in the water, using their tusks to anchor onto ice."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Walrus",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Canada",
+    "emoji": "🦭",
+    "flag": "🇨🇦",
+    "region": "Arctic",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~25,000",
+    "indigenous": true,
+    "habitatOld": "Ice sheet, coastal area, shallow ocean"
+  },
+  {
+    "id": "175",
+    "slug": "beluga-whale",
+    "commonName": "Beluga Whale",
+    "scientificName": "Delphinapterus leucas",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetacea",
+      "family": "Monodontidae",
+      "genus": "Delphinapterus"
+    },
+    "iucnStatus": "NT",
+    "description": "Also known as the white whale, a distinctive Arctic cetacean known for its melon-shaped head and complex vocalizations.",
+    "habitat": [
+      "arctic ocean",
+      "coastal area",
+      "estuary"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 500,
+      "max": 1500,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Arctic"
+    ],
+    "coordinates": [
+      {
+        "lat": 70.0,
+        "lng": -96.0,
+        "label": "Canada"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Belugas are called the 'canaries of the sea' for their wide repertoire of clicks and whistles.",
+      "They are the only whales that can nod and turn their heads, thanks to unfused neck vertebrae.",
+      "Calves are born dark gray and gradually turn white as they mature.",
+      "Belugas molt their skin by rubbing against gravel in shallow river water.",
+      "They can mimic human speech patterns when kept in captivity."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Beluga_whale",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Canada",
+    "emoji": "🐳",
+    "flag": "🇨🇦",
+    "region": "Arctic",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "~150,000",
+    "indigenous": true,
+    "habitatOld": "Arctic ocean, coastal area, estuary"
+  },
+  {
+    "id": "176",
+    "slug": "snowy-owl",
+    "commonName": "Snowy Owl",
+    "scientificName": "Bubo scandiacus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Strigiformes",
+      "family": "Strigidae",
+      "genus": "Bubo"
+    },
+    "iucnStatus": "LC",
+    "description": "A large white owl of Arctic tundra regions, one of the few owls that hunts during the day.",
+    "habitat": [
+      "tundra",
+      "arctic meadow",
+      "coastal area"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 17,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1.6,
+      "max": 2.9,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Arctic"
+    ],
+    "coordinates": [
+      {
+        "lat": 70.0,
+        "lng": -96.0,
+        "label": "Canada"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Snowy owls are one of the few owls that hunt during daylight hours in the Arctic summer.",
+      "Unlike most owls, males get whiter with age — old males can be almost pure white.",
+      "They can swallow lemmings whole, eating up to 1,600 per year.",
+      "During irruption years, they travel far south, sometimes reaching the northern United States.",
+      "Their feathers are so thick that even their legs and toes are covered in insulation."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Snowy_owl",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Canada",
+    "emoji": "🦉",
+    "flag": "🇨🇦",
+    "region": "Arctic",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "~28,000",
+    "indigenous": true,
+    "habitatOld": "Tundra, arctic meadow, coastal area"
+  },
+  {
+    "id": "178",
+    "slug": "leopard-seal",
+    "commonName": "Leopard Seal",
+    "scientificName": "Hydrurga leptonyx",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Phocidae",
+      "genus": "Hydrurga"
+    },
+    "iucnStatus": "LC",
+    "description": "The second-largest seal species in Antarctica, a formidable predator known for hunting other seals and penguins.",
+    "habitat": [
+      "ice sheet",
+      "antarctic ocean",
+      "coastal area"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 26,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 600,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Antarctic"
+    ],
+    "coordinates": [
+      {
+        "lat": -75.0,
+        "lng": 0.0,
+        "label": "Antarctica"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Leopard seals are the only seals that regularly hunt warm-blooded prey including other seals.",
+      "They use their distinctive spotted coat as camouflage while hunting in the water.",
+      "Their trident-shaped teeth act as a sieve for filtering krill from the water.",
+      "They can sing underwater for hours during breeding season — their calls travel kilometers.",
+      "Females are larger than males, unusual among seal species."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Leopard_seal",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Antarctica",
+    "emoji": "🦭",
+    "flag": "🌏",
+    "region": "Antarctic",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~200,000-400,000",
+    "indigenous": true,
+    "habitatOld": "Ice sheet, Antarctic ocean, coastal area"
+  },
+  {
+    "id": "179",
+    "slug": "wandering-albatross",
+    "commonName": "Wandering Albatross",
+    "scientificName": "Diomedea exulans",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Procellariiformes",
+      "family": "Diomedeidae",
+      "genus": "Diomedea"
+    },
+    "iucnStatus": "VU",
+    "description": "The bird with the largest wingspan in the world, capable of soaring for thousands of kilometers over open ocean.",
+    "habitat": [
+      "open ocean",
+      "antarctic waters"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 60,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 6,
+      "max": 12,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Antarctic"
+    ],
+    "coordinates": [
+      {
+        "lat": -55.0,
+        "lng": -5.0,
+        "label": "Antarctic Waters"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their wingspan can reach 3.5 meters — the largest of any living bird.",
+      "Wandering albatrosses can fly over 900 km in a single day without flapping.",
+      "They use dynamic soaring, riding wind gradients to stay aloft with minimal energy.",
+      "They mate for life and return to the same nest site every 2-3 years to breed.",
+      "Joni Mitchell's song 'Amelia' was inspired by Amelia Earhart's love of albatrosses."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Wandering_albatross",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Antarctic Waters",
+    "emoji": "🦩",
+    "flag": "🌏",
+    "region": "Antarctic",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "population": "~26,000",
+    "indigenous": true,
+    "habitatOld": "Open ocean, Antarctic waters"
+  },
+  {
+    "id": "180",
+    "slug": "orca",
+    "commonName": "Orca",
+    "scientificName": "Orcinus orca",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetacea",
+      "family": "Delphinidae",
+      "genus": "Orcinus"
+    },
+    "iucnStatus": "LC",
+    "description": "The largest member of the dolphin family, found in every ocean, known as apex predators with complex social structures.",
+    "habitat": [
+      "open ocean",
+      "coastal area",
+      "antarctic waters"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 50,
+      "max": 80,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3000,
+      "max": 6000,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Antarctic"
+    ],
+    "coordinates": [
+      {
+        "lat": -65.0,
+        "lng": -60.0,
+        "label": "Antarctic Waters"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Orcas are the most widely distributed mammals after humans, found in every ocean.",
+      "Different orca populations have distinct cultures, languages, and hunting techniques.",
+      "They are the only non-human species known to hunt great white sharks specifically for their livers.",
+      "Orcas have the second-largest brain of any marine mammal.",
+      "They can coordinate complex group hunting strategies, including creating waves to wash seals off ice."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Orca",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Antarctic Waters",
+    "emoji": "🐋",
+    "flag": "🌏",
+    "region": "Antarctic",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~50,000",
+    "indigenous": true,
+    "habitatOld": "Open ocean, coastal area, Antarctic waters"
+  },
+  {
+    "id": "182",
+    "slug": "adelie-penguin",
+    "commonName": "Adélie Penguin",
+    "scientificName": "Pygoscelis adeliae",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Sphenisciformes",
+      "family": "Spheniscidae",
+      "genus": "Pygoscelis"
+    },
+    "iucnStatus": "LC",
+    "description": "A classic Antarctic penguin species, known for the white ring around its eyes and its feisty personality.",
+    "habitat": [
+      "ice sheet",
+      "antarctic coast",
+      "rocky shore"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 8,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Antarctic"
+    ],
+    "coordinates": [
+      {
+        "lat": -75.0,
+        "lng": 0.0,
+        "label": "Antarctica"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Adélie penguins build their nests from small stones, sometimes stealing from neighbors.",
+      "They can slide on their bellies (tobogganing) to travel across ice efficiently.",
+      "Adélie penguins may travel up to 13,000 km during winter migration.",
+      "They are fearless — known to approach humans and other animals with curiosity.",
+      "Their population is actually increasing in some areas despite climate change impacts."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Adélie_penguin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Antarctica",
+    "emoji": "🐧",
+    "flag": "🌏",
+    "region": "Antarctic",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "~7.5 million",
+    "indigenous": true,
+    "habitatOld": "Ice sheet, Antarctic coast, rocky shore"
+  },
+  {
+    "id": "183",
+    "slug": "mantis-shrimp",
+    "commonName": "Mantis Shrimp",
+    "scientificName": "Stomatopoda (order)",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Stomatopoda",
+      "family": "Various",
+      "genus": "Various"
+    },
+    "iucnStatus": "LC",
+    "description": "A colorful marine crustacean with the fastest punch in the animal kingdom, capable of smashing aquarium glass.",
+    "habitat": [
+      "coral reef",
+      "tropical ocean",
+      "rocky crevice"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 6,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.01,
+      "max": 0.2,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": -8.3,
+        "lng": 116.4,
+        "label": "Indonesia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their punch accelerates as fast as a .22 caliber bullet, hitting at 80 km/h.",
+      "Mantis shrimp have 16 types of photoreceptors — humans have only 3.",
+      "They can see ultraviolet, circularly polarized, and linearly polarized light.",
+      "Their strikes boil the water around their fists, creating cavitation bubbles.",
+      "Despite the name, they are not actually shrimp — they are stomatopods."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Indonesia",
+    "emoji": "🦐",
+    "flag": "🇮🇩",
+    "region": "Asia",
+    "classification": "Crustacean",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Coral reef, tropical ocean, rocky crevice"
+  },
+  {
+    "id": "184",
+    "slug": "coconut-crab",
+    "commonName": "Coconut Crab",
+    "scientificName": "Birgus latro",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Malacostraca",
+      "order": "Decapoda",
+      "family": "Coenobitidae",
+      "genus": "Birgus"
+    },
+    "iucnStatus": "VU",
+    "description": "The largest terrestrial arthropod in the world, capable of cracking open coconuts with its powerful claws.",
+    "habitat": [
+      "tropical island",
+      "forest floor",
+      "coastal area"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 60,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 4,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": -10.5,
+        "lng": 105.6,
+        "label": "Christmas Island"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Coconut crabs can lift objects weighing up to 28 kg with their claws.",
+      "Their leg span can reach 1 meter — making them look genuinely terrifying.",
+      "They are excellent climbers and can scale trees up to 20 meters tall.",
+      "Coconut crabs have an incredible sense of smell, able to detect food from several kilometers away.",
+      "Young coconut crabs carry shells like hermit crabs until their abdomen hardens."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Coconut_crab",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Christmas Island",
+    "emoji": "🦀",
+    "flag": "🇨🇽",
+    "region": "Asia",
+    "classification": "Crustacean",
+    "conservationStatus": "Vulnerable",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical island, forest floor, coastal area"
+  },
+  {
+    "id": "186",
+    "slug": "atlas-moth",
+    "commonName": "Atlas Moth",
+    "scientificName": "Attacus atlas",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Lepidoptera",
+      "family": "Saturniidae",
+      "genus": "Attacus"
+    },
+    "iucnStatus": "LC",
+    "description": "One of the largest moths in the world by wingspan, found across Southeast Asian tropical forests.",
+    "habitat": [
+      "tropical forest",
+      "subtropical forest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 1,
+      "max": 2,
+      "unit": "weeks"
+    },
+    "weight": {
+      "min": 0.02,
+      "max": 0.03,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.2,
+        "lng": 101.9,
+        "label": "Malaysia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Atlas moths have a wingspan of up to 30 cm — rivaling the Hercules moth.",
+      "The tips of their wings resemble snake heads to scare off predators.",
+      "Adults have no mouths and cannot eat — they survive entirely on fat stored as caterpillars.",
+      "Their silk is used to make durable fabric in some parts of India.",
+      "Caterpillars spin large cocoons that local people use as purses."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Atlas_moth",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Malaysia",
+    "emoji": "🦋",
+    "flag": "🇲🇾",
+    "region": "Asia",
+    "classification": "Insect",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, subtropical forest"
+  },
+  {
+    "id": "187",
+    "slug": "sunbeam-snake",
+    "commonName": "Sunbeam Snake",
+    "scientificName": "Xenopeltis unicolor",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Xenopeltidae",
+      "genus": "Xenopeltis"
+    },
+    "iucnStatus": "LC",
+    "description": "A non-venomous burrowing snake known for its highly iridescent scales that shimmer like a rainbow in sunlight.",
+    "habitat": [
+      "tropical forest",
+      "swamp",
+      "rice paddy"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 7,
+      "max": 12,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.3,
+      "max": 1.3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 15.9,
+        "lng": 100.9,
+        "label": "Thailand"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their scales produce structural iridescence — the color comes from microscopic structures, not pigment.",
+      "Sunbeam snakes are the only species in their family Xenopeltidae.",
+      "They spend most of their time underground, emerging mainly after rain.",
+      "They constrict prey like pythons but are more closely related to sunbeam snakes' primitive lineage.",
+      "Their iridescence fades after death, making preserved specimens look dull brown."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sunbeam_snake",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Thailand",
+    "emoji": "🐍",
+    "flag": "🇹🇭",
+    "region": "Asia",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, swamp, rice paddy"
+  },
+  {
+    "id": "188",
+    "slug": "leopard-tortoise",
+    "commonName": "Leopard Tortoise",
+    "scientificName": "Stigmochelys pardalis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Testudinidae",
+      "genus": "Stigmochelys"
+    },
+    "iucnStatus": "LC",
+    "description": "The fourth-largest tortoise species in the world, named for the spotted pattern on its shell.",
+    "habitat": [
+      "savanna",
+      "grassland",
+      "scrubland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 50,
+      "max": 100,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 10,
+      "max": 50,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -30.6,
+        "lng": 22.9,
+        "label": "South Africa"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Leopard tortoises can live over 100 years in captivity.",
+      "They are surprisingly fast for tortoises and can sustain speeds that outpace a human walking.",
+      "Their shells provide buoyancy — they are excellent swimmers despite being tortoises.",
+      "They are the only tortoise species that can raise its head to graze on taller vegetation.",
+      "Baby leopard tortoises have a more intricate pattern than adults."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Leopard_tortoise",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "South Africa",
+    "emoji": "🐢",
+    "flag": "🇿🇦",
+    "region": "Africa",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Savanna, grassland, scrubland"
+  },
+  {
+    "id": "191",
+    "slug": "margay",
+    "commonName": "Margay",
+    "scientificName": "Leopardus wiedii",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Leopardus"
+    },
+    "iucnStatus": "NT",
+    "description": "A small spotted wild cat of Central and South America, famous for its ability to climb head-first down trees.",
+    "habitat": [
+      "tropical rainforest",
+      "dry forest",
+      "cloud forest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2.6,
+      "max": 4,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "South America"
+    ],
+    "coordinates": [
+      {
+        "lat": -15.8,
+        "lng": -47.9,
+        "label": "Brazil"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Margays can rotate their hind feet 180 degrees, allowing them to climb down trees head-first.",
+      "They are the most arboreal of all wild cats, spending most of their lives in the canopy.",
+      "Their ankles are so flexible they can hang from branches by a single foot.",
+      "They have been observed mimicking the calls of prey species to lure them closer.",
+      "Margays have the largest eyes relative to body size of any cat."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Margay",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Brazil",
+    "emoji": "🐱",
+    "flag": "🇧🇷",
+    "region": "South America",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical rainforest, dry forest, cloud forest"
+  },
+  {
+    "id": "192",
+    "slug": "keel-billed-toucan",
+    "commonName": "Keel-billed Toucan",
+    "scientificName": "Ramphastos sulfuratus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Piciformes",
+      "family": "Ramphastidae",
+      "genus": "Ramphastos"
+    },
+    "iucnStatus": "LC",
+    "description": "A colorful toucan species of Central American forests, also known as the rainbow-billed toucan.",
+    "habitat": [
+      "tropical forest",
+      "cloud forest",
+      "woodland"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.4,
+      "max": 0.6,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Central America"
+    ],
+    "coordinates": [
+      {
+        "lat": 14.6,
+        "lng": -90.5,
+        "label": "Guatemala"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their bill has a rainbow of colors — green, orange, red, blue, and yellow.",
+      "Keel-billed toucans are social birds that roost in tree hollows in groups of up to six.",
+      "They use their bill to toss fruit into the air and catch it to swallow.",
+      "Their bill makes up one-third of their total body length.",
+      "They are the national bird of Belize and appear on its coat of arms."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Keel-billed_toucan",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Guatemala",
+    "emoji": "🦜",
+    "flag": "🇬🇹",
+    "region": "Central America",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, cloud forest, woodland"
+  },
+  {
+    "id": "193",
+    "slug": "olive-ridley-sea-turtle",
+    "commonName": "Olive Ridley Sea Turtle",
+    "scientificName": "Lepidochelys olivacea",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Cheloniidae",
+      "genus": "Lepidochelys"
+    },
+    "iucnStatus": "VU",
+    "description": "The smallest and most abundant sea turtle species, famous for synchronized mass nesting events called arribadas.",
+    "habitat": [
+      "tropical ocean",
+      "coastal area",
+      "estuary"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 25,
+      "max": 50,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 13.1,
+        "lng": 80.3,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "During arribadas, thousands of females come ashore simultaneously to lay eggs.",
+      "A single female can lay up to 110 eggs in one nest.",
+      "Hatchlings race to the sea within minutes of emerging — a critical survival moment.",
+      "They get their name from their olive-green colored shell.",
+      "Olive ridleys are known to travel over 10,000 km during migrations."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Olive_ridley_sea_turtle",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🐢",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Reptile",
+    "conservationStatus": "Vulnerable",
+    "population": "~800,000 nesting females",
+    "indigenous": true,
+    "habitatOld": "Tropical ocean, coastal area, estuary"
+  },
+  {
+    "id": "194",
+    "slug": "ganges-river-dolphin",
+    "commonName": "Ganges River Dolphin",
+    "scientificName": "Platanista gangetica",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Cetacea",
+      "family": "Platanistidae",
+      "genus": "Platanista"
+    },
+    "iucnStatus": "EN",
+    "description": "A freshwater dolphin endemic to the Ganges and Brahmaputra river systems, one of the most endangered cetaceans.",
+    "habitat": [
+      "river",
+      "estuary",
+      "flooded plain"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 50,
+      "max": 90,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 25.3,
+        "lng": 83.0,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They are functionally blind and navigate using echolocation in murky river water.",
+      "Ganges river dolphins swim on their side to feel the river bottom with their flipper.",
+      "They are also called 'susu' — a name derived from the sound of their breathing.",
+      "Only about 1,200-1,800 remain in the wild across India and Bangladesh.",
+      "They are India's national aquatic animal."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Ganges_river_dolphin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🐬",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~1,200-1,800",
+    "indigenous": true,
+    "habitatOld": "River, estuary, flooded plain"
+  },
+  {
+    "id": "195",
+    "slug": "malagasy-giant-chameleon",
+    "commonName": "Malagasy Giant Chameleon",
+    "scientificName": "Furcifer oustaleti",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Chamaeleonidae",
+      "genus": "Furcifer"
+    },
+    "iucnStatus": "VU",
+    "description": "The largest chameleon species in the world, endemic to Madagascar, capable of dramatic color changes.",
+    "habitat": [
+      "tropical forest",
+      "dry forest",
+      "coastal area"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 8,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.2,
+      "max": 0.7,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -18.9,
+        "lng": 47.5,
+        "label": "Madagascar"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Males can reach 68 cm in total length, making them the world's largest chameleons.",
+      "They can change color rapidly for communication, camouflage, and temperature regulation.",
+      "Their tongue can shoot out at 0-60 mph in just 0.07 seconds.",
+      "They have independently moving eyes, allowing them to look in two directions at once.",
+      "Despite their size, they are surprisingly gentle and rarely bite humans."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Oustalet%27s_chameleon",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Madagascar",
+    "emoji": "🦎",
+    "flag": "🇲🇬",
+    "region": "Africa",
+    "classification": "Reptile",
+    "conservationStatus": "Vulnerable",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, dry forest, coastal area"
+  },
+  {
+    "id": "196",
+    "slug": "hamadryas-baboon",
+    "commonName": "Hamadryas Baboon",
+    "scientificName": "Papio hamadryas",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopitidae",
+      "genus": "Papio"
+    },
+    "iucnStatus": "LC",
+    "description": "The northernmost baboon species, living in arid regions of the Horn of Africa and the Arabian Peninsula.",
+    "habitat": [
+      "savanna",
+      "rocky outcrop",
+      "semidesert"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 35,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 10,
+      "max": 25,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 9.0,
+        "lng": 38.7,
+        "label": "Ethiopia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Hamadryas baboons live in complex multi-level social groups called troops.",
+      "Males maintain harems of females, actively herding and guarding them.",
+      "They were sacred in ancient Egypt and associated with the god Thoth.",
+      "Their social structure is among the most complex of any non-human primate.",
+      "They sleep on cliff faces at night for protection from predators."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Hamadryas_baboon",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Ethiopia",
+    "emoji": "🐒",
+    "flag": "🇪🇹",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown",
+    "indigenous": true,
+    "habitatOld": "Savanna, rocky outcrop, semidesert"
+  },
+  {
+    "id": "198",
+    "slug": "pygmy-hippopotamus",
+    "commonName": "Pygmy Hippopotamus",
+    "scientificName": "Choeropsis liberiensis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Hippopotamidae",
+      "genus": "Choeropsis"
+    },
+    "iucnStatus": "EN",
+    "description": "A reclusive, nocturnal herbivore of West African forests, the smaller and much rarer cousin of the common hippopotamus.",
+    "habitat": [
+      "tropical forest",
+      "swamp",
+      "river"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 30,
+      "max": 55,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 180,
+      "max": 275,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 6.3,
+        "lng": -10.8,
+        "label": "Liberia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Pygmy hippos are about half the size and one-tenth the weight of common hippos.",
+      "They are mostly nocturnal and solitary, unlike the social common hippopotamus.",
+      "Less than 2,500 remain in the wild across West Africa.",
+      "Their skin secretes a pinkish substance that acts as natural sunscreen.",
+      "They are excellent swimmers despite being more terrestrial than common hippos."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Pygmy_hippopotamus",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Liberia",
+    "emoji": "🦛",
+    "flag": "🇱🇷",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~2,500",
+    "indigenous": true,
+    "habitatOld": "Tropical forest, swamp, river"
   }
 ]
