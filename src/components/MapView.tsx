@@ -1,5 +1,5 @@
 "use client"
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 
 import { useCallback, useRef, useState } from "react";
 import Map, { NavigationControl, Source, Layer, Marker } from "react-map-gl/maplibre";
@@ -72,6 +72,15 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
   const [hasImgError, setHasImgError] = useState(false);
   const [, forceUpdate] = useState(0);
   const popupRef = useRef<HTMLDivElement>(null);
+  const [popupDim, setPopupDim] = useState({ w: 320, h: 420 });
+
+  useLayoutEffect(() => {
+    if (popupRef.current) {
+      const w = popupRef.current.offsetWidth;
+      const h = popupRef.current.offsetHeight;
+      if (w > 0 && h > 0) setPopupDim({ w, h });
+    }
+  }, [selected]);
 
   function projectToScreen(lng: number, lat: number): { x: number; y: number } | null {
     const map = mapRef.current?.getMap();
@@ -334,9 +343,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
           const pos = projectToScreen(selected.lng, selected.lat);
           if (!pos) return null;
           if (window.innerWidth < 768) return null;
-          const pw = popupRef.current?.offsetWidth ?? 320;
-          const ph = popupRef.current?.offsetHeight ?? 400;
-          const { left, top } = getPopupPosition(pos, pw, ph, window.innerWidth, window.innerHeight);
+          const { left, top } = getPopupPosition(pos, popupDim.w, popupDim.h, window.innerWidth, window.innerHeight);
           return (
             <div
               ref={popupRef}
@@ -344,7 +351,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
               style={{ left, top, maxHeight: 'calc(100vh - 32px)', overflow: 'auto' }}
             >
               <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
-              <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ aspectRatio: '1/1', maxHeight: 240 }}>
+              <div className="w-full rounded-lg overflow-hidden bg-zinc-50 mb-2" style={{ aspectRatio: '1/1', width: 220 }}>
                 {imageLoading || (!imageUrl || hasImgError) ? (
                   <div className="flex items-center justify-center w-full h-full bg-zinc-50">
                     <span className="text-6xl">{selected.emoji}</span>
@@ -354,8 +361,8 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
                     src={imageUrl}
                     alt={selected.animal}
                     className="w-full h-full object-cover"
-                    width={320}
-                    height={320}
+                    width={220}
+                    height={220}
                     onError={() => setHasImgError(true)}
                     unoptimized
                   />
