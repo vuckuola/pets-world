@@ -531,7 +531,13 @@
         "label": "Vietnam"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Pseudoryx_nghetinhensis%2C_b.PNG",
+        "alt": "Saola",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Dubbed the 'Asian unicorn,' the saola was only discovered by science in 1992 — one of the most recent large mammal discoveries",
       "It is so elusive that it has only been documented in the wild a handful of times by camera traps since its discovery",
@@ -1024,7 +1030,13 @@
         "label": "Brazil"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Capybaracropped.jpg/500px-Capybaracropped.jpg",
+        "alt": "Capybara",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The capybara is the world's largest rodent, weighing up to 65 kg (143 lbs) and reaching 1.3 meters in length",
       "They are semi-aquatic and excellent swimmers, able to hold their breath underwater for up to 5 minutes",
@@ -1084,7 +1096,13 @@
         "label": "Mexico"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Axolotl_ganz.jpg/500px-Axolotl_ganz.jpg",
+        "alt": "Axolotl",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Axolotls are famous for their remarkable ability to regenerate lost limbs, organs, and even parts of their brain",
       "They exhibit 'neoteny' — they retain their larval features (gills and aquatic lifestyle) throughout their entire lives without metamorphosing",
@@ -1147,7 +1165,13 @@
         "label": "Canada"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/American_Beaver.jpg/500px-American_Beaver.jpg",
+        "alt": "Beaver",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The beaver is the largest rodent in North America and Canada's national animal, appearing on the nickel coin",
       "Their continuously growing incisors are strengthened with iron, giving them an orange color and remarkable strength for felling trees",
@@ -1269,7 +1293,13 @@
         "label": "Peru"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Llamas%2C_Vernagt-Stausee%2C_Italy.jpg/500px-Llamas%2C_Vernagt-Stausee%2C_Italy.jpg",
+        "alt": "Llama",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Llamas were first domesticated by Andean peoples over 4,000 years ago, making them one of the oldest domesticated animals in the Americas",
       "They are remarkably efficient at carrying loads — a llama can carry 25–30% of its body weight over long distances at high altitude",
@@ -1451,7 +1481,13 @@
         "label": "Chile"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Southern_Pudu%2C_Edinburgh_Zoo.jpg/500px-Southern_Pudu%2C_Edinburgh_Zoo.jpg",
+        "alt": "Pudu",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The pudu is the world's smallest deer species, standing only 35–45 cm (14–18 inches) tall at the shoulder",
       "When threatened, they run in a zigzag pattern and can climb fallen trees to escape predators",
@@ -1757,7 +1793,13 @@
         "label": "South Africa"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/500px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg",
+        "alt": "Meerkat",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Meerkats live in highly organized colonies of up to 50 individuals with designated sentinels who stand watch for predators",
       "They have dark patches around their eyes that reduce sun glare, like built-in sunglasses for spotting aerial predators",
@@ -1881,7 +1923,13 @@
         "label": "Tanzania"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg/500px-015_Chimpanzee_at_Kibale_forest_National_Park_Photo_by_Giles_Laurent.jpg",
+        "alt": "Chimpanzee",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Chimpanzees share approximately 98.7% of their DNA with humans, making them our closest living relatives",
       "They use tools — including using sticks to fish for termites, and leaves as sponges — a behavior first documented by Jane Goodall at Gombe Stream, Tanzania",
@@ -2428,7 +2476,13 @@
         "label": "Congo"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Apeldoorn_Apenheul_zoo_Bonobo.jpg/500px-Apeldoorn_Apenheul_zoo_Bonobo.jpg",
+        "alt": "Bonobo",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Bonobos share 98.7% of their DNA with humans and are chimpanzees' closest relatives, often called 'pygmy chimpanzees'",
       "They are distinguished from chimpanzees by their matriarchal societies, peaceful conflict resolution, and remarkable social intelligence",
@@ -3285,7 +3339,13 @@
         "label": "Fiji"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Brachylophus_fasciatus_-Warsaw_Zoo%2C_Poland-8a.jpg/500px-Brachylophus_fasciatus_-Warsaw_Zoo%2C_Poland-8a.jpg",
+        "alt": "Banded Iguana",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Banded iguanas are among the most colorful lizards in the world — males have bright emerald green bands contrasting with pale blue bands",
       "They are one of the few iguana species found outside the Americas — their ancestors likely rafted across the Pacific Ocean millions of years ago",
@@ -3708,7 +3768,13 @@
         "label": "New Caledonia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Kagu_0A2A2595.jpg/500px-Kagu_0A2A2595.jpg",
+        "alt": "Kagu",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The kagu is a flightless bird endemic to New Caledonia — it is the only surviving member of its entire family Rhynochetidae",
       "It has unique 'nasal corns' — no other bird species has these nostril coverings, giving the kagu one of the most advanced senses of smell among birds",
@@ -4317,7 +4383,13 @@
         "label": "Greenland"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg/500px-%D0%9D%D0%B0%D1%80%D0%B2%D0%B0%D0%BB_%D0%B2_%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%90%D1%80%D0%BA%D1%82%D0%B8%D0%BA%D0%B5.jpg",
+        "alt": "Narwhal",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The narwhal's iconic 'tusk' is actually an elongated canine tooth that spirals counterclockwise up to 3 meters (10 feet) long — it is found almost exclusively on males",
       "Their tusk contains up to 10 million nerve endings and may function as a sensory organ to detect changes in water salinity, temperature, and pressure",
@@ -4500,7 +4572,13 @@
         "label": "Democratic Republic of Congo"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg/500px-Saint-Aignan_%28Loir-et-Cher%29._Okapi.jpg",
+        "alt": "Okapi",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Closest living relative is the giraffe, not the zebra.",
       "Striped hindquarters help calves follow mothers through dense forest.",
@@ -4562,7 +4640,13 @@
         "label": "Zambia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan-8a.jpg/500px-Balaeniceps_rex_-Ueno_Zoo%2C_Tokyo%2C_Japan-8a.jpg",
+        "alt": "Shoebill",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Named for its enormous shoe-shaped bill.",
       "Can stand perfectly still for hours while hunting fish.",
@@ -4623,7 +4707,13 @@
         "label": "Cameroon"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg/500px-Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg",
+        "alt": "Mandrill",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Males have the most colorful faces of any mammal.",
       "Their facial colors brighten when excited.",
@@ -4746,7 +4836,13 @@
         "label": "South Africa"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Orycteropus_afer_175359469.jpg/500px-Orycteropus_afer_175359469.jpg",
+        "alt": "Aardvark",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The name means 'earth pig' in Afrikaans.",
       "Their powerful claws can dig through termite mounds as hard as concrete.",
@@ -4867,7 +4963,13 @@
         "label": "Ethiopia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg/500px-Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg",
+        "alt": "Gelada",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The only primate that primarily grazes on grass.",
       "Have a distinctive hourglass-shaped red patch on their chest.",
@@ -4929,7 +5031,13 @@
         "label": "South Africa"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg/500px-Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg",
+        "alt": "Caracal",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Can leap up to 3 meters (10 feet) in the air to catch birds.",
       "Their ear tufts can be up to 4.5 cm long.",
@@ -5116,7 +5224,13 @@
         "label": "Namibia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Male_cheetah_facing_left_in_South_Africa.jpg/500px-Male_cheetah_facing_left_in_South_Africa.jpg",
+        "alt": "Cheetah",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Fastest land animal — can reach 112 km/h in short bursts.",
       "Can accelerate from 0 to 100 km/h in just 3 seconds.",
@@ -5364,7 +5478,13 @@
         "label": "Mozambique"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Dugong.JPG/500px-Dugong.JPG",
+        "alt": "Dugong",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The only strictly herbivorous marine mammal in existence.",
       "Closely related to manatees — together they make up the order Sirenia.",
@@ -5486,7 +5606,13 @@
         "label": "India"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gharial_%28Gavialis_gangeticus%29_male.jpg/500px-Gharial_%28Gavialis_gangeticus%29_male.jpg",
+        "alt": "Gharial",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The most aquatic of all crocodilians — rarely leave the water.",
       "Their long, thin snout is perfectly adapted for catching fish.",
@@ -5546,7 +5672,13 @@
         "label": "India"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Binturong_in_Overloon.jpg/500px-Binturong_in_Overloon.jpg",
+        "alt": "Binturong",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "One of only two carnivores with a prehensile tail.",
       "Smells like buttered popcorn due to a scent gland secretion.",
@@ -5608,7 +5740,13 @@
         "label": "India"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dhole_in_its_habitat_%28cropped%29.jpg/500px-Dhole_in_its_habitat_%28cropped%29.jpg",
+        "alt": "Dhole",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Can take down prey 10 times their own size through teamwork.",
       "Have fewer teeth than other canids — only 40 instead of 42.",
@@ -5979,7 +6117,13 @@
         "label": "Bhutan"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Thimphu-Takin-Reservat-06-2015-gje.jpg/500px-Thimphu-Takin-Reservat-06-2015-gje.jpg",
+        "alt": "Takin",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Bhutan's national animal, chosen for its mythical appearance.",
       "Legend says takin were created from the remains of a goat eaten by a saint.",
@@ -6968,7 +7112,13 @@
         "label": "Norway"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/J%C3%A4rv1.jpg/500px-J%C3%A4rv1.jpg",
+        "alt": "Wolverine",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Can take down prey 10 times their size — including caribou and moose.",
       "Their powerful jaws can crack frozen bones and crush thick femurs.",
@@ -7468,7 +7618,13 @@
         "label": "Canada"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Alaska_moose.jpg/500px-Alaska_moose.jpg",
+        "alt": "Moose",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "The largest deer species — males can stand over 2 meters at the shoulder.",
       "Their antlers can span up to 2 meters across and weigh 20 kg.",
@@ -7717,7 +7873,13 @@
         "label": "Wyoming"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Antilocapra_americana.jpg/500px-Antilocapra_americana.jpg",
+        "alt": "Pronghorn",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Second fastest land animal — can sustain speeds of 65 km/h for miles.",
       "No natural predator today can match their speed — likely evolved to outrun extinct American cheetahs.",
@@ -7842,7 +8004,13 @@
         "label": "Texas"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bobcat_at_Columbus_Zoo_Boo.jpg/500px-Bobcat_at_Columbus_Zoo_Boo.jpg",
+        "alt": "Bobcat",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Named for their short, bobbed tail — usually 10-15 cm long.",
       "Can pounce from 3 meters away to catch prey.",
@@ -8030,7 +8198,13 @@
         "label": "USA"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Raccoon_in_Central_Park_%2835264%29.jpg/500px-Raccoon_in_Central_Park_%2835264%29.jpg",
+        "alt": "Raccoon",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Their scientific name 'lotor' means 'washer' — they often appear to wash their food.",
       "Have incredibly dexterous front paws that can open jars, doors, and latches.",
@@ -8092,7 +8266,13 @@
         "label": "Brazil"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Standing_jaguar.jpg/500px-Standing_jaguar.jpg",
+        "alt": "Jaguar",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Jaguar has the strongest bite force of any big cat relative to its size.",
       "They are excellent swimmers and often hunt in water.",
@@ -8276,7 +8456,13 @@
         "label": "Peru"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Morpho_menelaus_huebneri_MHNT_Male_Dos.jpg/500px-Morpho_menelaus_huebneri_MHNT_Male_Dos.jpg",
+        "alt": "Blue Morpho Butterfly",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Their brilliant blue color comes from microscopic scales that reflect light.",
       "When they close their wings, the brown underside acts as camouflage against predators.",
@@ -9013,7 +9199,13 @@
         "label": "Peru"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Vicuna_%2889163948%29_%28cropped%29.jpg/500px-Vicuna_%2889163948%29_%28cropped%29.jpg",
+        "alt": "Vicuña",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Vicuña wool is among the most expensive natural fibers, costing up to $500 per kilogram.",
       "Incan law made it punishable by death to kill a vicuña — they were considered sacred.",
@@ -9075,7 +9267,13 @@
         "label": "Australia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg/500px-Duck-billed_platypus_%28Ornithorhynchus_anatinus%29_Scottsdale.jpg",
+        "alt": "Platypus",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "When first discovered, scientists thought it was a hoax — a stitched-together animal.",
       "Male platypuses have venomous spurs on their hind legs, one of few venomous mammals.",
@@ -9200,7 +9398,13 @@
         "label": "Australia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Vombatus_ursinus_-Maria_Island_National_Park.jpg/500px-Vombatus_ursinus_-Maria_Island_National_Park.jpg",
+        "alt": "Wombat",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Wombat poop is cube-shaped — the only animal known to produce cubic feces.",
       "Their backward-facing pouch keeps dirt out when digging burrows.",
@@ -9383,7 +9587,13 @@
         "label": "Australia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Quokka_at_rottnest_%28cropped%29.jpg/500px-Quokka_at_rottnest_%28cropped%29.jpg",
+        "alt": "Quokka",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Quokkas became internet famous for 'quokka selfies' — they appear to smile in photos.",
       "They can survive months without food by using fat stored in their tails.",
@@ -9755,7 +9965,13 @@
         "label": "Australia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dingo_%28Canis_lupus_dingo%29_Kakadu_2.jpg/500px-Dingo_%28Canis_lupus_dingo%29_Kakadu_2.jpg",
+        "alt": "Dingo",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Dingoes arrived in Australia at least 4,000 years ago, making them one of the oldest dog lineages.",
       "They don't bark like domestic dogs — they howl and whimper instead.",
@@ -9815,7 +10031,13 @@
         "label": "Australia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Coscinocera_hercules_male_from_Arfak.jpg/500px-Coscinocera_hercules_male_from_Arfak.jpg",
+        "alt": "Hercules Moth",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Adult Hercules moths have a wingspan of up to 27 cm — the largest of any moth.",
       "Adults don't eat — they survive on energy stored as caterpillars and only live 1-2 weeks.",
@@ -10311,7 +10533,13 @@
         "label": "Canada"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg/500px-Walrus_in_the_Russian_Arctic_National_Park%2C_Novaya_Zemlya_2015-2.jpg",
+        "alt": "Walrus",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Walrus tusks can grow up to 1 meter and are used to haul out onto ice.",
       "Their scientific name means 'tooth-walking sea horse' in Latin.",
@@ -10620,7 +10848,13 @@
         "label": "Antarctic Waters"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Killerwhales_jumping.jpg/500px-Killerwhales_jumping.jpg",
+        "alt": "Orca",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Orcas are the most widely distributed mammals after humans, found in every ocean.",
       "Different orca populations have distinct cultures, languages, and hunting techniques.",
@@ -10867,7 +11101,13 @@
         "label": "Malaysia"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Attacus_atlas_qtl3.jpg/500px-Attacus_atlas_qtl3.jpg",
+        "alt": "Atlas Moth",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Atlas moths have a wingspan of up to 30 cm — rivaling the Hercules moth.",
       "The tips of their wings resemble snake heads to scare off predators.",
@@ -10929,7 +11169,13 @@
         "label": "Thailand"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Sunbeam_Snake_%28Xenopeltis_unicolor%29_%287121228691%29.jpg/500px-Sunbeam_Snake_%28Xenopeltis_unicolor%29_%287121228691%29.jpg",
+        "alt": "Sunbeam Snake",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Their scales produce structural iridescence — the color comes from microscopic structures, not pigment.",
       "Sunbeam snakes are the only species in their family Xenopeltidae.",
@@ -11053,7 +11299,13 @@
         "label": "Brazil"
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Margay_in_Costa_Rica.jpg/500px-Margay_in_Costa_Rica.jpg",
+        "alt": "Margay",
+        "caption": ""
+      }
+    ],
     "funFacts": [
       "Margays can rotate their hind feet 180 degrees, allowing them to climb down trees head-first.",
       "They are the most arboreal of all wild cats, spending most of their lives in the canopy.",
