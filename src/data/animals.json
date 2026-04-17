@@ -4337,5 +4337,3718 @@
     "indigenous": true,
     "habitatOld": "Arctic and sub-Arctic waters, particularly around sea ice and deep fjords",
     "population": "~80,000"
+  },
+  {
+    "id": "72",
+    "slug": "nile-crocodile",
+    "commonName": "Nile Crocodile",
+    "scientificName": "Crocodylus niloticus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Crocodilia",
+      "family": "Crocodylidae",
+      "genus": "Crocodylus"
+    },
+    "iucnStatus": "LC",
+    "description": "Africa's largest freshwater predator found across sub-Saharan Africa.",
+    "habitat": [
+      "freshwater rivers",
+      "lakes",
+      "marshes"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 50,
+      "max": 100,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 750,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -1.3,
+        "lng": 36.8,
+        "label": "Kenya"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can hold their breath underwater for up to 2 hours when resting.",
+      "Have the strongest bite force ever measured in a living animal.",
+      "Females carry hatchlings in their mouths to the water.",
+      "Can grow up to 5 meters (16 feet) long.",
+      "Remained largely unchanged for millions of years."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Nile_crocodile",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Kenya",
+    "emoji": "🐊",
+    "flag": "🇰🇪",
+    "region": "Africa",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "~250,000-500,000",
+    "indigenous": true,
+    "habitatOld": "freshwater rivers, lakes, marshes"
+  },
+  {
+    "id": "73",
+    "slug": "african-grey-parrot",
+    "commonName": "African Grey Parrot",
+    "scientificName": "Psittacus erithacus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "genus": "Psittacus"
+    },
+    "iucnStatus": "EN",
+    "description": "One of the most intelligent bird species, known for exceptional ability to mimic human speech.",
+    "habitat": [
+      "lowland rainforest",
+      "forest edges"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 40,
+      "max": 60,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.3,
+      "max": 0.6,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -4.3,
+        "lng": 15.3,
+        "label": "Democratic Republic of Congo"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can learn vocabularies of over 1000 words.",
+      "Ranked among the most intelligent bird species on Earth.",
+      "Population has declined over 50% in the last three generations.",
+      "They mate for life and form strong pair bonds.",
+      "Capable of understanding concepts like color and shape."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/African_grey_parrot",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Democratic Republic of Congo",
+    "emoji": "🦜",
+    "flag": "🇨🇩",
+    "region": "Africa",
+    "classification": "Bird",
+    "conservationStatus": "Endangered",
+    "population": "~680,000-13,000,000",
+    "indigenous": true,
+    "habitatOld": "lowland rainforest, forest edges"
+  },
+  {
+    "id": "74",
+    "slug": "okapi",
+    "commonName": "Okapi",
+    "scientificName": "Okapia johnstoni",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Giraffidae",
+      "genus": "Okapia"
+    },
+    "iucnStatus": "EN",
+    "description": "The 'forest giraffe' endemic to the dense tropical rainforests of the Democratic Republic of Congo.",
+    "habitat": [
+      "dense tropical rainforest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 350,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 1.5,
+        "lng": 27.5,
+        "label": "Democratic Republic of Congo"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Closest living relative is the giraffe, not the zebra.",
+      "Striped hindquarters help calves follow mothers through dense forest.",
+      "Their tongue is long enough to wash their own eyelids.",
+      "First described to Western science in 1901.",
+      "Was unknown to the outside world until the late 19th century."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Okapi",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Democratic Republic of Congo",
+    "emoji": "🦏",
+    "flag": "🇨🇩",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~35,000-50,000",
+    "indigenous": true,
+    "habitatOld": "dense tropical rainforest"
+  },
+  {
+    "id": "75",
+    "slug": "shoebill",
+    "commonName": "Shoebill",
+    "scientificName": "Balaeniceps rex",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Pelecaniformes",
+      "family": "Balaenicipitidae",
+      "genus": "Balaeniceps"
+    },
+    "iucnStatus": "VU",
+    "description": "A massive prehistoric-looking stork found in the swamps of central tropical Africa.",
+    "habitat": [
+      "swamps",
+      "marshes",
+      "wetlands"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 35,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4,
+      "max": 7,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -15.4,
+        "lng": 28.3,
+        "label": "Zambia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Named for its enormous shoe-shaped bill.",
+      "Can stand perfectly still for hours while hunting fish.",
+      "Sometimes called the 'whale-headed stork'.",
+      "One of the most sought-after birds by birdwatchers.",
+      "Their deep booming calls sound like a machine gun."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Shoebill",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Zambia",
+    "emoji": "🦢",
+    "flag": "🇿🇲",
+    "region": "Africa",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "population": "~5,000-8,000",
+    "indigenous": true,
+    "habitatOld": "swamps, marshes, wetlands"
+  },
+  {
+    "id": "76",
+    "slug": "mandrill",
+    "commonName": "Mandrill",
+    "scientificName": "Mandrillus sphinx",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Mandrillus"
+    },
+    "iucnStatus": "VU",
+    "description": "The world's largest monkey, famous for the male's vivid blue and red facial coloration.",
+    "habitat": [
+      "tropical rainforest",
+      "subtropical forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 20,
+      "max": 35,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 6.0,
+        "lng": 12.0,
+        "label": "Cameroon"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Males have the most colorful faces of any mammal.",
+      "Their facial colors brighten when excited.",
+      "Live in groups called 'hordes' that can number over 600.",
+      "More closely related to baboons than to great apes.",
+      "Have cheek pouches that can store food while foraging."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mandrill",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Cameroon",
+    "emoji": "🐵",
+    "flag": "🇨🇲",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~50,000-100,000",
+    "indigenous": true,
+    "habitatOld": "tropical rainforest, subtropical forest"
+  },
+  {
+    "id": "77",
+    "slug": "giant-ground-pangolin",
+    "commonName": "Giant Ground Pangolin",
+    "scientificName": "Smutsia gigantea",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Pholidota",
+      "family": "Manidae",
+      "genus": "Smutsia"
+    },
+    "iucnStatus": "CR",
+    "description": "The largest pangolin species, heavily poached for its scales used in traditional medicine.",
+    "habitat": [
+      "tropical forest",
+      "savanna woodland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 30,
+      "max": 33,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 6.0,
+        "lng": 12.0,
+        "label": "Cameroon"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The only mammals entirely covered in keratin scales.",
+      "Can consume up to 70 million ants and termites per year.",
+      "Their tongues can be longer than their entire bodies when extended.",
+      "Roll into a tight ball when threatened — impenetrable to most predators.",
+      "Pangolin trafficking is estimated at over 1 million animals per decade."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Giant_pangolin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Cameroon",
+    "emoji": "🦎",
+    "flag": "🇨🇲",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Critically Endangered",
+    "population": "Unknown (declining rapidly)",
+    "indigenous": true,
+    "habitatOld": "tropical forest, savanna woodland"
+  },
+  {
+    "id": "78",
+    "slug": "aardvark",
+    "commonName": "Aardvark",
+    "scientificName": "Orycteropus afer",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Tubulidentata",
+      "family": "Orycteropodidae",
+      "genus": "Orycteropus"
+    },
+    "iucnStatus": "LC",
+    "description": "Africa's only living species of the order Tubulidentata, a specialized ant and termite eater.",
+    "habitat": [
+      "savanna",
+      "grassland",
+      "woodland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 23,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 50,
+      "max": 82,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -30.6,
+        "lng": 22.9,
+        "label": "South Africa"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The name means 'earth pig' in Afrikaans.",
+      "Their powerful claws can dig through termite mounds as hard as concrete.",
+      "Have no close living relatives — in their own unique order.",
+      "Can dig a meter of tunnel in just 5 minutes.",
+      "Their teeth grow continuously throughout life and have no enamel."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Aardvark",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "South Africa",
+    "emoji": "🦔",
+    "flag": "🇿🇦",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (widespread)",
+    "indigenous": true,
+    "habitatOld": "savanna, grassland, woodland"
+  },
+  {
+    "id": "79",
+    "slug": "fossa",
+    "commonName": "Fossa",
+    "scientificName": "Cryptoprocta ferox",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Eupleridae",
+      "genus": "Cryptoprocta"
+    },
+    "iucnStatus": "EN",
+    "description": "Madagascar's top predator, resembling a cross between a cat and a mongoose.",
+    "habitat": [
+      "tropical forest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 7,
+      "max": 12,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -18.9,
+        "lng": 47.5,
+        "label": "Madagascar"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Madagascar's largest native carnivore.",
+      "More closely related to mongooses than cats.",
+      "Can hunt lemurs in trees — 90% arboreal when hunting.",
+      "Flexible ankles allow them to climb down trees head-first.",
+      "Classified as a cat-like carnivore despite not being a cat."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Fossa_(animal)",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Madagascar",
+    "emoji": "🐱",
+    "flag": "🇲🇬",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~2,600",
+    "indigenous": true,
+    "habitatOld": "tropical forest"
+  },
+  {
+    "id": "80",
+    "slug": "gelada-baboon",
+    "commonName": "Gelada",
+    "scientificName": "Theropithecus gelada",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Cercopithecidae",
+      "genus": "Theropithecus"
+    },
+    "iucnStatus": "NT",
+    "description": "The only grazing primate, found only in the Ethiopian Highlands.",
+    "habitat": [
+      "alpine grassland",
+      "montane meadow"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 15,
+      "max": 20,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 9.0,
+        "lng": 38.7,
+        "label": "Ethiopia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The only primate that primarily grazes on grass.",
+      "Have a distinctive hourglass-shaped red patch on their chest.",
+      "Males have impressive manes resembling a lion's.",
+      "The most terrestrial primate besides humans and baboons.",
+      "Live in the largest groups of any non-human primate (up to 800)."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gelada",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Ethiopia",
+    "emoji": "🐒",
+    "flag": "🇪🇹",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "~200,000-500,000",
+    "indigenous": true,
+    "habitatOld": "alpine grassland, montane meadow"
+  },
+  {
+    "id": "81",
+    "slug": "caracal",
+    "commonName": "Caracal",
+    "scientificName": "Caracal caracal",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Caracal"
+    },
+    "iucnStatus": "LC",
+    "description": "A striking medium-sized wild cat with distinctive tufted ears, found across Africa and Asia.",
+    "habitat": [
+      "savanna",
+      "woodland",
+      "semi-desert"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 8,
+      "max": 20,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -30.6,
+        "lng": 22.9,
+        "label": "South Africa"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can leap up to 3 meters (10 feet) in the air to catch birds.",
+      "Their ear tufts can be up to 4.5 cm long.",
+      "Once trained for hunting in India and Persia.",
+      "Among the fastest small cats — can sprint at 80 km/h.",
+      "Name comes from the Turkish word 'karakulak' meaning 'black ear'."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Caracal",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "South Africa",
+    "emoji": "🐱",
+    "flag": "🇿🇦",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (widespread)",
+    "indigenous": true,
+    "habitatOld": "savanna, woodland, semi-desert"
+  },
+  {
+    "id": "82",
+    "slug": "secretary-bird",
+    "commonName": "Secretary Bird",
+    "scientificName": "Sagittarius serpentarius",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Accipitriformes",
+      "family": "Sagittariidae",
+      "genus": "Sagittarius"
+    },
+    "iucnStatus": "VU",
+    "description": "A large bird of prey that hunts on foot across African savannas, famous for stomping snakes to death.",
+    "habitat": [
+      "savanna",
+      "grassland",
+      "shrubland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2.5,
+      "max": 4.3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -1.3,
+        "lng": 36.8,
+        "label": "Kenya"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can deliver kicks with a force equivalent to 5-6 times their body weight.",
+      "Name may come from the quill feathers resembling 19th-century secretaries' pens.",
+      "Featured on the coat of arms of Sudan and South Africa.",
+      "They mate for life and perform elaborate aerial courtship displays.",
+      "Can stamp a snake to death in just 15 seconds."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Secretarybird",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Kenya",
+    "emoji": "🦅",
+    "flag": "🇰🇪",
+    "region": "Africa",
+    "classification": "Bird",
+    "conservationStatus": "Vulnerable",
+    "population": "~6,700-67,000",
+    "indigenous": true,
+    "habitatOld": "savanna, grassland, shrubland"
+  },
+  {
+    "id": "83",
+    "slug": "african-elephant",
+    "commonName": "African Elephant",
+    "scientificName": "Loxodonta africana",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Proboscidea",
+      "family": "Elephantidae",
+      "genus": "Loxodonta"
+    },
+    "iucnStatus": "EN",
+    "description": "The largest living land animal, playing a crucial role as ecosystem engineers across Africa.",
+    "habitat": [
+      "savanna",
+      "forest",
+      "grassland",
+      "wetland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 50,
+      "max": 70,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3000,
+      "max": 6000,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": 36.7,
+        "label": "Tanzania"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The largest living land animal, weighing up to 6 tonnes.",
+      "Can communicate using infrasound over distances of 10 km.",
+      "Their trunks contain over 40,000 muscles.",
+      "Elephants mourn their dead and show empathy.",
+      "Pregnancy lasts 22 months — the longest of any land animal."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/African_elephant",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Tanzania",
+    "emoji": "🐘",
+    "flag": "🇹🇿",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~415,000",
+    "indigenous": true,
+    "habitatOld": "savanna, forest, grassland, wetland"
+  },
+  {
+    "id": "84",
+    "slug": "cheetah",
+    "commonName": "Cheetah",
+    "scientificName": "Acinonyx jubatus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Acinonyx"
+    },
+    "iucnStatus": "VU",
+    "description": "The fastest land animal on Earth, capable of reaching speeds over 100 km/h in short bursts.",
+    "habitat": [
+      "savanna",
+      "grassland",
+      "open woodland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 20,
+      "max": 72,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -22.6,
+        "lng": 17.1,
+        "label": "Namibia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Fastest land animal — can reach 112 km/h in short bursts.",
+      "Can accelerate from 0 to 100 km/h in just 3 seconds.",
+      "Non-retractable claws act like running spikes for traction.",
+      "Unlike other big cats, cheetahs cannot roar but purr loudly.",
+      "Namibia has the largest free-roaming cheetah population in the world."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Cheetah",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Namibia",
+    "emoji": "🐆",
+    "flag": "🇳🇦",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~6,500-7,100",
+    "indigenous": true,
+    "habitatOld": "savanna, grassland, open woodland"
+  },
+  {
+    "id": "85",
+    "slug": "spotted-hyena",
+    "commonName": "Spotted Hyena",
+    "scientificName": "Crocuta crocuta",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Hyaenidae",
+      "genus": "Crocuta"
+    },
+    "iucnStatus": "LC",
+    "description": "Africa's most successful large predator with the strongest bite force proportionate to body size among mammals.",
+    "habitat": [
+      "savanna",
+      "grassland",
+      "woodland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 40,
+      "max": 80,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -3.4,
+        "lng": 36.7,
+        "label": "Tanzania"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Have the strongest bite force of any land mammal relative to body size.",
+      "Females are larger and more aggressive than males, dominating the clan.",
+      "Clans can number over 80 individuals with complex social hierarchies.",
+      "More closely related to cats than dogs.",
+      "Their famous 'laugh' actually signals nervousness or submission."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Spotted_hyena",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Tanzania",
+    "emoji": "🦴",
+    "flag": "🇹🇿",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~27,000-47,000",
+    "indigenous": true,
+    "habitatOld": "savanna, grassland, woodland"
+  },
+  {
+    "id": "86",
+    "slug": "nile-monitor",
+    "commonName": "Nile Monitor",
+    "scientificName": "Varanus niloticus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Varanidae",
+      "genus": "Varanus"
+    },
+    "iucnStatus": "LC",
+    "description": "Africa's largest lizard, an opportunistic predator found near water bodies across sub-Saharan Africa.",
+    "habitat": [
+      "riverbanks",
+      "swamps",
+      "forest edges"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 5,
+      "max": 20,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -1.3,
+        "lng": 36.8,
+        "label": "Kenya"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Second largest lizard in Africa after the Nile crocodile.",
+      "Can stay underwater for over an hour.",
+      "Excellent climbers often found in trees near rivers.",
+      "Have forked tongues like snakes to detect prey.",
+      "Invasive in Florida, USA where they are an established exotic species."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Nile_monitor",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Kenya",
+    "emoji": "🦎",
+    "flag": "🇰🇪",
+    "region": "Africa",
+    "classification": "Reptile",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (common and widespread)",
+    "indigenous": true,
+    "habitatOld": "riverbanks, swamps, forest edges"
+  },
+  {
+    "id": "87",
+    "slug": "african-wildcat",
+    "commonName": "African Wildcat",
+    "scientificName": "Felis lybica",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Felis"
+    },
+    "iucnStatus": "LC",
+    "description": "The wild ancestor of the domestic cat, found across Africa and parts of the Middle East.",
+    "habitat": [
+      "savanna",
+      "forest",
+      "scrubland",
+      "desert edge"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 14,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 6.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": 33.6,
+        "lng": -7.6,
+        "label": "Morocco"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The direct ancestor of all domestic cats worldwide.",
+      "Can interbreed with domestic cats — hybridization is a conservation threat.",
+      "Have tabby-like markings — the same pattern seen in domestic cats.",
+      "Hunt mainly at dawn and dusk, alone.",
+      "One of the most widespread small wild cat species."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/African_wildcat",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Morocco",
+    "emoji": "🐱",
+    "flag": "🇲🇦",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (widespread)",
+    "indigenous": true,
+    "habitatOld": "savanna, forest, scrubland, desert edge"
+  },
+  {
+    "id": "88",
+    "slug": "dugong",
+    "commonName": "Dugong",
+    "scientificName": "Dugong dugon",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Sirenia",
+      "family": "Dugongidae",
+      "genus": "Dugong"
+    },
+    "iucnStatus": "VU",
+    "description": "The only strictly herbivorous marine mammal, grazing on seagrass meadows in warm coastal waters.",
+    "habitat": [
+      "shallow coastal waters",
+      "seagrass meadows"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 50,
+      "max": 70,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 200,
+      "max": 420,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -25.9,
+        "lng": 32.6,
+        "label": "Mozambique"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The only strictly herbivorous marine mammal in existence.",
+      "Closely related to manatees — together they make up the order Sirenia.",
+      "May have inspired ancient mermaid legends.",
+      "Can hold their breath for up to 6 minutes while feeding on seagrass.",
+      "Slow reproduction rate — one calf every 2.5 to 7 years."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Dugong",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Mozambique",
+    "emoji": "🐋",
+    "flag": "🇲🇿",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~30,000",
+    "indigenous": true,
+    "habitatOld": "shallow coastal waters, seagrass meadows"
+  },
+  {
+    "id": "89",
+    "slug": "mountain-zebra",
+    "commonName": "Mountain Zebra",
+    "scientificName": "Equus zebra",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus"
+    },
+    "iucnStatus": "VU",
+    "description": "A zebra species adapted to mountainous terrain, found in southern Africa.",
+    "habitat": [
+      "mountain slopes",
+      "arid grassland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 240,
+      "max": 430,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Africa"
+    ],
+    "coordinates": [
+      {
+        "lat": -32.3,
+        "lng": 19.0,
+        "label": "South Africa"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Each zebra has a unique stripe pattern, like human fingerprints.",
+      "No two mountain zebras have the same stripe pattern.",
+      "Their stripes may help confuse biting flies.",
+      "The Cape mountain zebra subspecies was saved from near extinction (fewer than 80 left in the 1950s).",
+      "Mountain zebras have hard, pointed hooves adapted for rocky terrain."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mountain_zebra",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "South Africa",
+    "emoji": "🦓",
+    "flag": "🇿🇦",
+    "region": "Africa",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~35,000",
+    "indigenous": true,
+    "habitatOld": "mountain slopes, arid grassland"
+  },
+  {
+    "id": "90",
+    "slug": "gharial",
+    "commonName": "Gharial",
+    "scientificName": "Gavialis gangeticus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Crocodilia",
+      "family": "Gavialidae",
+      "genus": "Gavialis"
+    },
+    "iucnStatus": "CR",
+    "description": "A critically endangered fish-eating crocodilian with a distinctive long, narrow snout.",
+    "habitat": [
+      "rivers",
+      "freshwater systems"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 50,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 150,
+      "max": 250,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 25.3,
+        "lng": 82.0,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The most aquatic of all crocodilians — rarely leave the water.",
+      "Their long, thin snout is perfectly adapted for catching fish.",
+      "Males develop a bulbous growth on the tip of their snout called a 'ghara'.",
+      "Once found across South and Southeast Asia — now restricted to a few river systems.",
+      "Fewer than 1,000 adults remain in the wild."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gharial",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🐊",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Reptile",
+    "conservationStatus": "Critically Endangered",
+    "population": "~650-900",
+    "indigenous": true,
+    "habitatOld": "rivers, freshwater systems"
+  },
+  {
+    "id": "91",
+    "slug": "binturong",
+    "commonName": "Binturong",
+    "scientificName": "Arctictis binturong",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Viverridae",
+      "genus": "Arctictis"
+    },
+    "iucnStatus": "VU",
+    "description": "A large, arboreal mammal of Southeast Asia, also known as the bearcat.",
+    "habitat": [
+      "tropical evergreen forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 18,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 9,
+      "max": 20,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 25.3,
+        "lng": 82.0,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "One of only two carnivores with a prehensile tail.",
+      "Smells like buttered popcorn due to a scent gland secretion.",
+      "Key seed disperser for the strangler fig tree.",
+      "Can rotate their ankles 180 degrees for climbing down head-first.",
+      "Neither a bear nor a cat — they belong to the civet family."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Binturong",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🐱",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "Unknown (declining)",
+    "indigenous": true,
+    "habitatOld": "tropical evergreen forest"
+  },
+  {
+    "id": "92",
+    "slug": "dhole",
+    "commonName": "Dhole",
+    "scientificName": "Cuon alpinus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Cuon"
+    },
+    "iucnStatus": "EN",
+    "description": "A highly social wild dog species from Asia, known for cooperative hunting strategies.",
+    "habitat": [
+      "forest",
+      "grassland",
+      "alpine regions"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 10,
+      "max": 20,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 25.3,
+        "lng": 82.0,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can take down prey 10 times their own size through teamwork.",
+      "Have fewer teeth than other canids — only 40 instead of 42.",
+      "Their whistling calls gave them the nickname 'whistling hunter'.",
+      "Pack sizes can exceed 40 individuals.",
+      "Rudyard Kipling featured dholes in 'The Second Jungle Book'."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Dhole",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🐕",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~2,500-9,500",
+    "indigenous": true,
+    "habitatOld": "forest, grassland, alpine regions"
+  },
+  {
+    "id": "93",
+    "slug": "red-crowned-crane",
+    "commonName": "Red-crowned Crane",
+    "scientificName": "Grus japonensis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Gruiformes",
+      "family": "Gruidae",
+      "genus": "Grus"
+    },
+    "iucnStatus": "EN",
+    "description": "One of the world's largest and most elegant cranes, a powerful symbol of longevity in East Asia.",
+    "habitat": [
+      "wetlands",
+      "marshes",
+      "rice paddies"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 40,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 7.5,
+      "max": 10.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 43.1,
+        "lng": 141.3,
+        "label": "Japan"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The second rarest crane species in the world.",
+      "Symbolize longevity and fidelity in Japanese and Chinese culture.",
+      "Their elaborate courtship dance involves bowing, leaping, and tossing grass.",
+      "Can fly at speeds of up to 80 km/h.",
+      "Hokkaido, Japan hosts the only non-migratory population."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Red-crowned_crane",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Japan",
+    "emoji": "🦩",
+    "flag": "🇯🇵",
+    "region": "Asia",
+    "classification": "Bird",
+    "conservationStatus": "Endangered",
+    "population": "~2,750-3,000",
+    "indigenous": true,
+    "habitatOld": "wetlands, marshes, rice paddies"
+  },
+  {
+    "id": "94",
+    "slug": "chinese-giant-salamander",
+    "commonName": "Chinese Giant Salamander",
+    "scientificName": "Andrias davidianus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Urodela",
+      "family": "Cryptobranchidae",
+      "genus": "Andrias"
+    },
+    "iucnStatus": "CR",
+    "description": "The largest amphibian in the world, known as a 'living fossil' found in Chinese mountain streams.",
+    "habitat": [
+      "mountain streams",
+      "rivers",
+      "rocky crevices"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 55,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 25,
+      "max": 50,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 30.6,
+        "lng": 104.1,
+        "label": "China"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The largest amphibian in the world, reaching up to 1.8 meters long.",
+      "A living fossil — unchanged for over 170 million years.",
+      "Can breathe through their wrinkled skin.",
+      "Their cries are said to resemble a crying baby — hence the Chinese name 'baby fish'.",
+      "Critically endangered due to habitat loss and over-harvesting for traditional medicine."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Chinese_giant_salamander",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "China",
+    "emoji": "🦎",
+    "flag": "🇨🇳",
+    "region": "Asia",
+    "classification": "Amphibian",
+    "conservationStatus": "Critically Endangered",
+    "population": "Unknown (severely depleted)",
+    "indigenous": true,
+    "habitatOld": "mountain streams, rivers, rocky crevices"
+  },
+  {
+    "id": "95",
+    "slug": "green-peafowl",
+    "commonName": "Green Peafowl",
+    "scientificName": "Pavo muticus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "genus": "Pavo"
+    },
+    "iucnStatus": "EN",
+    "description": "A spectacular large pheasant with iridescent green plumage, native to Southeast Asian forests.",
+    "habitat": [
+      "tropical forest",
+      "open woodland",
+      "riverine forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 3,
+      "max": 5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 19.8,
+        "lng": 96.2,
+        "label": "Myanmar"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Unlike Indian peafowl, both males and females have long tail feathers in the green species.",
+      "Their train feathers can spread into a fan over 1.5 meters wide.",
+      "Have been depicted in ancient Burmese and Khmer art for centuries.",
+      "Capable of short bursts of flight despite their elaborate plumage.",
+      "Considered the national bird of Myanmar."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Green_peafowl",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Myanmar",
+    "emoji": "🦚",
+    "flag": "🇲🇲",
+    "region": "Asia",
+    "classification": "Bird",
+    "conservationStatus": "Endangered",
+    "population": "~15,000-30,000",
+    "indigenous": true,
+    "habitatOld": "tropical forest, open woodland, riverine forest"
+  },
+  {
+    "id": "96",
+    "slug": "malayan-sun-bear",
+    "commonName": "Malayan Sun Bear",
+    "scientificName": "Helarctos malayanus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Ursidae",
+      "genus": "Helarctos"
+    },
+    "iucnStatus": "VU",
+    "description": "The smallest bear species in the world, named for the distinctive golden crescent on its chest.",
+    "habitat": [
+      "tropical evergreen forest",
+      "secondary forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 25,
+      "max": 65,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 4.2,
+        "lng": 101.9,
+        "label": "Malaysia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The smallest bear species — only about half the size of a black bear.",
+      "Their exceptionally long tongue (up to 25 cm) is perfect for extracting honey and insects.",
+      "Extremely good climbers with large curved claws.",
+      "The golden chest mark is unique to each individual, like a fingerprint.",
+      "Can break open termite mounds and bee nests with ease."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sun_bear",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Malaysia",
+    "emoji": "🐻",
+    "flag": "🇲🇾",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "Unknown (declining)",
+    "indigenous": true,
+    "habitatOld": "tropical evergreen forest, secondary forest"
+  },
+  {
+    "id": "97",
+    "slug": "indian-rhinoceros",
+    "commonName": "Indian Rhinoceros",
+    "scientificName": "Rhinoceros unicornis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Rhinocerotidae",
+      "genus": "Rhinoceros"
+    },
+    "iucnStatus": "VU",
+    "description": "Also called the greater one-horned rhino, the largest rhino species in Asia.",
+    "habitat": [
+      "tall grassland",
+      "riverine forest",
+      "swamp"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 35,
+      "max": 45,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1500,
+      "max": 2500,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 26.7,
+        "lng": 93.6,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The largest rhino species in Asia, weighing up to 2.5 tonnes.",
+      "Despite weighing tonnes, can run at speeds up to 40 km/h.",
+      "A single horn made of keratin — the same material as human fingernails.",
+      "One of the greatest conservation success stories — from ~200 to over 4,000 today.",
+      "Can swim and cross rivers with ease."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Indian_rhinoceros",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🦏",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~4,000-4,500",
+    "indigenous": true,
+    "habitatOld": "tall grassland, riverine forest, swamp"
+  },
+  {
+    "id": "98",
+    "slug": "takin",
+    "commonName": "Takin",
+    "scientificName": "Budorcas taxicolor",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Budorcas"
+    },
+    "iucnStatus": "VU",
+    "description": "A large, muscular goat-antelope found in the eastern Himalayas, Bhutan's national animal.",
+    "habitat": [
+      "alpine meadow",
+      "subalpine forest",
+      "rocky slopes"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 12,
+      "max": 16,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 250,
+      "max": 400,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 27.5,
+        "lng": 90.4,
+        "label": "Bhutan"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Bhutan's national animal, chosen for its mythical appearance.",
+      "Legend says takin were created from the remains of a goat eaten by a saint.",
+      "They secrete an oily substance through their skin that acts as a natural raincoat.",
+      "Despite their bulky appearance, they are incredibly agile on steep terrain.",
+      "Males use their massive horns in dramatic head-butting contests."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Takin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Bhutan",
+    "emoji": "🐐",
+    "flag": "🇧🇹",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "Unknown (~10,000-15,000)",
+    "indigenous": true,
+    "habitatOld": "alpine meadow, subalpine forest, rocky slopes"
+  },
+  {
+    "id": "99",
+    "slug": "crimson-sunbird",
+    "commonName": "Crimson Sunbird",
+    "scientificName": "Aethopyga siparaja",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Nectariniidae",
+      "genus": "Aethopyga"
+    },
+    "iucnStatus": "LC",
+    "description": "A tiny, brilliantly colored nectar-feeding bird, the national bird of Singapore.",
+    "habitat": [
+      "tropical forest",
+      "gardens",
+      "plantation"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 8,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.006,
+      "max": 0.012,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": -6.2,
+        "lng": 106.8,
+        "label": "Indonesia"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Males display brilliant crimson plumage during breeding season.",
+      "Hover at flowers like hummingbirds to feed on nectar.",
+      "Can be found from India to Indonesia across a huge range.",
+      "Their long, curved bills are perfectly adapted for probing flowers.",
+      "Singapore named it the unofficial national bird in 2015."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Crimson_sunbird",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Indonesia",
+    "emoji": "🐦",
+    "flag": "🇮🇩",
+    "region": "Asia",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (common)",
+    "indigenous": true,
+    "habitatOld": "tropical forest, gardens, plantation"
+  },
+  {
+    "id": "100",
+    "slug": "chinese-pangolin",
+    "commonName": "Chinese Pangolin",
+    "scientificName": "Manis pentadactyla",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Pholidota",
+      "family": "Manidae",
+      "genus": "Manis"
+    },
+    "iucnStatus": "CR",
+    "description": "A scaly anteater heavily trafficked for traditional medicine, now one of the most endangered mammals in Asia.",
+    "habitat": [
+      "forest",
+      "grassland",
+      "agricultural land"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2,
+      "max": 7,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 30.6,
+        "lng": 104.1,
+        "label": "China"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Pangolin scales are made of keratin — the same as human nails.",
+      "They consume up to 70 million insects per year, controlling pest populations.",
+      "When threatened, they roll into a tight armored ball.",
+      "Can climb trees and dig burrows with equal skill.",
+      "The world's most trafficked mammal, with over 1 million poached in the last decade."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Chinese_pangolin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "China",
+    "emoji": "🦎",
+    "flag": "🇨🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Critically Endangered",
+    "population": "~50,000 (declining rapidly)",
+    "indigenous": true,
+    "habitatOld": "forest, grassland, agricultural land"
+  },
+  {
+    "id": "101",
+    "slug": "asian-water-buffalo",
+    "commonName": "Asian Water Buffalo",
+    "scientificName": "Bubalus bubalis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bubalus"
+    },
+    "iucnStatus": "EN",
+    "description": "A massive bovine species well-adapted to wetland habitats, ancestor of the domestic water buffalo.",
+    "habitat": [
+      "swamp",
+      "tall grassland",
+      "riverine forest"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 20,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 700,
+      "max": 1200,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 14.9,
+        "lng": 102.0,
+        "label": "Thailand"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Wild populations are endangered while domesticated ones number over 200 million.",
+      "Their wide-splayed hooves prevent them from sinking in mud.",
+      "Can be domesticated and have been used for agriculture for over 5,000 years.",
+      "A single wild population of fewer than 3,500 remains in Thailand.",
+      "Their horns can span over 2 meters across."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Water_buffalo",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Thailand",
+    "emoji": "🐃",
+    "flag": "🇹🇭",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~3,400 (wild)",
+    "indigenous": true,
+    "habitatOld": "swamp, tall grassland, riverine forest"
+  },
+  {
+    "id": "102",
+    "slug": "mekong-giant-catfish",
+    "commonName": "Mekong Giant Catfish",
+    "scientificName": "Pangasianodon gigas",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Actinopterygii",
+      "order": "Siluriformes",
+      "family": "Pangasiidae",
+      "genus": "Pangasianodon"
+    },
+    "iucnStatus": "CR",
+    "description": "One of the largest freshwater fish in the world, endemic to the Mekong River basin.",
+    "habitat": [
+      "large rivers"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 100,
+      "max": 350,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 18.8,
+        "lng": 98.9,
+        "label": "Thailand"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can grow up to 3 meters long and weigh over 300 kg.",
+      "One of the largest freshwater fish species in the world.",
+      "Considered sacred in Buddhist tradition — releasing them earns merit.",
+      "Adults are toothless, feeding entirely on algae and plants.",
+      "Population has declined over 80% in the last 20 years."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mekong_giant_catfish",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Thailand",
+    "emoji": "🐟",
+    "flag": "🇹🇭",
+    "region": "Asia",
+    "classification": "Fish",
+    "conservationStatus": "Critically Endangered",
+    "population": "~200-300",
+    "indigenous": true,
+    "habitatOld": "large rivers"
+  },
+  {
+    "id": "103",
+    "slug": "japanese-giant-hornet",
+    "commonName": "Asian Giant Hornet",
+    "scientificName": "Vespa mandarinia",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Hymenoptera",
+      "family": "Vespidae",
+      "genus": "Vespa"
+    },
+    "iucnStatus": "LC",
+    "description": "The world's largest hornet with a powerful venomous sting, native to East Asia.",
+    "habitat": [
+      "temperate forest",
+      "mountain forest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 1,
+      "max": 2,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.006,
+      "max": 0.02,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 36.2,
+        "lng": 138.3,
+        "label": "Japan"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The world's largest hornet, with a wingspan of up to 7.5 cm.",
+      "Their venom contains a neurotoxin that can dissolve human tissue.",
+      "A small group can massacre an entire honeybee colony in hours.",
+      "In Japan, they cause 30-50 human deaths per year.",
+      "Can fly up to 100 km per day at speeds of 40 km/h."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Asian_giant_hornet",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Japan",
+    "emoji": "🐝",
+    "flag": "🇯🇵",
+    "region": "Asia",
+    "classification": "Insect",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (common)",
+    "indigenous": true,
+    "habitatOld": "temperate forest, mountain forest"
+  },
+  {
+    "id": "104",
+    "slug": "nicobar-pigeon",
+    "commonName": "Nicobar Pigeon",
+    "scientificName": "Caloenas nicobarica",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "genus": "Caloenas"
+    },
+    "iucnStatus": "NT",
+    "description": "A stunning metallic-green pigeon, the closest living relative to the extinct dodo.",
+    "habitat": [
+      "tropical forest",
+      "coastal forest",
+      "islands"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.5,
+      "max": 1,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 7.0,
+        "lng": 93.8,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The closest living relative of the extinct dodo bird.",
+      "Their iridescent plumage shimmers in green, copper, and blue.",
+      "Found only on small islands in Southeast Asia and the Indian Ocean.",
+      "Unlike most pigeons, they prefer dense forest and avoid human settlements.",
+      "Males perform courtship displays with bowing and cooing."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Nicobar_pigeon",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🕊️",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Bird",
+    "conservationStatus": "Near Threatened",
+    "population": "Unknown (~10,000 adults)",
+    "indigenous": true,
+    "habitatOld": "tropical forest, coastal forest, islands"
+  },
+  {
+    "id": "105",
+    "slug": "indochinese-tiger",
+    "commonName": "Indochinese Tiger",
+    "scientificName": "Panthera tigris tigris",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Panthera"
+    },
+    "iucnStatus": "EN",
+    "description": "A tiger subspecies found in Southeast Asia, critically threatened by habitat loss and poaching.",
+    "habitat": [
+      "tropical forest",
+      "montane forest",
+      "grassland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 150,
+      "max": 250,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 14.9,
+        "lng": 102.0,
+        "label": "Thailand"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Fewer than 250 mature individuals remain in the wild.",
+      "Each tiger has a unique stripe pattern — no two are alike.",
+      "They are solitary and territorial, requiring large home ranges.",
+      "Tigers are apex predators essential for maintaining ecosystem balance.",
+      "Can eat up to 40 kg of meat in a single sitting."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Indochinese_tiger",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Thailand",
+    "emoji": "🐯",
+    "flag": "🇹🇭",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~250 (wild)",
+    "indigenous": true,
+    "habitatOld": "tropical forest, montane forest, grassland"
+  },
+  {
+    "id": "106",
+    "slug": "western-hoolock-gibbon",
+    "commonName": "Western Hoolock Gibbon",
+    "scientificName": "Hoolock hoolock",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hylobatidae",
+      "genus": "Hoolock"
+    },
+    "iucnStatus": "EN",
+    "description": "India's only ape species, an acrobatic brachiator found in Northeast India's forests.",
+    "habitat": [
+      "tropical evergreen forest",
+      "semi-evergreen forest"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 6,
+      "max": 9,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 26.1,
+        "lng": 93.7,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "India's only ape species — all other primates in India are monkeys.",
+      "They are brachiators, swinging through trees using only their arms.",
+      "Mated pairs sing elaborate duets every morning to mark their territory.",
+      "Females are distinguished by their white eyebrows.",
+      "Can leap over 10 meters between trees."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Western_hoolock_gibbon",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🐒",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Endangered",
+    "population": "~2,600",
+    "indigenous": true,
+    "habitatOld": "tropical evergreen forest, semi-evergreen forest"
+  },
+  {
+    "id": "107",
+    "slug": "sambar-deer",
+    "commonName": "Sambar Deer",
+    "scientificName": "Rusa unicolor",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Rusa"
+    },
+    "iucnStatus": "VU",
+    "description": "One of the largest deer species in the world, found across South and Southeast Asia.",
+    "habitat": [
+      "tropical forest",
+      "deciduous forest",
+      "grassland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 180,
+      "max": 320,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Asia"
+    ],
+    "coordinates": [
+      {
+        "lat": 25.3,
+        "lng": 82.0,
+        "label": "India"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "One of the largest deer species, with males standing up to 160 cm at the shoulder.",
+      "Only the males have antlers, which can grow up to 1 meter long.",
+      "They are primarily nocturnal, feeding mostly at night.",
+      "Their alarm call — a loud, repetitive honk — alerts all nearby animals to danger.",
+      "A key prey species for tigers and leopards across their range."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Sambar_deer",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "India",
+    "emoji": "🦌",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "Unknown (widespread)",
+    "indigenous": true,
+    "habitatOld": "tropical forest, deciduous forest, grassland"
+  },
+  {
+    "id": "108",
+    "slug": "eurasian-lynx",
+    "commonName": "Eurasian Lynx",
+    "scientificName": "Lynx lynx",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Lynx"
+    },
+    "iucnStatus": "NT",
+    "description": "Europe's third largest predator, recognizable by its distinctive ear tufts and piercing eyes.",
+    "habitat": [
+      "boreal forest",
+      "temperate forest",
+      "mountain forest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 12,
+      "max": 17,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 15,
+      "max": 30,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 61.5,
+        "lng": 24.0,
+        "label": "Finland"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Europe's third largest predator after the brown bear and wolf.",
+      "Their ear tufts act like antennas to detect faint sounds.",
+      "Can take down prey four times their own size — including deer.",
+      "Padded paws allow them to walk silently like ghost cats.",
+      "Have been successfully reintroduced to several European countries."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Eurasian_lynx",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Finland",
+    "emoji": "🐱",
+    "flag": "🇫🇮",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "~45,000",
+    "indigenous": true,
+    "habitatOld": "boreal forest, temperate forest, mountain forest"
+  },
+  {
+    "id": "109",
+    "slug": "european-otter",
+    "commonName": "Eurasian Otter",
+    "scientificName": "Lutra lutra",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Lutra"
+    },
+    "iucnStatus": "NT",
+    "description": "A semi-aquatic mammal found in freshwater and coastal habitats across Europe and Asia.",
+    "habitat": [
+      "rivers",
+      "lakes",
+      "coastal areas"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 6,
+      "max": 11,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 56.8,
+        "lng": -5.1,
+        "label": "Scotland"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their fur is so dense they have over 100,000 hairs per square cm.",
+      "Can close their nostrils and ears when diving underwater.",
+      "Hold hands while sleeping so they don't drift apart — well, sea otters do.",
+      "Have a third translucent eyelid for underwater vision.",
+      "Recovered significantly in the UK after near-extinction from pesticides."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Eurasian_otter",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Scotland",
+    "emoji": "🦦",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "~200,000",
+    "indigenous": true,
+    "habitatOld": "rivers, lakes, coastal areas"
+  },
+  {
+    "id": "110",
+    "slug": "european-badger",
+    "commonName": "European Badger",
+    "scientificName": "Meles meles",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Meles"
+    },
+    "iucnStatus": "LC",
+    "description": "A sturdy, social mammal known for its distinctive black and white facial markings and complex underground setts.",
+    "habitat": [
+      "woodland",
+      "grassland",
+      "hedgerows"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 10,
+      "max": 15,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 8,
+      "max": 17,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 52.2,
+        "lng": -0.1,
+        "label": "England"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their underground homes (setts) can be over 100 years old with extensive tunnel systems.",
+      "Live in social groups called 'clans' of up to 12 individuals.",
+      "Their distinctive facial markings are unique to each individual.",
+      "Can dig through soil at remarkable speed using powerful front claws.",
+      "Badgers are one of Britain's oldest native mammals, present for over 500,000 years."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European_badger",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "England",
+    "emoji": "🦡",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~500,000",
+    "indigenous": true,
+    "habitatOld": "woodland, grassland, hedgerows"
+  },
+  {
+    "id": "111",
+    "slug": "fire-salamander",
+    "commonName": "Fire Salamander",
+    "scientificName": "Salamandra salamandra",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Amphibia",
+      "order": "Urodela",
+      "family": "Salamandridae",
+      "genus": "Salamandra"
+    },
+    "iucnStatus": "LC",
+    "description": "Europe's most iconic amphibian, recognized by its vivid black and yellow warning coloration.",
+    "habitat": [
+      "deciduous forest",
+      "coniferous forest",
+      "moist woodland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 15,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.02,
+      "max": 0.04,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 51.2,
+        "lng": 10.5,
+        "label": "Germany"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their bright yellow-black pattern warns predators of toxic skin secretions.",
+      "Can live up to 25 years — among the longest-lived amphibians.",
+      "Some populations give birth to fully metamorphosed young instead of larvae.",
+      "One of few amphibians active in cold winter conditions.",
+      "Named after the belief they were born in fire — a myth from the Middle Ages."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Fire_salamander",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Germany",
+    "emoji": "🦎",
+    "flag": "🇩🇪",
+    "region": "Europe",
+    "classification": "Amphibian",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (widespread)",
+    "indigenous": true,
+    "habitatOld": "deciduous forest, coniferous forest, moist woodland"
+  },
+  {
+    "id": "112",
+    "slug": "european-robin",
+    "commonName": "European Robin",
+    "scientificName": "Erithacus rubecula",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "genus": "Erithacus"
+    },
+    "iucnStatus": "LC",
+    "description": "Britain's beloved national bird, recognized by its warm orange breast and melodious song.",
+    "habitat": [
+      "woodland",
+      "gardens",
+      "hedgerows",
+      "parks"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 2,
+      "max": 5,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.016,
+      "max": 0.022,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 52.2,
+        "lng": -0.1,
+        "label": "England"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Britain's unofficial national bird since the 1960s.",
+      "Extremely territorial — males will fight to the death to defend their patch.",
+      "They are one of the few birds that sing year-round, even at night under streetlights.",
+      "Their distinctive red breast is actually orange — named 'red' before the word 'orange' existed in English.",
+      "Follow gardeners to catch insects disturbed by digging."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European_robin",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "England",
+    "emoji": "🐦",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "region": "Europe",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "~75,000,000 pairs (Europe)",
+    "indigenous": true,
+    "habitatOld": "woodland, gardens, hedgerows, parks"
+  },
+  {
+    "id": "113",
+    "slug": "pine-marten",
+    "commonName": "Pine Marten",
+    "scientificName": "Martes martes",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Martes"
+    },
+    "iucnStatus": "LC",
+    "description": "An agile arboreal predator of European forests, once nearly extinct in Britain.",
+    "habitat": [
+      "coniferous forest",
+      "mixed woodland",
+      "scattered woodland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 8,
+      "max": 12,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 1,
+      "max": 2.2,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 56.8,
+        "lng": -5.1,
+        "label": "Scotland"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "They are helping control invasive grey squirrel populations by outcompeting them.",
+      "Pine martens are cat-sized but belong to the weasel family.",
+      "Almost completely extinct in England by the early 20th century — now recovering.",
+      "Excellent climbers that hunt both in trees and on the ground.",
+      "Their fur was once so valuable it was used as currency in parts of Russia."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Pine_marten",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Scotland",
+    "emoji": "🐱",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~400,000",
+    "indigenous": true,
+    "habitatOld": "coniferous forest, mixed woodland, scattered woodland"
+  },
+  {
+    "id": "114",
+    "slug": "wolverine",
+    "commonName": "Wolverine",
+    "scientificName": "Gulo gulo",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Gulo"
+    },
+    "iucnStatus": "VU",
+    "description": "The largest terrestrial member of the weasel family, known for extraordinary strength and ferocity.",
+    "habitat": [
+      "arctic tundra",
+      "boreal forest",
+      "alpine regions"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 8,
+      "max": 13,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 10,
+      "max": 25,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 62.5,
+        "lng": 9.4,
+        "label": "Norway"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can take down prey 10 times their size — including caribou and moose.",
+      "Their powerful jaws can crack frozen bones and crush thick femurs.",
+      "Scandinavian populations are the southernmost remaining in Europe.",
+      "Wolverines have been documented traveling over 30 km in a single day.",
+      "Their dense frost-resistant fur was traditionally used by trappers for parka ruffs."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Wolverine",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Norway",
+    "emoji": "🦡",
+    "flag": "🇳🇴",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~700 (Scandinavia)",
+    "indigenous": true,
+    "habitatOld": "arctic tundra, boreal forest, alpine regions"
+  },
+  {
+    "id": "115",
+    "slug": "european-mole",
+    "commonName": "European Mole",
+    "scientificName": "Talpa europaea",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Eulipotyphla",
+      "family": "Talpidae",
+      "genus": "Talpa"
+    },
+    "iucnStatus": "LC",
+    "description": "A subterranean mammal adapted to a life underground, found across Europe.",
+    "habitat": [
+      "grassland",
+      "arable land",
+      "deciduous woodland",
+      "gardens"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 6,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.06,
+      "max": 0.12,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 52.2,
+        "lng": -0.1,
+        "label": "England"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can dig up to 20 meters of tunnel per day.",
+      "Their star-shaped nose has over 25,000 touch receptors.",
+      "Nearly blind but detect prey through vibration and smell.",
+      "Can tolerate low oxygen levels that would suffocate most mammals.",
+      "A single molehill can displace over 100 kg of soil."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/European_mole",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "England",
+    "emoji": "🐹",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~31,000,000",
+    "indigenous": true,
+    "habitatOld": "grassland, arable land, deciduous woodland, gardens"
+  },
+  {
+    "id": "116",
+    "slug": "red-deer",
+    "commonName": "Red Deer",
+    "scientificName": "Cervus elaphus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Cervus"
+    },
+    "iucnStatus": "LC",
+    "description": "One of the largest deer species, an iconic symbol of the Scottish Highlands.",
+    "habitat": [
+      "forest",
+      "moorland",
+      "mountain slopes"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 120,
+      "max": 240,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 56.8,
+        "lng": -5.1,
+        "label": "Scotland"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The fourth largest deer species in the world.",
+      "Only males grow antlers, which can have up to 16 points.",
+      "Stags can be heard roaring during the autumn rut for kilometers.",
+      "A single red deer can produce up to 3 kg of antler velvet annually.",
+      "Monarch of the Glen — Scotland's most iconic wildlife image."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Red_deer",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Scotland",
+    "emoji": "🦌",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~2,000,000 (Europe)",
+    "indigenous": true,
+    "habitatOld": "forest, moorland, mountain slopes"
+  },
+  {
+    "id": "117",
+    "slug": "european-hedgehog",
+    "commonName": "European Hedgehog",
+    "scientificName": "Erinaceus europaeus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Eulipotyphla",
+      "family": "Erinaceidae",
+      "genus": "Erinaceus"
+    },
+    "iucnStatus": "LC",
+    "description": "A familiar garden visitor covered in spines, beloved across Europe but in significant decline.",
+    "habitat": [
+      "hedgerows",
+      "woodland edge",
+      "gardens",
+      "grassland"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 3,
+      "max": 7,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.5,
+      "max": 1.1,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 52.2,
+        "lng": -0.1,
+        "label": "England"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Covered in around 5,000-7,000 spines made of keratin.",
+      "When threatened, they roll into a tight ball of spikes.",
+      "UK hedgehog populations have declined by over 50% since 2000.",
+      "They can travel up to 3 km per night searching for food.",
+      "Hedgehogs are surprisingly good swimmers."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Western_European_hedgehog",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "England",
+    "emoji": "🦔",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "region": "Europe",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (declining)",
+    "indigenous": true,
+    "habitatOld": "hedgerows, woodland edge, gardens, grassland"
+  },
+  {
+    "id": "118",
+    "slug": "white-stork",
+    "commonName": "White Stork",
+    "scientificName": "Ciconia ciconia",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Ciconiiformes",
+      "family": "Ciconiidae",
+      "genus": "Ciconia"
+    },
+    "iucnStatus": "LC",
+    "description": "A large, migratory wading bird famous for returning to the same nest year after year.",
+    "habitat": [
+      "wetlands",
+      "grassland",
+      "farmland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 2.2,
+      "max": 4.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 52.2,
+        "lng": 21.0,
+        "label": "Poland"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "In Polish folklore, storks bring babies to families.",
+      "Their nests can weigh over 500 kg — some are reused for centuries.",
+      "They migrate between Europe and Africa, covering 10,000+ km each way.",
+      "Can be seen standing on one leg — scientists still debate why.",
+      "Poland hosts the largest white stork population in the world."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/White_stork",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Poland",
+    "emoji": "🦩",
+    "flag": "🇵🇱",
+    "region": "Europe",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "~300,000 pairs",
+    "indigenous": true,
+    "habitatOld": "wetlands, grassland, farmland"
+  },
+  {
+    "id": "119",
+    "slug": "common-kingfisher",
+    "commonName": "Common Kingfisher",
+    "scientificName": "Alcedo atthis",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Coraciiformes",
+      "family": "Alcedinidae",
+      "genus": "Alcedo"
+    },
+    "iucnStatus": "LC",
+    "description": "A dazzling flash of electric blue and orange along European waterways.",
+    "habitat": [
+      "rivers",
+      "streams",
+      "lakes",
+      "ponds"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 7,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.034,
+      "max": 0.046,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "Europe"
+    ],
+    "coordinates": [
+      {
+        "lat": 52.2,
+        "lng": -0.1,
+        "label": "England"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their iridescent blue plumage is not from pigment but light refraction on feather structure.",
+      "Can dive into water at speeds up to 25 km/h to catch fish.",
+      "Must eat roughly their body weight in fish every day to survive.",
+      "Kingfishers have a specialized third eyelid that acts as swimming goggles.",
+      "Despite their vivid colors, they are surprisingly hard to spot due to their speed."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Common_kingfisher",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "England",
+    "emoji": "🐦",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "region": "Europe",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "~700,000 pairs (Europe)",
+    "indigenous": true,
+    "habitatOld": "rivers, streams, lakes, ponds"
+  },
+  {
+    "id": "120",
+    "slug": "gray-wolf",
+    "commonName": "Gray Wolf",
+    "scientificName": "Canis lupus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Canis"
+    },
+    "iucnStatus": "LC",
+    "description": "The largest wild member of the canid family, a keystone predator of North American ecosystems.",
+    "habitat": [
+      "forest",
+      "tundra",
+      "grassland",
+      "mountain"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 6,
+      "max": 13,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 25,
+      "max": 80,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 44.7,
+        "lng": -110.5,
+        "label": "Yellowstone"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Yellowstone's wolf reintroduction in 1995 changed the entire ecosystem.",
+      "Can travel over 50 km in a single day while hunting.",
+      "A pack howl can be heard from over 16 km away.",
+      "Wolf packs have complex social hierarchies with alpha and beta roles.",
+      "Their reintroduction to Yellowstone even changed how rivers flow (trophic cascade)."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gray_wolf",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Yellowstone",
+    "emoji": "🐺",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~500,000",
+    "indigenous": true,
+    "habitatOld": "forest, tundra, grassland, mountain"
+  },
+  {
+    "id": "121",
+    "slug": "american-bison",
+    "commonName": "American Bison",
+    "scientificName": "Bison bison",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bison"
+    },
+    "iucnStatus": "NT",
+    "description": "North America's largest land animal, a symbol of the American West and conservation success.",
+    "habitat": [
+      "grassland",
+      "prairie",
+      "forest clearings"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 20,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 400,
+      "max": 900,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 44.7,
+        "lng": -110.5,
+        "label": "Yellowstone"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Once numbered 30-60 million — reduced to fewer than 1,000 by 1890.",
+      "Can run at speeds up to 55 km/h despite weighing nearly a tonne.",
+      "Yellowstone has the only continuously wild, free-roaming bison herd in the US.",
+      "Their massive heads act as snowplows to find food in winter.",
+      "Bison can pivot on both front and rear hooves — horses can only do the front."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/American_bison",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Yellowstone",
+    "emoji": "🦬",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Near Threatened",
+    "population": "~31,000 (wild)",
+    "indigenous": true,
+    "habitatOld": "grassland, prairie, forest clearings"
+  },
+  {
+    "id": "122",
+    "slug": "moose",
+    "commonName": "Moose",
+    "scientificName": "Alces alces",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Alces"
+    },
+    "iucnStatus": "LC",
+    "description": "The largest member of the deer family, found across Canada's vast boreal forests.",
+    "habitat": [
+      "boreal forest",
+      "temperate forest",
+      "wetland"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 15,
+      "max": 25,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 300,
+      "max": 700,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 56.1,
+        "lng": -106.3,
+        "label": "Canada"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The largest deer species — males can stand over 2 meters at the shoulder.",
+      "Their antlers can span up to 2 meters across and weigh 20 kg.",
+      "Despite their size, moose are excellent swimmers — can dive 5 meters deep.",
+      "Moose are responsible for more human injuries than bears in North America.",
+      "Can eat up to 25 kg of vegetation per day."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Moose",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Canada",
+    "emoji": "🦌",
+    "flag": "🇨🇦",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~500,000-1,000,000",
+    "indigenous": true,
+    "habitatOld": "boreal forest, temperate forest, wetland"
+  },
+  {
+    "id": "123",
+    "slug": "mountain-goat",
+    "commonName": "Mountain Goat",
+    "scientificName": "Oreamnos americanus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Oreamnos"
+    },
+    "iucnStatus": "LC",
+    "description": "A superbly adapted alpine climber found in the rugged mountains of western North America.",
+    "habitat": [
+      "alpine tundra",
+      "rocky cliffs",
+      "mountain slopes"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 12,
+      "max": 18,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 60,
+      "max": 140,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 51.2,
+        "lng": -116.9,
+        "label": "Canada"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can scale near-vertical cliff faces with specially adapted split hooves.",
+      "Their white coats provide camouflage in snowy alpine environments.",
+      "Can jump over 3 meters in a single bound.",
+      "Their thick double-layered wool undercoat keeps them warm at -40°C.",
+      "Not true goats — they are more closely related to antelopes and gazelles."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Mountain_goat",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Canada",
+    "emoji": "🐐",
+    "flag": "🇨🇦",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~100,000",
+    "indigenous": true,
+    "habitatOld": "alpine tundra, rocky cliffs, mountain slopes"
+  },
+  {
+    "id": "124",
+    "slug": "gila-monster",
+    "commonName": "Gila Monster",
+    "scientificName": "Heloderma suspectum",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Squamata",
+      "family": "Helodermatidae",
+      "genus": "Heloderma"
+    },
+    "iucnStatus": "NT",
+    "description": "One of only two venomous lizards in the world, native to the southwestern United States.",
+    "habitat": [
+      "desert",
+      "scrubland",
+      "rocky hillsides"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 20,
+      "max": 30,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.35,
+      "max": 2.3,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 33.4,
+        "lng": -112.1,
+        "label": "Arizona"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "One of only two venomous lizard species in the world.",
+      "Their venom contains a protein (exendin-4) used in diabetes medication (Byetta).",
+      "Store fat in their tails — can survive months without eating.",
+      "Bead-like scales called osteoderms form a bony armor under their skin.",
+      "Named after the Gila River basin in Arizona and New Mexico."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Gila_monster",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Arizona",
+    "emoji": "🦎",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Reptile",
+    "conservationStatus": "Near Threatened",
+    "population": "Unknown (protected)",
+    "indigenous": true,
+    "habitatOld": "desert, scrubland, rocky hillsides"
+  },
+  {
+    "id": "125",
+    "slug": "alligator-snapping-turtle",
+    "commonName": "Alligator Snapping Turtle",
+    "scientificName": "Macrochelys temminckii",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Reptilia",
+      "order": "Testudines",
+      "family": "Chelydridae",
+      "genus": "Macrochelys"
+    },
+    "iucnStatus": "VU",
+    "description": "The largest freshwater turtle in North America, known for its powerful bite and unique worm-lure hunting technique.",
+    "habitat": [
+      "rivers",
+      "lakes",
+      "bayous",
+      "swamps"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 50,
+      "max": 100,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 8,
+      "max": 80,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 29.7,
+        "lng": -83.3,
+        "label": "Florida"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The largest freshwater turtle in North America — can weigh over 90 kg.",
+      "They use a pink worm-like appendage on their tongue to lure fish.",
+      "Their bite force can easily snap a broomstick in half.",
+      "Can hold their breath underwater for up to 50 minutes.",
+      "Once hunted extensively for turtle soup — now protected across their range."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Alligator_snapping_turtle",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Florida",
+    "emoji": "🐢",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Reptile",
+    "conservationStatus": "Vulnerable",
+    "population": "~360,000 (declining)",
+    "indigenous": true,
+    "habitatOld": "rivers, lakes, bayous, swamps"
+  },
+  {
+    "id": "126",
+    "slug": "pronghorn",
+    "commonName": "Pronghorn",
+    "scientificName": "Antilocapra americana",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Antilocapridae",
+      "genus": "Antilocapra"
+    },
+    "iucnStatus": "LC",
+    "description": "North America's fastest land animal, the second fastest in the world after the cheetah.",
+    "habitat": [
+      "grassland",
+      "prairie",
+      "semidesert"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 7,
+      "max": 12,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 35,
+      "max": 65,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 42.8,
+        "lng": -107.6,
+        "label": "Wyoming"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Second fastest land animal — can sustain speeds of 65 km/h for miles.",
+      "No natural predator today can match their speed — likely evolved to outrun extinct American cheetahs.",
+      "Both males and females have horns — the only North American ungulate where this is true.",
+      "Their horn sheaths are shed and regrown annually, unique among horned animals.",
+      "Can see up to 6 km away, giving them exceptional detection of predators."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Pronghorn",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Wyoming",
+    "emoji": "🦌",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~500,000-1,000,000",
+    "indigenous": true,
+    "habitatOld": "grassland, prairie, semidesert"
+  },
+  {
+    "id": "127",
+    "slug": "roadrunner",
+    "commonName": "Greater Roadrunner",
+    "scientificName": "Geococcyx californianus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cuculiformes",
+      "family": "Cuculidae",
+      "genus": "Geococcyx"
+    },
+    "iucnStatus": "LC",
+    "description": "A ground-dwelling cuckoo of the American Southwest, famous from Looney Tunes and real-life rattlesnake hunting.",
+    "habitat": [
+      "desert",
+      "scrubland",
+      "grassland"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 5,
+      "max": 8,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 0.2,
+      "max": 0.5,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 33.4,
+        "lng": -112.1,
+        "label": "Arizona"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Can run at speeds up to 32 km/h, making them the fastest running bird that can also fly.",
+      "Actually do hunt and eat rattlesnakes — often in pairs for safety.",
+      "Drop prey onto hard surfaces to break it open before eating.",
+      "Unlike the cartoon, roadrunners can fly short distances.",
+      "Their zygodactyl feet (two toes forward, two back) help them run at high speeds."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Greater_roadrunner",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Arizona",
+    "emoji": "🐦",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Bird",
+    "conservationStatus": "Least Concern",
+    "population": "Unknown (common)",
+    "indigenous": true,
+    "habitatOld": "desert, scrubland, grassland"
+  },
+  {
+    "id": "128",
+    "slug": "bobcat",
+    "commonName": "Bobcat",
+    "scientificName": "Lynx rufus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Lynx"
+    },
+    "iucnStatus": "LC",
+    "description": "North America's most common wild cat, adaptable to a wide range of habitats.",
+    "habitat": [
+      "forest",
+      "desert",
+      "scrubland",
+      "suburban"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 7,
+      "max": 10,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 4,
+      "max": 18,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 31.0,
+        "lng": -97.7,
+        "label": "Texas"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Named for their short, bobbed tail — usually 10-15 cm long.",
+      "Can pounce from 3 meters away to catch prey.",
+      "They are found in every US state except Delaware — highly adaptable.",
+      "Have excellent night vision with reflective eyes (tapetum lucidum).",
+      "Twice the size of a domestic cat but still relatively small."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Bobcat",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Texas",
+    "emoji": "🐱",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~3,500,000",
+    "indigenous": true,
+    "habitatOld": "forest, desert, scrubland, suburban"
+  },
+  {
+    "id": "129",
+    "slug": "west-indian-manatee",
+    "commonName": "West Indian Manatee",
+    "scientificName": "Trichechus manatus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Sirenia",
+      "family": "Trichechidae",
+      "genus": "Trichechus"
+    },
+    "iucnStatus": "VU",
+    "description": "A gentle, slow-moving marine mammal also known as the sea cow, found in Florida's warm coastal waters.",
+    "habitat": [
+      "coastal waters",
+      "rivers",
+      "estuaries",
+      "springs"
+    ],
+    "diet": "Herbivore",
+    "lifespan": {
+      "min": 40,
+      "max": 60,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 400,
+      "max": 600,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 27.7,
+        "lng": -81.5,
+        "label": "Florida"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Often called 'sea cows' because they graze on seagrass like bovines on grass.",
+      "They have no natural predators — their main threat is boat propellers.",
+      "Can hold their breath for up to 20 minutes while resting.",
+      "A single adult can eat up to 50 kg of seagrass per day.",
+      "Florida manatee population has rebounded to over 13,000, leading to downlisting from endangered."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/West_Indian_manatee",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "Florida",
+    "emoji": "🐋",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Vulnerable",
+    "population": "~13,000 (Florida)",
+    "indigenous": true,
+    "habitatOld": "coastal waters, rivers, estuaries, springs"
+  },
+  {
+    "id": "130",
+    "slug": "california-condor",
+    "commonName": "California Condor",
+    "scientificName": "Gymnogyps californianus",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Aves",
+      "order": "Cathartiformes",
+      "family": "Cathartidae",
+      "genus": "Gymnogyps"
+    },
+    "iucnStatus": "CR",
+    "description": "North America's largest flying bird, saved from extinction by one of the most ambitious conservation programs ever.",
+    "habitat": [
+      "rocky cliffs",
+      "grassland",
+      "forest"
+    ],
+    "diet": "Carnivore",
+    "lifespan": {
+      "min": 30,
+      "max": 60,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 8,
+      "max": 14,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 36.1,
+        "lng": -119.4,
+        "label": "California"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "The largest flying bird in North America with a wingspan up to 3 meters.",
+      "Was reduced to just 27 individuals in 1987 — all taken into captivity.",
+      "Now over 500 birds exist, with over 300 in the wild.",
+      "They can fly at altitudes of over 4,500 meters.",
+      "Condors have been known to live over 60 years in captivity."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/California_condor",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "California",
+    "emoji": "🦩",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Bird",
+    "conservationStatus": "Critically Endangered",
+    "population": "~500",
+    "indigenous": true,
+    "habitatOld": "rocky cliffs, grassland, forest"
+  },
+  {
+    "id": "131",
+    "slug": "raccoon",
+    "commonName": "Raccoon",
+    "scientificName": "Procyon lotor",
+    "taxonomy": {
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Procyonidae",
+      "genus": "Procyon"
+    },
+    "iucnStatus": "LC",
+    "description": "A highly intelligent and adaptable mammal recognizable by its black mask and ringed tail.",
+    "habitat": [
+      "forest",
+      "urban areas",
+      "wetlands",
+      "suburban"
+    ],
+    "diet": "Omnivore",
+    "lifespan": {
+      "min": 2,
+      "max": 5,
+      "unit": "years"
+    },
+    "weight": {
+      "min": 5,
+      "max": 15,
+      "unit": "kg"
+    },
+    "nativeRegions": [
+      "North America"
+    ],
+    "coordinates": [
+      {
+        "lat": 38.9,
+        "lng": -77.0,
+        "label": "USA"
+      }
+    ],
+    "images": [],
+    "funFacts": [
+      "Their scientific name 'lotor' means 'washer' — they often appear to wash their food.",
+      "Have incredibly dexterous front paws that can open jars, doors, and latches.",
+      "Can remember solutions to tasks for up to 3 years.",
+      "Their iconic black mask may reduce glare and help them recognize each other.",
+      "Thrive in cities — urban raccoon populations can exceed rural ones."
+    ],
+    "wikiUrl": "https://en.wikipedia.org/wiki/Raccoon",
+    "iucnUrl": "",
+    "updatedAt": "2026-04-17T00:00:00Z",
+    "country": "USA",
+    "emoji": "🦝",
+    "flag": "🇺🇸",
+    "region": "North America",
+    "classification": "Mammal",
+    "conservationStatus": "Least Concern",
+    "population": "~20,000,000+",
+    "indigenous": true,
+    "habitatOld": "forest, urban areas, wetlands, suburban"
   }
 ]

@@ -39,7 +39,7 @@ export const useMapStore = create<MapStore>((set) => ({
   mapStyle: 'voyager',
   searchOpen: false,
   mobileOpen: false,
-  locale: 'id' as Locale,
+  locale: 'en' as Locale,
   setSelectedId: (id) => set({ selectedId: id }),
   setHoveredId: (id) => set({ hoveredId: id }),
   setSidebarHoveredId: (id) => set({ sidebarHoveredId: id }),
