@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useRef, useState, useEffect } from "react";
-import Map, { Popup, NavigationControl, Source, Layer, Marker } from "react-map-gl/maplibre";
+import Map, { NavigationControl, Source, Layer, Marker } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { MapRef } from "react-map-gl/maplibre";
 import { countries, type AnimalEntry } from "../data/countries";
@@ -65,6 +65,30 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
   const { imageUrl, imageLoading } = useAnimalMedia(selected?.animal ?? null);
   const [playing, setPlaying] = useState(false);
   const [imgError, setImgError] = useState(false);
+  const [, forceUpdate] = useState(0);
+  const popupRef = useRef<HTMLDivElement>(null);
+
+  function projectToScreen(lng: number, lat: number): { x: number; y: number } | null {
+    const map = mapRef.current?.getMap();
+    if (!map) return null;
+    const point = map.project([lng, lat]);
+    return { x: point.x, y: point.y };
+  }
+
+  function getPopupPosition(
+    screenPos: { x: number; y: number },
+    pw: number, ph: number,
+    cw: number, ch: number,
+    offset = 16
+  ) {
+    let left = screenPos.x - pw / 2;
+    let top = screenPos.y - ph - offset;
+    if (top < 8) top = screenPos.y + offset;
+    if (top + ph > ch - 8) top = ch - ph - 8;
+    if (left < 8) left = 8;
+    if (left + pw > cw - 8) left = cw - pw - 8;
+    return { left, top };
+  }
 
   const playSound = useCallback(() => {
     if (!selected) return;
@@ -217,7 +241,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
       <Map
         ref={mapRef}
         {...viewState}
-        onMove={(evt) => setViewState(evt.viewState)}
+        onMove={(evt) => { setViewState(evt.viewState); forceUpdate(n => n + 1); }}
         onLoad={() => setMapLoaded(true)}
         style={{ width: "100%", height: "100%" }}
         mapStyle={MAP_STYLES[mapStyle]}
@@ -257,57 +281,64 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
           </Marker>
         ))}
 
-        {hovered && !selected && (
-          <Popup
-            longitude={hovered.lng}
-            latitude={hovered.lat}
-            anchor="bottom"
-            closeOnClick={false}
-            closeButton={false}
-            onClose={() => setHoveredId(null)}
-            offset={14}
-            maxWidth="220px"
-            className="hidden md:block"
-          >
-            <div className="bg-white rounded-lg border border-zinc-200 shadow-md p-3 min-w-[160px]">
-              <div className="font-semibold text-base flex items-center gap-2 text-zinc-800">
-                <span>{hovered.flag}</span>
-                <span>{hovered.country}</span>
-              </div>
-              <div className="text-sm text-zinc-500 mt-1">
-                {hovered.emoji} {hovered.animal}
-              </div>
-              <div className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
-                {hovered.funFacts[0]}
-              </div>
-              <div
-                className="mt-2 text-[10px] px-2 py-0.5 rounded-full inline-block"
-                style={{
-                  background: `${CONTINENT_COLORS[hovered.region]}15`,
-                  color: CONTINENT_COLORS[hovered.region],
-                }}
-              >
-                {tr.regions[hovered.region as keyof typeof tr.regions] ?? hovered.region}
+        {hovered && !selected && (() => {
+          const pos = projectToScreen(hovered.lng, hovered.lat);
+          if (!pos) return null;
+          return (
+            <div
+              className="hidden md:block"
+              style={{
+                position: 'absolute',
+                left: pos.x,
+                top: pos.y - 12,
+                transform: 'translate(-50%, -100%)',
+                zIndex: 20,
+                pointerEvents: 'auto',
+              }}
+            >
+              <div className="w-3 h-3 bg-white border-b border-r border-zinc-200 rotate-45 absolute -bottom-1.5 left-1/2 -translate-x-1/2" />
+              <div className="bg-white rounded-lg border border-zinc-200 shadow-md p-3 min-w-[160px]">
+                <div className="font-semibold text-base flex items-center gap-2 text-zinc-800">
+                  <span>{hovered.flag}</span>
+                  <span>{hovered.country}</span>
+                </div>
+                <div className="text-sm text-zinc-500 mt-1">
+                  {hovered.emoji} {hovered.animal}
+                </div>
+                <div className="mt-1.5 text-xs text-zinc-400 leading-relaxed">
+                  {hovered.funFacts[0]}
+                </div>
+                <div
+                  className="mt-2 text-[10px] px-2 py-0.5 rounded-full inline-block"
+                  style={{
+                    background: `${CONTINENT_COLORS[hovered.region]}15`,
+                    color: CONTINENT_COLORS[hovered.region],
+                  }}
+                >
+                  {tr.regions[hovered.region as keyof typeof tr.regions] ?? hovered.region}
+                </div>
               </div>
             </div>
-          </Popup>
-        )}
+          );
+        })()}
 
         <MobileDetailPanel />
 
         {/* Desktop popup */}
-        {selected && (
-          <Popup
-            longitude={selected.lng}
-            latitude={selected.lat}
-            anchor="bottom"
-            closeOnClick={false}
-            closeButton={false}
-            onClose={() => setSelectedId(null)}
-            maxWidth="320px"
-            className="hidden md:block"
-          >
-            <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
+        {selected && (() => {
+          const pos = projectToScreen(selected.lng, selected.lat);
+          if (!pos) return null;
+          if (window.innerWidth < 768) return null;
+          const pw = popupRef.current?.offsetWidth ?? 320;
+          const ph = popupRef.current?.offsetHeight ?? 400;
+          const { left, top } = getPopupPosition(pos, pw, ph, window.innerWidth, window.innerHeight);
+          return (
+            <div
+              ref={popupRef}
+              className="hidden md:block fixed z-20 transition-all duration-200"
+              style={{ left, top }}
+            >
+              <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
               <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ maxHeight: 200 }}>
                 {imageLoading || (!imageUrl || imgError) ? (
                   <div className="flex items-center justify-center h-32 bg-zinc-50">
@@ -368,9 +399,10 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                   </li>
                 ))}
               </ul>
+              </div>
             </div>
-          </Popup>
-        )}
+          );
+        })()}
       </Map>
 
       <MapControls viewState={viewState} setViewState={setViewState} onResetView={resetView} />
