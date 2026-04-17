@@ -338,14 +338,25 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
           const pos = projectToScreen(selected.lng, selected.lat);
           if (!pos) return null;
           if (window.innerWidth < 768) return null;
-          // Use measured height after first render, estimate before
           const ph = popupRef.current?.offsetHeight ?? 520;
           const pw = CARD_W;
-          let left = pos.x - pw / 2;
-          let top = pos.y - ph - 16;
-          left = Math.max(8, Math.min(left, window.innerWidth - pw - 8));
-          top = Math.max(8, Math.min(top, window.innerHeight - ph - 8));
-          if (top < 8) top = pos.y + 20;
+          const GAP = 16;
+          const vw = window.innerWidth;
+          const vh = window.innerHeight;
+          // Prefer right side, fallback to left if not enough space
+          const fitsRight = pos.x + GAP + pw < vw - 8;
+          const fitsLeft = pos.x - GAP - pw > 8;
+          let left: number;
+          if (fitsRight) {
+            left = pos.x + GAP;
+          } else if (fitsLeft) {
+            left = pos.x - GAP - pw;
+          } else {
+            left = pos.x - pw / 2; // fallback center
+          }
+          // Vertically center on marker, clamp
+          let top = pos.y - ph / 2;
+          top = Math.max(8, Math.min(top, vh - ph - 8));
           return (
             <div
               ref={popupRef}
