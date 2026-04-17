@@ -339,19 +339,18 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
               style={{ left, top, maxHeight: 'calc(100vh - 32px)', overflow: 'auto' }}
             >
               <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
-              <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ maxHeight: 200 }}>
+              <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ aspectRatio: '1/1', maxHeight: 240 }}>
                 {imageLoading || (!imageUrl || imgError) ? (
-                  <div className="flex items-center justify-center h-32 bg-zinc-50">
-                    <span className="text-5xl">{selected.emoji}</span>
+                  <div className="flex items-center justify-center w-full h-full bg-zinc-50">
+                    <span className="text-6xl">{selected.emoji}</span>
                   </div>
                 ) : (
                   <Image
                     src={imageUrl}
                     alt={selected.animal}
-                    className="w-full object-cover"
+                    className="w-full h-full object-cover"
                     width={320}
-                    height={200}
-                    style={{ maxHeight: 200 }}
+                    height={320}
                     onError={() => setImgError(true)}
                     unoptimized
                   />

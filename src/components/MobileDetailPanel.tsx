@@ -63,9 +63,9 @@ export default function MobileDetailPanel() {
 
         <div className="overflow-y-auto p-4 pb-8">
           {/* Image */}
-          <div className="w-full rounded-xl overflow-hidden bg-zinc-100 mb-3" style={{ maxHeight: 200 }}>
+          <div className="w-full rounded-xl overflow-hidden bg-zinc-100 mb-3" style={{ aspectRatio: '1/1', maxHeight: 280 }}>
             {imageLoading || (!imageUrl || imgError) ? (
-              <div className="flex items-center justify-center h-40 bg-zinc-50">
+              <div className="flex items-center justify-center w-full h-full bg-zinc-50">
                 <span className="text-6xl">{selected.emoji}</span>
               </div>
             ) : (
