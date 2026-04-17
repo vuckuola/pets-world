@@ -1,3 +1,4 @@
+import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import rawData from '@/data/animals.json'
@@ -14,10 +15,12 @@ interface Props {
   params: Promise<{ slug: string }>
 }
 
-export async function generateStaticParams() {
+/** Generates static params for all animal pages */
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
   return rawData.map(a => ({ slug: a.slug }))
 }
 
+/** Generates metadata for SEO */
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const animal = rawData.find(a => a.slug === slug)
@@ -34,7 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-export default async function AnimalDetailPage({ params }: Props) {
+/** Server-rendered animal detail page */
+export default async function AnimalDetailPage({ params }: Props): Promise<React.JSX.Element> {
   const { slug } = await params
   const animal = rawData.find(a => a.slug === slug) as AnimalData | undefined
 
@@ -166,7 +170,8 @@ export default async function AnimalDetailPage({ params }: Props) {
   )
 }
 
-function StatCard({ label, value }: { label: string; value: string }) {
+/** Displays a single stat with label and value */
+function StatCard({ label, value }: { label: string; value: string }): React.JSX.Element {
   return (
     <div className="bg-white rounded-lg border border-zinc-200 px-4 py-3">
       <div className="text-xs text-zinc-400">{label}</div>

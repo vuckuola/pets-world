@@ -1,3 +1,4 @@
+/** Synthesizes animal representative and UI sounds via Web Audio API */
 class AudioService {
   private ctx: AudioContext | null = null
 
@@ -113,4 +114,5 @@ class AudioService {
   }
 }
 
+/** Singleton audio service instance */
 export const audioService = new AudioService()

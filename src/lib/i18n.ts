@@ -1,3 +1,4 @@
+/** Supported locale codes */
 export type Locale = 'id' | 'en'
 
 const translations = {
@@ -179,9 +180,13 @@ const translations = {
   }
 } as const
 
+/** Translation strings type derived from Indonesian locale */
 export type Translations = typeof translations.id
+
+/** Alias for Translations */
 export type TranslationStrings = Translations
 
+/** Returns translation strings for the given locale */
 export function t(locale: Locale): TranslationStrings {
   return translations[locale] as TranslationStrings
 }

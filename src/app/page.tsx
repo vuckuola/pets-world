@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import React from 'react';
 
 import { useState, useCallback } from "react";
 import { MapPin, Shuffle, Globe, Search } from "lucide-react";
@@ -14,7 +15,8 @@ import AnimalSearch from "../components/AnimalSearch";
 
 const DEFAULT_VIEW = { longitude: 20, latitude: 20, zoom: 2 };
 
-export default function Home() {
+/** Home page with map, sidebar, and controls */
+export default function Home(): React.JSX.Element {
   const [viewState, setViewState] = useState(DEFAULT_VIEW);
   const filtered = useFilteredAnimals();
   const { selectedId, setSelectedId, setMobileOpen, locale, setLocale } = useMapStore();

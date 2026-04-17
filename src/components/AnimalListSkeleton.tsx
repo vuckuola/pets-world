@@ -1,6 +1,7 @@
 'use client'
 
-export default function AnimalListSkeleton() {
+/** Animated loading skeleton for the animal list */
+export default function AnimalListSkeleton(): React.JSX.Element {
   return (
     <div className="flex flex-col gap-2 p-1">
       {Array.from({ length: 10 }).map((_, i) => (

@@ -1,9 +1,12 @@
 'use client'
+
 import { useMemo } from 'react'
 import { countries } from '../data/countries'
+import type { AnimalEntry } from '../data/countries'
 import { useMapStore } from '../store/useMapStore'
 
-export function useFilteredAnimals() {
+/** Returns filtered and searched animal list from the map store */
+export function useFilteredAnimals(): AnimalEntry[] {
   const { searchQuery, activeRegion } = useMapStore()
 
   return useMemo(() => {

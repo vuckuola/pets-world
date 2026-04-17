@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import React from 'react';
 
 import { X, Volume2 } from "lucide-react";
 import Image from "next/image";
@@ -24,13 +25,14 @@ const CONTINENT_COLORS: Record<string, string> = {
   Antarctic: "#e0f2fe",
 };
 
-export default function MobileDetailPanel() {
+/** Mobile detail panel showing selected animal info */
+export default function MobileDetailPanel(): React.JSX.Element | null {
   const { selectedId, setSelectedId, locale } = useMapStore();
   const tr = t(locale);
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
   const { imageUrl, imageLoading } = useAnimalMedia(selected?.animal ?? null);
-  const [playing, setPlaying] = useState(false);
-  const [imgError, setImgError] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [hasImgError, setHasImgError] = useState(false);
 
   if (!selected) return null;
 
@@ -38,9 +40,9 @@ export default function MobileDetailPanel() {
 
   const playSound = () => {
     if (!selected) return;
-    setPlaying(true);
+    setIsPlaying(true);
     audioService.playAnimalRepresentativeSound(selected.animal, selected.classification);
-    setTimeout(() => setPlaying(false), 2000);
+    setTimeout(() => setIsPlaying(false), 2000);
   };
 
   return (
@@ -64,7 +66,7 @@ export default function MobileDetailPanel() {
         <div className="overflow-y-auto p-4 pb-8">
           {/* Image */}
           <div className="w-full rounded-xl overflow-hidden bg-zinc-100 mb-3" style={{ aspectRatio: '1/1', maxHeight: 280 }}>
-            {imageLoading || (!imageUrl || imgError) ? (
+            {imageLoading || (!imageUrl || hasImgError) ? (
               <div className="flex items-center justify-center w-full h-full bg-zinc-50">
                 <span className="text-6xl">{selected.emoji}</span>
               </div>
@@ -76,7 +78,7 @@ export default function MobileDetailPanel() {
                 width={400}
                 height={200}
                 style={{ maxHeight: 200 }}
-                onError={() => setImgError(true)}
+                onError={() => setHasImgError(true)}
                 unoptimized
               />
             )}
@@ -98,7 +100,7 @@ export default function MobileDetailPanel() {
               onClick={playSound}
               className="w-12 h-12 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 active:bg-zinc-300 transition-colors"
             >
-              {playing ? (
+              {isPlaying ? (
                 <Volume2 size={20} className="text-blue-500 animate-pulse" />
               ) : (
                 <Volume2 size={20} className="text-zinc-500" />

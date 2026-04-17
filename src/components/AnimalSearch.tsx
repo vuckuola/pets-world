@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import React from 'react';
 
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { Search, X } from "lucide-react";
@@ -10,8 +11,9 @@ import { t } from "../lib/i18n";
 const IUCN_FILTERS = ["LC", "NT", "VU", "EN", "CR"];
 const ALL_CLASSES = Array.from(new Set(countries.map((c) => c.classification))).sort();
 
-export default function AnimalSearch() {
-  const [open, setOpen] = useState(false);
+/** Command-palette style animal search with IUCN and classification filters */
+export default function AnimalSearch(): React.JSX.Element | null {
+  const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [iucnFilters, setIucnFilters] = useState<string[]>([]);
   const [classFilters, setClassFilters] = useState<string[]>([]);
@@ -23,17 +25,17 @@ export default function AnimalSearch() {
     const handler = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
         e.preventDefault();
-        setOpen((v) => !v);
+        setIsOpen((v) => !v);
       }
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") setIsOpen(false);
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
   }, []);
 
   useEffect(() => {
-    if (open) setTimeout(() => inputRef.current?.focus(), 50);
-  }, [open]);
+    if (isOpen) setTimeout(() => inputRef.current?.focus(), 50);
+  }, [isOpen]);
 
   const results = useMemo(() => {
     const q = query.toLowerCase();
@@ -54,18 +56,18 @@ export default function AnimalSearch() {
     setSelectedId(id);
     setSearchQuery("");
     setActiveRegion("All");
-    setOpen(false);
+    setIsOpen(false);
   }, [setSelectedId, setSearchQuery, setActiveRegion]);
 
   const toggleFilter = (arr: string[], set: (v: string[]) => void, val: string) => {
     set(arr.includes(val) ? arr.filter((x) => x !== val) : [...arr, val]);
   };
 
-  if (!open) return null;
+  if (!isOpen) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-start justify-center md:pt-[15vh]">
-      <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
+      <div className="absolute inset-0 bg-black/40" onClick={() => setIsOpen(false)} />
       <div className="relative w-full max-w-lg md:rounded-xl shadow-2xl md:border md:border-zinc-200 overflow-hidden flex flex-col max-h-[100dvh] md:max-h-none">
         {/* Search input */}
         <div className="flex items-center gap-2 px-4 py-4 md:py-3 border-b border-zinc-100">

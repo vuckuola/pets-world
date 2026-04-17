@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import React from 'react';
 
 import { useRef, useEffect, useMemo } from "react";
 import { Search } from "lucide-react";
@@ -22,7 +23,8 @@ const CONTINENT_COLORS: Record<string, string> = {
   "Middle East": "#c084fc", Arctic: "#93c5fd", Antarctic: "#e0f2fe",
 };
 
-export default function Sidebar() {
+/** Desktop sidebar with virtualized animal list grouped by classification */
+export default function Sidebar(): React.JSX.Element {
   const { searchQuery, setSearchQuery, activeRegion, setActiveRegion, selectedId, sidebarHoveredId, setSidebarHoveredId, locale } = useMapStore();
   const tr = t(locale);
   const filtered = useFilteredAnimals();

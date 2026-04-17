@@ -1,7 +1,8 @@
 import { z } from 'zod'
 import rawData from './animals.json'
+import type { Animal } from '../types/animal'
 
-// Legacy schema for backward compat with existing components
+/** Legacy schema for backward compat with existing components */
 export const animalSchema = z.object({
   id: z.string(),
   country: z.string(),
@@ -20,14 +21,17 @@ export const animalSchema = z.object({
   population: z.string(),
 })
 
+/** Parsed animal entries from raw JSON data */
 export const countries = rawData.map(a => {
-  // Extract lat/lng from coordinates for backward compat
   const parsed = { ...a, lat: a.coordinates[0]?.lat ?? 0, lng: a.coordinates[0]?.lng ?? 0, animal: a.commonName, habitat: a.habitatOld || a.habitat?.join(', ') || '' }
   return animalSchema.parse(parsed)
 })
+
+/** Legacy animal entry type inferred from schema */
 export type AnimalEntry = z.infer<typeof animalSchema>
 
-// New full animal type (with taxonomy, diet, etc.)
+/** New full animal type (with taxonomy, diet, etc.) */
 export { type Animal } from '../types/animal'
 
-export const continents = Array.from(new Set(countries.map(c => c.region))).sort()
+/** Sorted unique continent/region list */
+export const continents: string[] = Array.from(new Set(countries.map(c => c.region))).sort()

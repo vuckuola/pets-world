@@ -1,4 +1,7 @@
-export default function Loading() {
+import React from 'react'
+
+/** Loading skeleton for animal detail page */
+export default function Loading(): React.JSX.Element {
   return (
     <div className="min-h-screen bg-zinc-50">
       {/* Hero skeleton */}

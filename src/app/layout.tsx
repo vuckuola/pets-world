@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ServiceWorkerRegistrar from "../components/ServiceWorkerRegistrar";
@@ -13,11 +14,12 @@ export const metadata: Metadata = {
   description: "Interactive map of popular pets around the world",
 };
 
+/** Root layout with Inter font and service worker */
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
-}>) {
+  children: ReactNode;
+}>): ReactNode {
   return (
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <head>

@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import React from 'react';
 
 import { useCallback } from "react";
 import { Plus, Minus, RotateCcw, Layers } from "lucide-react";
@@ -16,7 +17,8 @@ interface MapControlsProps {
   onResetView: () => void;
 }
 
-export default function MapControls({ viewState, setViewState, onResetView }: MapControlsProps) {
+/** Map zoom, reset, and style controls */
+export default function MapControls({ viewState, setViewState, onResetView }: MapControlsProps): React.JSX.Element {
   const { mapStyle, setMapStyle } = useMapStore();
 
   const zoomIn = useCallback(() => {

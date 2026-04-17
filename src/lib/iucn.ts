@@ -1,3 +1,4 @@
+/** IUCN conservation status color configuration */
 export const IUCN_CONFIG: Record<string, { label: string; color: string; bg: string }> = {
   EX: { label: 'Extinct', color: '#1a1a1a', bg: '#000000' },
   EW: { label: 'Extinct in Wild', color: '#4a1919', bg: '#7B2020' },

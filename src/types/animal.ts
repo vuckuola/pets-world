@@ -1,7 +1,9 @@
 import { z } from 'zod'
 
-export const IUCNStatus = z.enum(['EX','EW','CR','EN','VU','NT','LC','DD','NE'])
+/** IUCN Red List conservation status values */
+export const IUCN_STATUS = z.enum(['EX','EW','CR','EN','VU','NT','LC','DD','NE'])
 
+/** Schema for a full animal record with taxonomy and extended fields */
 export const AnimalSchema = z.object({
   id: z.string(),
   slug: z.string().min(1),
@@ -15,7 +17,7 @@ export const AnimalSchema = z.object({
     family: z.string(),
     genus: z.string(),
   }),
-  iucnStatus: IUCNStatus,
+  iucnStatus: IUCN_STATUS,
   description: z.string(),
   habitat: z.array(z.string()),
   diet: z.enum(['Carnivore','Herbivore','Omnivore','Insectivore','Piscivore']),
@@ -38,4 +40,5 @@ export const AnimalSchema = z.object({
   updatedAt: z.string().datetime(),
 })
 
+/** Full animal data inferred from the schema */
 export type Animal = z.infer<typeof AnimalSchema>

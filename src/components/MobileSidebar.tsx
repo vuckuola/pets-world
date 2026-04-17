@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import React from 'react';
 
 import { Search, Menu, X } from "lucide-react";
 import { countries, type AnimalEntry, continents } from "../data/countries";
@@ -19,7 +20,8 @@ const CONTINENT_COLORS: Record<string, string> = {
   Antarctic: "#e0f2fe",
 };
 
-export default function MobileSidebar() {
+/** Mobile sidebar with search, region filters, and animal list */
+export default function MobileSidebar(): React.JSX.Element {
   const { mobileOpen, setMobileOpen, toggleMobileOpen, searchQuery, setSearchQuery, activeRegion, setActiveRegion, selectedId, sidebarHoveredId, setSidebarHoveredId, locale } = useMapStore();
   const tr = t(locale);
   const filtered = useFilteredAnimals();

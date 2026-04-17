@@ -1,9 +1,10 @@
-"use client";
+"use client"
+import React from 'react';
 
-import { useCallback, useRef, useState, useEffect } from "react";
+import { useCallback, useRef, useState } from "react";
 import Map, { NavigationControl, Source, Layer, Marker } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { MapRef } from "react-map-gl/maplibre";
+import type { MapRef, MapLayerMouseEvent } from "react-map-gl/maplibre";
 import { countries, type AnimalEntry } from "../data/countries";
 import { useMapStore, type MapStyleName } from "../store/useMapStore";
 import { useFilteredAnimals } from "../hooks/useAnimals";
@@ -38,22 +39,26 @@ interface ViewState {
   zoom: number;
 }
 
+/** Props for the MapView component */
 interface MapViewProps {
   viewState: ViewState;
   setViewState: React.Dispatch<React.SetStateAction<ViewState>>;
 }
 
+/** Maps conservation status string to IUCN code */
 function getIucnCode(conservationStatus: string): string {
   return STATUS_CODE[conservationStatus] || 'LC';
 }
 
+/** Returns the background color for a conservation status */
 function iucnColor(status: string): string {
   return IUCN_CONFIG[getIucnCode(status)]?.bg ?? '#888';
 }
 
-export default function MapView({ viewState, setViewState }: MapViewProps) {
+/** Interactive map with markers, clustering, and detail popups */
+export default function MapView({ viewState, setViewState }: MapViewProps): React.JSX.Element {
   const mapRef = useRef<MapRef>(null);
-  const [mapLoaded, setMapLoaded] = useState(false);
+  const [isMapLoaded, setIsMapLoaded] = useState(false);
   const {
     selectedId, hoveredId, sidebarHoveredId, mapStyle, locale,
     setSelectedId, setHoveredId, setMobileOpen,
@@ -63,8 +68,8 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
   const selected = selectedId ? countries.find((c) => c.id === selectedId) ?? null : null;
   const hovered = hoveredId ? countries.find((c) => c.id === hoveredId) ?? null : null;
   const { imageUrl, imageLoading } = useAnimalMedia(selected?.animal ?? null);
-  const [playing, setPlaying] = useState(false);
-  const [imgError, setImgError] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [hasImgError, setHasImgError] = useState(false);
   const [, forceUpdate] = useState(0);
   const popupRef = useRef<HTMLDivElement>(null);
 
@@ -92,9 +97,9 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
 
   const playSound = useCallback(() => {
     if (!selected) return;
-    setPlaying(true);
+    setIsPlaying(true);
     audioService.playAnimalRepresentativeSound(selected.animal, selected.classification);
-    setTimeout(() => setPlaying(false), 2000);
+    setTimeout(() => setIsPlaying(false), 2000);
   }, [selected]);
 
   const onMarkerClick = useCallback((c: AnimalEntry) => {
@@ -182,7 +187,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
     },
   };
 
-  const onMapClick = useCallback((evt: any) => {
+  const onMapClick = useCallback((evt: MapLayerMouseEvent) => {
     const map = mapRef.current?.getMap();
     if (!map) return;
 
@@ -212,21 +217,21 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
     });
     if (clusterFeatures.length > 0) {
       const clusterId = clusterFeatures[0].properties?.cluster_id;
-      const source = map.getSource("animals") as any;
+      const source = map.getSource("animals") as maplibregl.GeoJSONSource;
       const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      source.getClusterExpansionZoom(clusterId, (err: any, zoom: number) => {
-        if (err) return;
+      source.getClusterExpansionZoom(clusterId).then((zoom) => {
+        const coords = (clusterFeatures[0].geometry as GeoJSON.Point).coordinates;
         if (prefersReducedMotion) {
-          map.jumpTo({ center: (clusterFeatures[0].geometry as any).coordinates, zoom });
+          map.jumpTo({ center: coords as [number, number], zoom });
         } else {
-          map.flyTo({ center: (clusterFeatures[0].geometry as any).coordinates, zoom });
+          map.flyTo({ center: coords as [number, number], zoom });
         }
       });
     }
   }, [setSelectedId, setViewState]);
 
   // Cursor on hover
-  const onMapMouseMove = useCallback((evt: any) => {
+  const onMapMouseMove = useCallback((evt: MapLayerMouseEvent) => {
     const map = mapRef.current?.getMap();
     if (!map) return;
     const features = map.queryRenderedFeatures(evt.point, {
@@ -237,12 +242,12 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
 
   return (
     <main className="relative flex-1">
-      {!mapLoaded && <MapSkeleton />}
+      {!isMapLoaded && <MapSkeleton />}
       <Map
         ref={mapRef}
         {...viewState}
         onMove={(evt) => { setViewState(evt.viewState); forceUpdate(n => n + 1); }}
-        onLoad={() => setMapLoaded(true)}
+        onLoad={() => setIsMapLoaded(true)}
         style={{ width: "100%", height: "100%" }}
         mapStyle={MAP_STYLES[mapStyle]}
         onClick={onMapClick}
@@ -340,7 +345,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
             >
               <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
               <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ aspectRatio: '1/1', maxHeight: 240 }}>
-                {imageLoading || (!imageUrl || imgError) ? (
+                {imageLoading || (!imageUrl || hasImgError) ? (
                   <div className="flex items-center justify-center w-full h-full bg-zinc-50">
                     <span className="text-6xl">{selected.emoji}</span>
                   </div>
@@ -351,7 +356,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                     className="w-full h-full object-cover"
                     width={320}
                     height={320}
-                    onError={() => setImgError(true)}
+                    onError={() => setHasImgError(true)}
                     unoptimized
                   />
                 )}
@@ -367,7 +372,7 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
                   <div className="text-xs text-zinc-400 italic">{selected.scientificName}</div>
                 </div>
                 <button onClick={playSound} className="w-9 h-9 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 transition-colors">
-                  {playing ? "🔊" : "🔈"}
+                  {isPlaying ? "🔊" : "🔈"}
                 </button>
               </div>
               <div className="mt-2 flex items-center gap-2 flex-wrap">

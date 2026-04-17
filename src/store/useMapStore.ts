@@ -1,8 +1,10 @@
 import { create } from 'zustand'
 import type { Locale } from '../lib/i18n'
 
+/** Supported map tile style names */
 type MapStyleName = 'voyager' | 'dark' | 'satellite'
 
+/** Global map state shape */
 interface MapStore {
   selectedId: string | null
   hoveredId: string | null
@@ -27,6 +29,7 @@ interface MapStore {
 
 export type { MapStyleName }
 
+/** Global map state store backed by Zustand */
 export const useMapStore = create<MapStore>((set) => ({
   selectedId: null,
   hoveredId: null,

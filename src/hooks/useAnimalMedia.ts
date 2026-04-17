@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 
-export function useAnimalMedia(animalName: string | null) {
+/** Fetches Wikipedia thumbnail image for an animal name */
+export function useAnimalMedia(animalName: string | null): { imageUrl: string | null; imageLoading: boolean } {
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [imageLoading, setImageLoading] = useState(false);
 

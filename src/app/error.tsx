@@ -2,7 +2,8 @@
 import { useMapStore } from '../store/useMapStore'
 import { t } from '../lib/i18n'
 
-export default function Error({ error, reset }: { error: Error; reset: () => void }) {
+/** Global error boundary component */
+export default function Error({ error, reset }: { error: Error; reset: () => void }): React.JSX.Element {
   const { locale } = useMapStore()
   const tr = t(locale)
   return (

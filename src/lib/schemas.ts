@@ -1,5 +1,6 @@
 import { z } from 'zod'
 
+/** Schema for legacy animal entry used by map components */
 export const animalSchema = z.object({
   id: z.string(),
   country: z.string(),
@@ -18,4 +19,5 @@ export const animalSchema = z.object({
   population: z.string(),
 })
 
+/** Legacy animal entry type */
 export type Animal = z.infer<typeof animalSchema>
