@@ -1,5 +1,5 @@
 "use client"
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 
 import { useCallback, useRef, useState } from "react";
 import Map, { NavigationControl, Source, Layer, Marker } from "react-map-gl/maplibre";
@@ -72,15 +72,8 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
   const [hasImgError, setHasImgError] = useState(false);
   const [, forceUpdate] = useState(0);
   const popupRef = useRef<HTMLDivElement>(null);
-  const [popupDim, setPopupDim] = useState({ w: 320, h: 420 });
-
-  useLayoutEffect(() => {
-    if (popupRef.current) {
-      const w = popupRef.current.offsetWidth;
-      const h = popupRef.current.offsetHeight;
-      if (w > 0 && h > 0) setPopupDim({ w, h });
-    }
-  }, [selected]);
+  const CARD_W = 260;
+  const IMG_SIZE = 200;
 
   function projectToScreen(lng: number, lat: number): { x: number; y: number } | null {
     const map = mapRef.current?.getMap();
@@ -345,77 +338,79 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
           const pos = projectToScreen(selected.lng, selected.lat);
           if (!pos) return null;
           if (window.innerWidth < 768) return null;
-          // Center horizontally on marker, position above with clamping
-          let left = pos.x - popupDim.w / 2;
-          let top = pos.y - popupDim.h - 20;
-          left = Math.max(8, Math.min(left, window.innerWidth - popupDim.w - 8));
-          top = Math.max(8, Math.min(top, window.innerHeight - popupDim.h - 8));
+          // Use measured height after first render, estimate before
+          const ph = popupRef.current?.offsetHeight ?? 520;
+          const pw = CARD_W;
+          let left = pos.x - pw / 2;
+          let top = pos.y - ph - 16;
+          left = Math.max(8, Math.min(left, window.innerWidth - pw - 8));
+          top = Math.max(8, Math.min(top, window.innerHeight - ph - 8));
+          if (top < 8) top = pos.y + 20;
           return (
             <div
               ref={popupRef}
               className="hidden md:block fixed z-20"
-              style={{ left, top, maxHeight: 'calc(100vh - 32px)', overflow: 'auto' }}
+              style={{ left, top }}
             >
-              <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm" style={{ width: 260 }}>
-              <div className="w-full rounded-lg overflow-hidden bg-zinc-50 mb-3 mx-auto" style={{ aspectRatio: '1/1', width: 200 }}>
-                {imageLoading || (!imageUrl || hasImgError) ? (
-                  <div className="flex items-center justify-center w-full h-full bg-zinc-50">
-                    <span className="text-6xl">{selected.emoji}</span>
-                  </div>
-                ) : (
-                  <Image
-                    src={imageUrl}
-                    alt={selected.animal}
-                    className="w-full h-full object-cover"
-                    width={220}
-                    height={220}
-                    onError={() => setHasImgError(true)}
-                    unoptimized
-                  />
-                )}
-              </div>
-              <div className="text-base font-semibold flex items-center gap-2 text-zinc-800">
-                <span>{selected.flag}</span>
-                <span>{selected.country}</span>
-              </div>
-              <div className="mt-1 flex items-center gap-2 text-zinc-600">
-                <span className="text-2xl">{selected.emoji}</span>
-                <div className="flex-1">
-                  <div className="font-medium text-zinc-700">{selected.animal}</div>
-                  <div className="text-xs text-zinc-400 italic">{selected.scientificName}</div>
-                </div>
-                <button onClick={playSound} className="w-9 h-9 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 transition-colors">
-                  {isPlaying ? "🔊" : "🔈"}
-                </button>
-              </div>
-              <div className="mt-2 flex items-center gap-2 flex-wrap">
-                <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
-                  {tr.classification[selected.classification as keyof typeof tr.classification] ?? selected.classification}
-                </div>
+              <div className="bg-white rounded-lg border border-zinc-200 shadow-lg p-4 text-sm" style={{ width: CARD_W, maxHeight: 'calc(100vh - 40px)', overflowY: 'auto' }}>
+                {/* 1:1 square image, centered */}
                 <div
-                  className="text-[10px] px-2 py-0.5 rounded-full font-medium"
-                  style={{
-                    background: `${IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888'}20`,
-                    color: IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888',
-                  }}
+                  className="rounded-lg overflow-hidden bg-zinc-50 mb-3"
+                  style={{ width: IMG_SIZE, height: IMG_SIZE, margin: '0 auto' }}
                 >
-                  {tr.conservation[selected.conservationStatus as keyof typeof tr.conservation] ?? selected.conservationStatus}
+                  {imageLoading || (!imageUrl || hasImgError) ? (
+                    <div className="flex items-center justify-center w-full h-full">
+                      <span className="text-6xl">{selected.emoji}</span>
+                    </div>
+                  ) : (
+                    <img
+                      src={imageUrl}
+                      alt={selected.animal}
+                      style={{ width: IMG_SIZE, height: IMG_SIZE, objectFit: 'cover', display: 'block' }}
+                      onError={() => setHasImgError(true)}
+                    />
+                  )}
                 </div>
-                <div className="text-[10px] px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 font-medium">
-                  Pop: {selected.population}
+                <div className="text-base font-semibold flex items-center gap-2 text-zinc-800">
+                  <span>{selected.flag}</span>
+                  <span>{selected.country}</span>
                 </div>
-              </div>
-              <div className="mt-1.5 text-xs text-zinc-500 italic">
-                {selected.habitat}
-              </div>
-              <ul className="mt-3 space-y-1.5 text-xs text-zinc-500 leading-relaxed">
-                {selected.funFacts.map((f, i) => (
-                  <li key={i} className="flex gap-1.5">
-                    <span className="shrink-0" style={{ color: CONTINENT_COLORS[selected.region] }}>•</span>
-                    <span>{f}</span>
-                  </li>
-                ))}
-              </ul>
+                <div className="mt-1 flex items-center gap-2 text-zinc-600">
+                  <span className="text-2xl">{selected.emoji}</span>
+                  <div className="flex-1">
+                    <div className="font-medium text-zinc-700">{selected.animal}</div>
+                    <div className="text-xs text-zinc-400 italic">{selected.scientificName}</div>
+                  </div>
+                  <button onClick={playSound} className="w-9 h-9 flex items-center justify-center rounded-full bg-zinc-100 hover:bg-zinc-200 transition-colors">
+                    {isPlaying ? '🔊' : '🔈'}
+                  </button>
+                </div>
+                <div className="mt-2 flex items-center gap-2 flex-wrap">
+                  <div className="text-[10px] px-2 py-0.5 rounded-full bg-green-50 text-green-700 font-medium">
+                    {tr.classification[selected.classification as keyof typeof tr.classification] ?? selected.classification}
+                  </div>
+                  <div
+                    className="text-[10px] px-2 py-0.5 rounded-full font-medium"
+                    style={{
+                      background: `${IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888'}20`,
+                      color: IUCN_CONFIG[STATUS_CODE[selected.conservationStatus] || 'LC']?.bg ?? '#888',
+                    }}
+                  >
+                    {tr.conservation[selected.conservationStatus as keyof typeof tr.conservation] ?? selected.conservationStatus}
+                  </div>
+                  <div className="text-[10px] px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 font-medium">
+                    Pop: {selected.population}
+                  </div>
+                </div>
+                <div className="mt-1.5 text-xs text-zinc-500 italic">{selected.habitat}</div>
+                <ul className="mt-3 space-y-1.5 text-xs text-zinc-500 leading-relaxed">
+                  {selected.funFacts.map((f, i) => (
+                    <li key={i} className="flex gap-1.5">
+                      <span className="shrink-0" style={{ color: CONTINENT_COLORS[selected.region] }}>•</span>
+                      <span>{f}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           );
