@@ -93,14 +93,16 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
     screenPos: { x: number; y: number },
     pw: number, ph: number,
     cw: number, ch: number,
-    offset = 16
+    offset = 20
   ) {
+    // Center popup on marker, then clamp to viewport
     let left = screenPos.x - pw / 2;
-    let top = screenPos.y - ph - offset;
-    if (top < 8) top = screenPos.y + offset;
-    if (top + ph > ch - 8) top = ch - ph - 8;
-    if (left < 8) left = 8;
-    if (left + pw > cw - 8) left = cw - pw - 8;
+    let top = screenPos.y - ph / 2 - 30; // slightly above center
+
+    // Clamp to viewport
+    left = Math.max(8, Math.min(left, cw - pw - 8));
+    top = Math.max(8, Math.min(top, ch - ph - 8));
+
     return { left, top };
   }
 
@@ -343,15 +345,19 @@ export default function MapView({ viewState, setViewState }: MapViewProps): Reac
           const pos = projectToScreen(selected.lng, selected.lat);
           if (!pos) return null;
           if (window.innerWidth < 768) return null;
-          const { left, top } = getPopupPosition(pos, popupDim.w, popupDim.h, window.innerWidth, window.innerHeight);
+          // Center horizontally on marker, position above with clamping
+          let left = pos.x - popupDim.w / 2;
+          let top = pos.y - popupDim.h - 20;
+          left = Math.max(8, Math.min(left, window.innerWidth - popupDim.w - 8));
+          top = Math.max(8, Math.min(top, window.innerHeight - popupDim.h - 8));
           return (
             <div
               ref={popupRef}
               className="hidden md:block fixed z-20"
               style={{ left, top, maxHeight: 'calc(100vh - 32px)', overflow: 'auto' }}
             >
-              <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
-              <div className="w-full rounded-lg overflow-hidden bg-zinc-50 mb-2" style={{ aspectRatio: '1/1', width: 220 }}>
+              <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm" style={{ width: 260 }}>
+              <div className="w-full rounded-lg overflow-hidden bg-zinc-50 mb-3 mx-auto" style={{ aspectRatio: '1/1', width: 200 }}>
                 {imageLoading || (!imageUrl || hasImgError) ? (
                   <div className="flex items-center justify-center w-full h-full bg-zinc-50">
                     <span className="text-6xl">{selected.emoji}</span>
