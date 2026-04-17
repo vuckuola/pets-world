@@ -335,8 +335,8 @@ export default function MapView({ viewState, setViewState }: MapViewProps) {
           return (
             <div
               ref={popupRef}
-              className="hidden md:block fixed z-20 transition-all duration-200"
-              style={{ left, top }}
+              className="hidden md:block fixed z-20"
+              style={{ left, top, maxHeight: 'calc(100vh - 32px)', overflow: 'auto' }}
             >
               <div className="bg-white rounded-lg border border-zinc-200 shadow-sm p-4 text-sm min-w-[240px]">
               <div className="w-full rounded-lg overflow-hidden bg-zinc-100 mb-2" style={{ maxHeight: 200 }}>
